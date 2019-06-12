@@ -15,7 +15,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-To build the project, the following prerequisites must be met:
+In order to run and test the project, the following prerequisites must be met:
 
 - A local web development solution app for PHP (XAMPP, MAMP, WAMP, etc.)
 - PHP Server Version 7.0.33 or higher
@@ -37,7 +37,7 @@ maps-noi-bz-it: cd maps-noi-bz-it/
 
 ## Installation
 
-Copy the repository files locally on your machine inside the root folder of your local PHP environment. Then, using a browser, navigate to your home address ( eg. http://localhost, http//127.0.0.1 )
+Copy the repository files locally on your machine inside the root folder of your local PHP environment. Start your local PHP environment and then, using a browser, navigate to your home address ( eg. http://localhost, http://127.0.0.1 )
 
 ## Deployment
 
