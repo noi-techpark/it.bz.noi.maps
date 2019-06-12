@@ -5,25 +5,21 @@ maps-noi-bz-it: This project will include a first prototype of webapp of an indo
 ## Table of contents
 
 - [Gettings started](#getting-started)
-- [Running tests](#running-tests)
+- [Installation](#installation)
 - [Deployment](#deployment)
-- [Docker environment](#docker-environment)
 - [Information](#information)
 
 ## Getting started
 
-These instructions will get you a copy of the project up and running
-on your local machine for development and testing purposes.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
 To build the project, the following prerequisites must be met:
 
-- maps-noi-bz-it: Check the prerequisites
-- Java JDK 1.8 or higher (e.g. [OpenJDK](https://openjdk.java.net/))
-- [Maven](https://maven.apache.org/) 3.x
-
-For a ready to use Docker environment with all prerequisites already installed and prepared, you can check out the [Docker environment](#docker-environment) section.
+- A local web development solution app for PHP (XAMPP, MAMP, WAMP, etc.)
+- PHP Server Version 7.0.33 or higher
+- Modern Web Browser (preferably Google Chrome)
 
 ### Source code
 
@@ -39,67 +35,13 @@ Change directory:
 maps-noi-bz-it: cd maps-noi-bz-it/
 ```
 
-### Build
+## Installation
 
-Build the project:
-
-```bash
-mvn clean install
-```
-
-## Running tests
-
-The unit tests can be executed with the following command:
-
-```bash
-mvn clean test
-```
+Copy the repository files locally on your machine inside the root folder of your local PHP environment. Then, using a browser, navigate to your home address ( eg. http://localhost, http//127.0.0.1 )
 
 ## Deployment
 
-maps-noi-bz-it: A detailed description about how the application must be deployed.
-
-## Docker environment
-
-For the project a Docker environment is already prepared and ready to use with all necessary prerequisites.
-
-These Docker containers are the same as used by the continuous integration servers.
-
-### Installation
-
-Install [Docker](https://docs.docker.com/install/) (with Docker Compose) locally on your machine.
-
-### Start and stop the containers
-
-Before start working you have to start the Docker containers:
-
-```
-docker-compose up --build --detach
-```
-
-After finished working you can stop the Docker containers:
-
-```
-docker-compose stop
-```
-
-### Running commands inside the container
-
-When the containers are running, you can execute any command inside the environment. Just replace the dots `...` in the following example with the command you wish to execute:
-
-```bash
-docker-compose exec java /bin/bash -c "..."
-```
-
-Some examples are:
-
-```bash
-docker-compose exec java /bin/bash -c "mvn clean install"
-
-# or
-
-docker-compose exec java /bin/bash -c "mvn clean test"
-```
+Copy the repository files on your server inside the web root folder. Create and configure an .htaccess file if necessary.
 
 ## Information
 
@@ -121,7 +63,7 @@ If you'd like to contribute, please follow the following instructions:
 
 ### Documentation
 
-More documentation can be found at [https://opendatahub.readthedocs.io/en/latest/index.html](https://opendatahub.readthedocs.io/en/latest/index.html).
+More documentation can be found at [https://opendatahub.readthedocs.io/en/latest/](https://opendatahub.readthedocs.io/en/latest/).
 
 ### License
 
