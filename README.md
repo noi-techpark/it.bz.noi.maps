@@ -1,11 +1,10 @@
-# maps-noi-bz-it
+# maps.noi.bz.it
 
-maps-noi-bz-it: This project will include a first prototype of webapp of an indoor navigation systems which uses beacons to locate the users.
+This project will include a first prototype of webapp of an indoor navigation systems which uses beacons to locate the users.
 
 ## Table of contents
 
 - [Gettings started](#getting-started)
-- [Running tests](#running-tests)
 - [Deployment](#deployment)
 - [Docker environment](#docker-environment)
 - [Information](#information)
@@ -17,11 +16,10 @@ on your local machine for development and testing purposes.
 
 ### Prerequisites
 
-To build the project, the following prerequisites must be met:
+To run the project, the following prerequisites must be met:
 
-- maps-noi-bz-it: Check the prerequisites
-- Java JDK 1.8 or higher (e.g. [OpenJDK](https://openjdk.java.net/))
-- [Maven](https://maven.apache.org/) 3.x
+- Webserver
+- PHP 7.0 or higher
 
 For a ready to use Docker environment with all prerequisites already installed and prepared, you can check out the [Docker environment](#docker-environment) section.
 
@@ -30,34 +28,22 @@ For a ready to use Docker environment with all prerequisites already installed a
 Get a copy of the repository:
 
 ```bash
-maps-noi-bz-it: git clone https://github.com/noi-techpark/maps-noi-bz-it.git
+git clone https://github.com/noi-techpark/maps-noi-bz-it.git
 ```
 
 Change directory:
 
 ```bash
-maps-noi-bz-it: cd maps-noi-bz-it/
+cd maps-noi-bz-it/
 ```
 
-### Build
+### Run
 
-Build the project:
-
-```bash
-mvn clean install
-```
-
-## Running tests
-
-The unit tests can be executed with the following command:
-
-```bash
-mvn clean test
-```
+Serve the project using the webserver.
 
 ## Deployment
 
-maps-noi-bz-it: A detailed description about how the application must be deployed.
+Copy the files of the repository on your webserver inside the web root folder. Create and configure an .htaccess file if necessary.
 
 ## Docker environment
 
@@ -88,24 +74,14 @@ docker-compose stop
 When the containers are running, you can execute any command inside the environment. Just replace the dots `...` in the following example with the command you wish to execute:
 
 ```bash
-docker-compose exec java /bin/bash -c "..."
-```
-
-Some examples are:
-
-```bash
-docker-compose exec java /bin/bash -c "mvn clean install"
-
-# or
-
-docker-compose exec java /bin/bash -c "mvn clean test"
+docker-compose exec app /bin/bash -c "..."
 ```
 
 ## Information
 
 ### Support
 
-maps-noi-bz-it: For support, please contact [info@opendatahub.bz.it](mailto:info@opendatahub.bz.it).
+For support, please contact [info@opendatahub.bz.it](mailto:info@opendatahub.bz.it).
 
 ### Contributing
 
