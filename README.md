@@ -1,53 +1,87 @@
-# maps-noi-bz-it
+# maps.noi.bz.it
 
-maps-noi-bz-it: This project will include a first prototype of webapp of an indoor navigation systems which uses beacons to locate the users.
+This project includes a first prototype of a webapp for indoor navigation, which uses beacons to locate the users position in the building.
 
 ## Table of contents
 
 - [Gettings started](#getting-started)
-- [Installation](#installation)
 - [Deployment](#deployment)
+- [Docker environment](#docker-environment)
 - [Information](#information)
 
 ## Getting started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+These instructions will get you a copy of the project up and running
+on your local machine for development and testing purposes.
 
 ### Prerequisites
 
-In order to run and test the project, the following prerequisites must be met:
+To run the project, the following prerequisites must be met:
 
-- A local web development solution app for PHP (XAMPP, MAMP, WAMP, etc.)
-- PHP Server Version 7.0.33 or higher
-- Modern Web Browser (preferably Google Chrome)
+- Webserver
+- PHP 7.0 or higher
+
+For a ready to use Docker environment with all prerequisites already installed and prepared, you can check out the [Docker environment](#docker-environment) section.
 
 ### Source code
 
 Get a copy of the repository:
 
 ```bash
-maps-noi-bz-it: git clone https://github.com/noi-techpark/maps-noi-bz-it.git
+git clone https://github.com/noi-techpark/maps-noi-bz-it.git
 ```
 
 Change directory:
 
 ```bash
-maps-noi-bz-it: cd maps-noi-bz-it/
+cd maps-noi-bz-it/
 ```
 
-## Installation
+### Run
 
-Copy the repository files locally on your machine inside the root folder of your local PHP environment. Start your local PHP environment and then, using a browser, navigate to your home address ( eg. http://localhost, http://127.0.0.1 )
+Serve the project using the webserver.
 
 ## Deployment
 
-Copy the repository files on your server inside the web root folder. Create and configure an .htaccess file if necessary.
+Copy the files of the repository on your webserver inside the web root folder. Create and configure an .htaccess file if necessary.
+
+## Docker environment
+
+For the project a Docker environment is already prepared and ready to use with all necessary prerequisites.
+
+These Docker containers are the same as used by the continuous integration servers.
+
+### Installation
+
+Install [Docker](https://docs.docker.com/install/) (with Docker Compose) locally on your machine.
+
+### Start and stop the containers
+
+Before you can start working, you have to start the Docker containers:
+
+```
+docker-compose up --build --detach
+```
+
+After you have finished working, you can stop the Docker containers:
+
+```
+docker-compose stop
+```
+
+### Running commands inside the container
+
+When the containers are running, you can execute any command inside the environment. Just replace the dots `...` in the following example with the command you wish to execute:
+
+```bash
+docker-compose exec app /bin/bash -c "..."
+```
 
 ## Information
 
 ### Support
 
-maps-noi-bz-it: For support, please contact [info@opendatahub.bz.it](mailto:info@opendatahub.bz.it).
+For support, please contact [info@opendatahub.bz.it](mailto:info@opendatahub.bz.it).
 
 ### Contributing
 
@@ -63,7 +97,7 @@ If you'd like to contribute, please follow the following instructions:
 
 ### Documentation
 
-More documentation can be found at [https://opendatahub.readthedocs.io/en/latest/](https://opendatahub.readthedocs.io/en/latest/).
+More documentation can be found at [https://opendatahub.readthedocs.io/en/latest/index.html](https://opendatahub.readthedocs.io/en/latest/index.html).
 
 ### License
 
