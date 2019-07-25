@@ -326,7 +326,7 @@ function clickedElement(elementCode, type="room") {
 			console.log(clickedElementID);
 			console.log('^^^^^^^^^^^^^^^^^^^^^^');			
 			if($("#"+clickedElementID).length==0) {
-				alert('ATTENZIONE! Non è presente in alcuna mappa l\'elemento con codice:\n'+clickedElementID+'\nControllare SVG');
+				//alert('ATTENZIONE! Non è presente in alcuna mappa l\'elemento con codice:\n'+clickedElementID+'\nControllare SVG');
 				closeTooltip();
 				return true;
 			}
@@ -335,7 +335,7 @@ function clickedElement(elementCode, type="room") {
 		//Tooltip data
 		$('.tooltip .icon, .tooltip .name, .tooltip .short-description, .tooltip .long-description, .tooltip .lower, .tooltip .view-floorplan, .tooltip .share-element, .tooltip .expand-info').addClass('hide');
 		if(icon_code==''&&name==''&&shortdesc==''&&longdesc=='') {
-			alert('ATTENZIONE! Nessuna informazione per l\'elemento cliccato:\n'+elementCode+'\nControllare il foglio Google');
+			//alert('ATTENZIONE! Nessuna informazione per l\'elemento cliccato:\n'+elementCode+'\nControllare il foglio Google');
 			closeTooltip();
 			return true;
 		} else {

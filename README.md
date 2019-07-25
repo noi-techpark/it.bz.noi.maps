@@ -1,6 +1,6 @@
 # maps.noi.bz.it
 
-This project will include a first prototype of webapp of an indoor navigation systems which uses beacons to locate the users.
+This project includes a first prototype of a webapp for indoor navigation, which uses beacons to locate the users position in the building.
 
 ## Table of contents
 
@@ -57,13 +57,13 @@ Install [Docker](https://docs.docker.com/install/) (with Docker Compose) locally
 
 ### Start and stop the containers
 
-Before start working you have to start the Docker containers:
+Before you can start working, you have to start the Docker containers:
 
 ```
 docker-compose up --build --detach
 ```
 
-After finished working you can stop the Docker containers:
+After you have finished working, you can stop the Docker containers:
 
 ```
 docker-compose stop

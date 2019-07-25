@@ -15,14 +15,7 @@ $maps_svgs = array(
 			'4' => 'a1-4.php',
 		)
 	),
-	'A2' => array(
-		'floors' => array(
-			'-1' => 'a2--1.php',
-			'0' => 'a2-0.php',
-			'1' => 'a2-1.php',
-			'2' => 'a2-2.php',
-		)
-	),
+	
 );
 
 
@@ -34,16 +27,6 @@ $buildings_sheets = array(
 		'active' => true,
 		'ID' => 'A1',
 		'sheet_url' => 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTZE6GdWV6mlBzGNex7li5Bq7qdKAmnd1Y4p-7YXfSX6pl2tCabxj25CEKoHNDkpT30BeU4tYNujRuB/pub?gid=0&single=true&output=tsv&range=A1:Z9999'.rand(1,1000),
-	),
-	'A2' => array(
-		'active' => true,
-		'ID' => 'A2',
-		'sheet_url' => 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTZE6GdWV6mlBzGNex7li5Bq7qdKAmnd1Y4p-7YXfSX6pl2tCabxj25CEKoHNDkpT30BeU4tYNujRuB/pub?gid=1723117520&single=true&output=tsv&range=A1:Z999'.rand(1,1000),
-	),
-	'A4' => array(
-		'active' => false,
-		'ID' => 'A4',
-		'sheet_url' => 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTZE6GdWV6mlBzGNex7li5Bq7qdKAmnd1Y4p-7YXfSX6pl2tCabxj25CEKoHNDkpT30BeU4tYNujRuB/pub?gid=1807090813&single=true&output=tsv&range=A1:Z999'.rand(1,1000),
 	),
 );
 
