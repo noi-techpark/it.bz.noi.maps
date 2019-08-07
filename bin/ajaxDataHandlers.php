@@ -92,6 +92,11 @@ if(isset( $_POST['action'] )) :
 								if($rooms):
 									$result .= '<ul class="group-rooms-list dropdown-list">';
 									$maxRooms = 5;
+
+
+									//Google Sheet column names
+									$poi_name_column = strtolower($language).':Name';
+
 									foreach ($rooms as $key => $room):
 										//if default sidebar groups, max 10 elements
 										if(!isset($_POST['rooms']) && ($key+1)>=$maxRooms) :
@@ -99,7 +104,7 @@ if(isset( $_POST['action'] )) :
 										endif;
 										$room_code = isset($room['Room Code']) && !empty($room['Room Code']) ? $room['Room Code'] : null; 
 										$room_building = isset($room['Building Code']) && !empty($room['Building Code']) ? $room['Building Code'] : null;
-										$room_name = isset($room['POI Name ('.strtoupper($language).')']) && !empty($room['POI Name ('.strtoupper($language).')']) ? $room['POI Name ('.strtoupper($language).')'] : null;
+										$room_name = isset($room[$poi_name_column]) && !empty($room[$poi_name_column]) ? $room[$poi_name_column] : null;
 										$room_floor = isset($room['Floor']) && $room['Floor']!='' ? $room['Floor'] : null;
 										$room_number = isset($room['Room Number']) && !empty($room['Room Number']) ? $room['Room Number'] : null;
 										$result .= '<li class="single-room clickable" data-room-code="'.$room_code.'" data-floor-code="'.$room_floor.'" data-building-code="'.$room_building.'">';
