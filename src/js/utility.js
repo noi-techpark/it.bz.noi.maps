@@ -40,7 +40,7 @@ function setupMapBehaviours() {
 	var hammertime = new Hammer(mapContainer, {});
 	hammertime.off('tap');
 	hammertime.on('tap', function(ev) {
-		console.log('tapped ' + ev.target.className);
+		//console.log('tapped ' + ev.target.className);
 
 		if( $(ev.target).parents('.tooltip.active').length==0 ) {
 			$("#map .clickable").each(function(i) {
@@ -73,7 +73,7 @@ function setupMapBehaviours() {
 			typeof($(ev.target).data('building-code'))!=='undefined' && $(ev.target).data('building-code')!==null && $(ev.target).data('building-code')!=='' &&
 			typeof($(ev.target).data('building-floor'))!=='undefined' && $(ev.target).data('building-floor')!==null && $(ev.target).data('building-floor')!==''
 		) {
-			console.log('cccc');
+			//console.log('cccc');
 			goToBuildingFloor($(ev.target).data('building-code'),$(ev.target).data('building-floor'));
 
 		}
@@ -81,7 +81,7 @@ function setupMapBehaviours() {
 
 	//Navbar
 	$(".navbar-container a.site-title").click(function() {
-		console.log('GOING OUTSIDE..........');
+		//console.log('GOING OUTSIDE..........');
 		goToBuildingFloor('external','0');
 		if(typeof(controller)!='undefined') {
 			try {
@@ -182,9 +182,9 @@ function clickableBehaviour() {
 			var buildingCode = $(thisEl).data('building-code');
 			var roomCode = $(thisEl).data('room-code');
 			var floorCode = $(thisEl).data('floor-code');
-			console.log(buildingCode);
-			console.log(roomCode);
-			console.log(floorCode);
+			//console.log(buildingCode);
+			//console.log(roomCode);
+			//console.log(floorCode);
 
 			$('.clickable').not('.floor').removeClass('active');
 
@@ -199,7 +199,7 @@ function clickableBehaviour() {
 				( (typeof(floorCode)!=='undefined' && floorCode!='') || (floorCode===0)) &&
 				typeof(roomCode)!=='undefined' && roomCode!=''
 			) {
-				console.log('clicked sidebar');
+				//console.log('clicked sidebar');
 				setMapZoom();
 				if($(jsMediaQueryTester).outerWidth()<=30) {
 					$("body").removeClass('search-open');
@@ -207,24 +207,24 @@ function clickableBehaviour() {
 				//This is a room
 				if($('body').attr('data-building')==buildingCode && $('body').attr('data-floor')==floorCode) {
 					//We are in the same building or in the same floor as the clicked element
-					console.log('same floor same building');			
+					//console.log('same floor same building');			
 					clickedElement(roomCode, 'room');
 				} else {
-					console.log('goto building '+buildingCode+' floor '+floorCode);				
+					//console.log('goto building '+buildingCode+' floor '+floorCode);				
 					goToBuildingFloor(buildingCode, floorCode, false);
 					clickedElement(roomCode, 'room');
 				}
 			} else if(typeof(buildingCode)!='undefined' && buildingCode!='' && typeof(floorCode)=='undefined') {
-				console.log('clicked building');
+				//console.log('clicked building');
 
 				//This is a building
 				if($('body').attr('data-building')=='external') {
-					console.log('external');
+					//console.log('external');
 
 					//We're in external mode, open popup
 					clickedElement(buildingCode, 'building');			
 				} else {
-					console.log('not external');
+					//console.log('not external');
 					//We're inside some floor, goto building
 					goToBuildingFloor(buildingCode, '0');
 				}
@@ -234,12 +234,12 @@ function clickableBehaviour() {
 					typeof(floorCode)!=='undefined' || floorCode===0
 				)
 			) {
-				console.log('clicked something with BUILDING and FLOOR');
+				//console.log('clicked something with BUILDING and FLOOR');
 				if($('body').attr('data-building')!=buildingCode || $('body').attr('data-floor')!=floorCode) {
 					goToBuildingFloor(buildingCode, floorCode);
 				}
 			}else {
-				console.log('Clicked something we dont know about');
+				//console.log('Clicked something we dont know about');
 				clickedElement($(thisEl).attr('id'),'room');
 			}
 		});
@@ -252,7 +252,7 @@ function clickedElement(elementCode, type="room") {
 		typeof(type)!='undefined' && type!=null
 	) {
 		
-		console.log('clicked element '+elementCode+' of type '+type);
+		//console.log('clicked element '+elementCode+' of type '+type);
 		$('.tooltip').html(originalTooltip);
 		var icon_code = name = shortdesc = longdesc = '';
 
@@ -292,11 +292,11 @@ function clickedElement(elementCode, type="room") {
 							var building = '';
 							var floor = '';
 						}
-						if(typeof(NOIdata[i][elementCode]['POI Name ('+language.toUpperCase()+')'])!='undefined' && NOIdata[i][elementCode]['POI Name ('+language.toUpperCase()+')']!='') {
-							name = NOIdata[i][elementCode]['POI Name ('+language.toUpperCase()+')'];
+						if(typeof(NOIdata[i][elementCode][language.toLowerCase()+':Name'])!='undefined' && NOIdata[i][elementCode][language.toLowerCase()+':Name']!='') {
+							name = NOIdata[i][elementCode][language.toLowerCase()+':Name'];
 						}
-						if(typeof(NOIdata[i][elementCode]['POI description ('+language.toUpperCase()+')'])!='undefined' && NOIdata[i][elementCode]['POI description ('+language.toUpperCase()+')']!='') {
-							longdesc = NOIdata[i][elementCode]['POI description ('+language.toUpperCase()+')'];
+						if(typeof(NOIdata[i][elementCode][language.toLowerCase()+':Description'])!='undefined' && NOIdata[i][elementCode][language.toLowerCase()+':Description']!='') {
+							longdesc = NOIdata[i][elementCode][language.toLowerCase()+':Description'];
 						}
 						if(typeof(NOIdata[i][elementCode]['Building Code'])!='undefined' && NOIdata[i][elementCode]['Building Code']!='') {
 							shortdesc += '<span class="room-icon-building icon-building-'+NOIdata[i][elementCode]['Building Code']+'">'+NOIdata[i][elementCode]['Building Code']+'</span>';
@@ -322,9 +322,9 @@ function clickedElement(elementCode, type="room") {
 				//setMapZoom();
 			}
 			clickedElementID = elementCode;
-			console.log('^^^^^^^^^^^^^^^^^^^^^^');
-			console.log(clickedElementID);
-			console.log('^^^^^^^^^^^^^^^^^^^^^^');			
+			//console.log('^^^^^^^^^^^^^^^^^^^^^^');
+			//console.log(clickedElementID);
+			//console.log('^^^^^^^^^^^^^^^^^^^^^^');			
 			if($("#"+clickedElementID).length==0) {
 				//alert('ATTENZIONE! Non è presente in alcuna mappa l\'elemento con codice:\n'+clickedElementID+'\nControllare SVG');
 				closeTooltip();
@@ -341,8 +341,8 @@ function clickedElement(elementCode, type="room") {
 		} else {
 			$(".tooltip .view-floorplan").text(getTranslation($(".tooltip .view-floorplan").text()));
 			if(icon_code!='') {
-				console.log('----------------elementCode');
-				console.log(elementCode);
+				//console.log('----------------elementCode');
+				//console.log(elementCode);
 				$(".tooltip .icon").removeClass().addClass('icon');
 				if(type=='building') {
 					$(".tooltip .icon").addClass(icon_code);
@@ -352,8 +352,8 @@ function clickedElement(elementCode, type="room") {
 					$(".tooltip .icon").html(icon_code);
 				}				
 			}
-			console.log('---------name');
-			console.log(name);
+			//console.log('---------name');
+			//console.log(name);
 			if(name!='') {
 				$(".tooltip .name").removeClass('hide');
 				$(".tooltip .name").text(name);
@@ -401,9 +401,9 @@ function setTooltipPosition() {
 		}
 
 		
-		console.log(jsElem);
+		//console.log(jsElem);
 		if(currentMediaQuery >= 50){
-			console.log('AAAA');
+			//console.log('AAAA');
 			$(".tooltip").css({
 				left: $("#"+clickedElementID).offset().left + (jsElem.getBoundingClientRect().width/2),
 				top: $("#"+clickedElementID).offset().top + (jsElem.getBoundingClientRect().height/2)-8
@@ -423,9 +423,9 @@ function goToBuildingFloor(buildingCode, buildingFloor, close = true) {
 		typeof(buildingFloor)!=='undefined' && buildingFloor!==null && buildingFloor!=='' &&
 		typeof(maps_svgs)!=='undefined' && maps_svgs!==null && maps_svgs!==''
 	) {
-		console.log('--------------');
-		console.log('goToBuildingFloor '+buildingCode+' '+buildingFloor);
-		console.log('--------------');
+		//console.log('--------------');
+		//console.log('goToBuildingFloor '+buildingCode+' '+buildingFloor);
+		//console.log('--------------');
 		//Check if requested building and requested floor are keys of maps_svgs array
 		if(
 			typeof(maps_svgs[buildingCode])!=='undefined' && maps_svgs[buildingCode]!==null && maps_svgs[buildingCode]!=='' &&
@@ -460,7 +460,7 @@ function floorsZoomSelector(buildingCode,buildingFloor) {
 						var floorsList = selector.find('.floors-list');
 						floorsList.empty();
 						for(var j in maps_svgs[i]['floors']) {
-							//console.log(j);
+							////console.log(j);
 							var item = $('<li/>', {
 								text: j,
 								class: 'clickable floor',
@@ -585,7 +585,7 @@ function navBars(buildingCode,buildingFloor) {
 		typeof(buildingCode)!=='undefined' && buildingCode!==null && buildingCode!=='' &&
 		typeof(buildingFloor)!=='undefined' && buildingFloor!==null && buildingFloor!==''
 	) {
-		console.log('navBars changing body....');
+		//console.log('navBars changing body....');
 		$('body').attr('data-building',buildingCode);
 		$('body').attr('data-floor',buildingFloor);
 		
@@ -692,7 +692,7 @@ function loadFullNoiDataAjax() {
 		clickableBehaviour();
 
 		if(typeof(requestedLang)!='undefined' && requestedLang!=null && requestedLang!='') {
-			console.log(requestedLang);
+			//console.log(requestedLang);
 			if(JSON.parse(requestedLang)!=language) {
 				$(".language-selector .dropdown-trigger").click();
 				$(".language-selector a[data-language='"+JSON.parse(requestedLang)+"']").click();
@@ -780,7 +780,7 @@ function languageSelector() {
 
 
 	$(".language-selector:not(.language-selector-desktop) a").click(function(e) {
-	console.log('qui');
+	//console.log('qui');
 		$(".loader:not(.loader-map)").fadeIn();
 		var thisEl = $(this);
 		language = thisEl.attr('data-language');
@@ -789,7 +789,7 @@ function languageSelector() {
 			var prevLang = thisEl.parents('.dropdown').find('.dropdown-trigger').attr('data-language');
 			thisEl.parents('.dropdown').find('.dropdown-trigger').attr('data-language',language);
 			thisEl.parents('.dropdown-list').find('li a').each(function() {
-				console.log($(this).attr('data-language'));
+				//console.log($(this).attr('data-language'));
 				if($(this).attr('data-language') != language) {
 					return true;
 				}
@@ -798,7 +798,7 @@ function languageSelector() {
 			$('.translatable').each(function() {
 				$(this).text(getTranslation($(this).text()));
 				if(typeof($(this).attr('placeholder'))!=='undefined' && $(this).attr('placeholder').length>0) {
-					console.log($(this).attr('placeholder'));
+					//console.log($(this).attr('placeholder'));
 					$(this).attr('placeholder', getTranslation($(this).attr('placeholder')));
 				}
 			});
@@ -809,7 +809,7 @@ function languageSelector() {
 				loadDefaultSideGroups();
 			}
 		}
-		console.log(thisEl.parents('.dropdown').find('.dropdown-list'));
+		//console.log(thisEl.parents('.dropdown').find('.dropdown-list'));
 		thisEl.parents('.dropdown').find('.dropdown-list').slideUp('fast',function(){
 			thisEl.parents('.dropdown').removeClass('open');
 			$(".language-selector-desktop li").removeClass('active');

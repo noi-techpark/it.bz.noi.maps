@@ -33,14 +33,14 @@
 								foreach ($data as $building_name => $building) :
 									if(isset($building[$room])) :
 										$room_building = $building_name;
-										if(isset($building[$room]['POI Name (IT)'])) :
-											$room_name_it = $building[$room]['POI Name (IT)'];
+										if(isset($building[$room]['it:Name'])) :
+											$room_name_it = $building[$room]['it:Name'];
 										endif;
-										if(isset($building[$room]['POI Name (EN)'])) :
-											$room_name_en = $building[$room]['POI Name (EN)'];
+										if(isset($building[$room]['en:Name'])) :
+											$room_name_en = $building[$room]['en:Name'];
 										endif;
-										if(isset($building[$room]['POI Name (DE)'])) :
-											$room_name_de = $building[$room]['POI Name (DE)'];
+										if(isset($building[$room]['de:Name'])) :
+											$room_name_de = $building[$room]['de:Name'];
 										endif;
 										if(isset($building[$room]['Floor'])) :
 											$room_floor = $building[$room]['Floor'];
