@@ -21,8 +21,8 @@ pipeline {
                 sh "echo '' > .env"
                 sh "echo 'DOCKER_IMAGE_APP=${DOCKER_IMAGE_APP}' >> .env"
                 sh "echo 'DOCKER_TAG_APP=${DOCKER_TAG_APP}' >> .env"
-                sh '''sed -i -e "s%\\('sheet_url'\\ =>\\ \\).*\$%\\1'https://docs.google.com/spreadsheets/d/e/2PACX-1vQA-8MjYhZBkN5ZIv_IPS2cUMvVTmoG0zCoSZMFLT8b_vo9qBfRO4lNwI33D8Z9xeF7gz7eZxE7_f74/pub?gid=0\\&output=tsv\\&range=A1:Z\\&single=true'%g" config.php'''
-                sh '''sed -i -e "s%\\(\$buildings_summary_sheet_url\\ =\\ \\).*\$%\\1'https://docs.google.com/spreadsheets/d/e/2PACX-1vQA-8MjYhZBkN5ZIv_IPS2cUMvVTmoG0zCoSZMFLT8b_vo9qBfRO4lNwI33D8Z9xeF7gz7eZxE7_f74/pub?gid=907814432\\&output=tsv\\&range=A1:Z\\&single=true'\\.rand(1,1000);%g" config.php'''
+                sh '''sed -i -e "s%\\('sheet_url'\\ =>\\ \\).*\\$%\\1'https://docs.google.com/spreadsheets/d/e/2PACX-1vQA-8MjYhZBkN5ZIv_IPS2cUMvVTmoG0zCoSZMFLT8b_vo9qBfRO4lNwI33D8Z9xeF7gz7eZxE7_f74/pub?gid=0\\&output=tsv\\&range=A1:Z\\&single=true'%g" config.php'''
+                sh '''sed -i -e "s%\\(\\$buildings_summary_sheet_url\\ =\\ \\).*\\$%\\1'https://docs.google.com/spreadsheets/d/e/2PACX-1vQA-8MjYhZBkN5ZIv_IPS2cUMvVTmoG0zCoSZMFLT8b_vo9qBfRO4lNwI33D8Z9xeF7gz7eZxE7_f74/pub?gid=907814432\\&output=tsv\\&range=A1:Z\\&single=true'\\.rand(1,1000);%g" config.php'''
             }
         }
         stage('Build & Push') {
