@@ -1,8 +1,8 @@
 <div class="header">
 	<div class="aux">
-		<?php $root_url = sprintf("%s://%s",isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off' ? 'https' : 'http',$_SERVER['SERVER_NAME']); ?>
-		<a class="logo" href="<?php echo $root_url.'/noi-maps/'; ?>">NOI Techpark Suedtirol/Alto Adige</a>
-		<a href="<?php echo $root_url.'/noi-maps/'; ?>" class="main-site-title site-title">NOI Techpark Maps</a>
+		<?php //$root_url = sprintf("%s://%s",isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off' ? 'https' : 'http',$_SERVER['SERVER_NAME']); ?>
+		<a class="logo" href="/">NOI Techpark Suedtirol/Alto Adige</a>
+		<a href="/" class="main-site-title site-title">NOI Techpark Maps</a>
 		<?php if (isset($full_header) && $full_header): ?>
 			<div class="navbar-container hide">
 				<a class="site-title hide" href="#">NOI Techpark Maps</a>

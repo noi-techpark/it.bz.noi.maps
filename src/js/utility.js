@@ -11,6 +11,8 @@ var clickedElementID = '';
 
 var jsMediaQueryTester = '.js-media-query-tester';
 
+var qrcode = null;
+
 function setupMapBehaviours() {
 	//Disable scroll (Safari zoom bug)
 	$("#map").disablescroll();
@@ -64,7 +66,7 @@ function setupMapBehaviours() {
 				$(".sharer-container").find('input').val(location.origin+location.pathname+'?shared='+$(".share-element").attr('data-element-code')+'&lang='+language);
 				$(".sharer-container").find('input').select();
 			}
-			if( ($(ev.target).hasClass('heading') || $(ev.target).parents('.heading').length>0 || $(ev.target).hasClass('expand-info')) && $(ev.target).parents('.tooltip').length>0 ) {
+			if( !$("body").hasClass('totem') && ($(ev.target).hasClass('heading') || $(ev.target).parents('.heading').length>0 || $(ev.target).hasClass('expand-info')) && $(ev.target).parents('.tooltip').length>0 ) {
 				$('.tooltip').find('.long-description').slideToggle();
 			}
 		}
@@ -381,6 +383,13 @@ function clickedElement(elementCode, type="room") {
 				$(".tooltip .lower").removeClass('hide');
 				$(".tooltip .lower .share-element").removeClass('hide');
 				$(".tooltip .lower .share-element").attr('data-element-code',elementCode);
+				$(".tooltip .room-url").text(location.origin+location.pathname+'?shared='+elementCode+'&lang='+language);
+				if($('body').hasClass('totem') && typeof QRCode !== 'undefined') {
+					roomQRCode();
+					qrcode.clear(); // clear the code.
+					qrcode.makeCode(location.origin+location.pathname+'?shared='+elementCode+'&lang='+language); // make another code.
+					//new QRCode(document.getElementById("room-qrcode"), location.origin+location.pathname+'?shared='+elementCode+'&lang='+language);
+				}
 			}
 
 			$(".tooltip").fadeIn(function() {});
@@ -427,6 +436,13 @@ function goToBuildingFloor(buildingCode, buildingFloor, close = true) {
 		//console.log('goToBuildingFloor '+buildingCode+' '+buildingFloor);
 		//console.log('--------------');
 		//Check if requested building and requested floor are keys of maps_svgs array
+
+		//if floor 0 is not defined, try with -1
+		if(typeof(maps_svgs[buildingCode]['floors'][buildingFloor])==='undefined' || maps_svgs[buildingCode]['floors'][buildingFloor]===null || maps_svgs[buildingCode]['floors'][buildingFloor]==='') {
+			buildingFloor = -1;
+		}
+
+
 		if(
 			typeof(maps_svgs[buildingCode])!=='undefined' && maps_svgs[buildingCode]!==null && maps_svgs[buildingCode]!=='' &&
 			typeof(maps_svgs[buildingCode]['floors'][buildingFloor])!=='undefined' && maps_svgs[buildingCode]['floors'][buildingFloor]!==null && maps_svgs[buildingCode]['floors'][buildingFloor]!==''
@@ -694,8 +710,10 @@ function loadFullNoiDataAjax() {
 		if(typeof(requestedLang)!='undefined' && requestedLang!=null && requestedLang!='') {
 			//console.log(requestedLang);
 			if(JSON.parse(requestedLang)!=language) {
-				$(".language-selector .dropdown-trigger").click();
-				$(".language-selector a[data-language='"+JSON.parse(requestedLang)+"']").click();
+				if($(".language-selector a[data-language='"+JSON.parse(requestedLang)+"']").length>0) {					
+					$(".language-selector .dropdown-trigger").click();
+					$(".language-selector a[data-language='"+JSON.parse(requestedLang)+"']").eq(0).click();
+				}
 			}
 		}
 
@@ -776,9 +794,6 @@ function loadAfterSearch(foundedRooms) {
 // *******************************************
 
 function languageSelector() {
-	
-
-
 	$(".language-selector:not(.language-selector-desktop) a").click(function(e) {
 	//console.log('qui');
 		$(".loader:not(.loader-map)").fadeIn();
@@ -808,6 +823,8 @@ function languageSelector() {
 			} else {
 				loadDefaultSideGroups();
 			}
+
+			translateLinks();
 		}
 		//console.log(thisEl.parents('.dropdown').find('.dropdown-list'));
 		thisEl.parents('.dropdown').find('.dropdown-list').slideUp('fast',function(){
@@ -826,6 +843,22 @@ function languageSelector() {
 		e.preventDefault();
 		return false;
 	});
+}
+
+function translateLinks() {
+	if(typeof(language)!=='undefined' && typeof(localizedLinks)!=='undefined' && localizedLinks!==null) {
+		$("a.link-translatable").each(function() {
+			var thisLink = $(this);
+			var thisLinkTraslationID = thisLink.data('link-traslation');
+			if(
+				typeof thisLinkTraslationID !== 'undefined' && thisLinkTraslationID !== null &&
+				typeof localizedLinks[thisLinkTraslationID] !== 'undefined' && localizedLinks[thisLinkTraslationID] !== null &&
+				typeof localizedLinks[thisLinkTraslationID][language] !== 'undefined' && localizedLinks[thisLinkTraslationID][language] !== null
+			) {
+				thisLink.attr('href',localizedLinks[thisLinkTraslationID][language]);
+			}
+		});
+	}
 }
 
 function getTranslation(string) {
@@ -898,17 +931,33 @@ function mapContainerHeight(){
 	var headerH = $(".header").outerHeight();
 	var footerH = $(".panel-footer-container").outerHeight();
 
+	var cookieH = $(".cm-cookies").outerHeight();
+
 	var windowH = $(window).height();
 		
 
 	currentMediaQuery = $(jsMediaQueryTester).outerWidth();
 	
-	if(currentMediaQuery < 50){
-		$("#mapContainer").css('height',windowH-headerH);
-		$("#mapContainer").css('margin-top',headerH);
+		
+
+	if ($('body').hasClass('cm-banner-active')) {
+		if(currentMediaQuery < 50){
+			$("#mapContainer").css('height',windowH-headerH-cookieH);
+			$("#mapContainer").css('margin-top',headerH);
+			$(".panel-footer-container").css('bottom','');
+		} else {
+			$("#mapContainer").css('height',windowH-headerH-footerH-cookieH);
+			$("#mapContainer").css('margin-top',headerH);
+			$(".panel-footer-container").css('bottom',cookieH);
+		}
 	} else {
-		$("#mapContainer").css('height',windowH-headerH-footerH);
-		$("#mapContainer").css('margin-top',headerH);
+		if(currentMediaQuery < 50){
+			$("#mapContainer").css('height',windowH-headerH);
+			$("#mapContainer").css('margin-top',headerH);
+		} else {
+			$("#mapContainer").css('height',windowH-headerH-footerH);
+			$("#mapContainer").css('margin-top',headerH);
+		}
 	}
 }
 
@@ -971,6 +1020,35 @@ function filtersBehaviours() {
 	});
 }
 
+function totemChangeLinks() {
+	if($('body').hasClass('totem')) {
+		var querystring = 'totem=1';
+		$('a').filter( function(i,el) {
+		var startofurl = location.protocol+'//'+location.hostname;
+			return el.href.indexOf(startofurl)===0;
+		}).each(function() {
+			var href = $(this).attr('href');
+			if (href) {
+				href += (href.match(/\?/) ? '&' : '?') + querystring;
+				$(this).attr('href', href);
+			}
+		});
+	}
+}
+
+function roomQRCode() {
+	if($('body').hasClass('totem') && typeof QRCode !== 'undefined') {
+		qrcode = new QRCode(document.getElementById("room-qrcode"), {
+			text: location.origin+location.pathname,
+			width: 100,
+			height: 100,
+			colorDark : "#000000",
+			colorLight : "#ffffff",
+			correctLevel : QRCode.CorrectLevel.L
+		});
+	}
+}
+
 function resizeEndActions(){
 	setTooltipPosition();
 	mapContainerHeight();
@@ -1002,6 +1080,7 @@ $(document).ready(function() {
 	filtersBehaviours();
 
 	languageSelector();
+	translateLinks();
 	//langSwitcherLabels();
 	mapContainerHeight();
 
@@ -1009,6 +1088,9 @@ $(document).ready(function() {
 	dropdownToggle();
 	dropdownSelection();
 	tooltipViewport();
+
+	totemChangeLinks();
+	roomQRCode();
 
 	if(!!('ontouchstart' in window)){ //check for touch device
 		$('html').addClass('touch');
