@@ -15,9 +15,42 @@ $maps_svgs = array(
 			'4' => 'a1-4.php',
 		)
 	),
-	
+	'A2' => array(
+		'floors' => array(
+			'-1' => 'a2--1.php',
+			'0' => 'a2-0.php',
+			'1' => 'a2-1.php',
+			'2' => 'a2-2.php',
+			'3' => 'a2-3.php',
+			'4' => 'a2-4.php',
+			'5' => 'a2-5.php',
+		)
+	),
+	'A4' => array(
+		'floors' => array(
+			'-1' => 'a4--1.php',
+			'0' => 'a4-0.php',
+			'1' => 'a4-1.php',
+		)
+	),
+	'D1' => array(
+		'floors' => array(
+			'-2' => 'd1--2.php',
+			'-1' => 'd1--1.php',
+			'0' => 'd1-0.php',
+			'1' => 'd1-1.php',
+			'2' => 'd1-2.php',
+			'3' => 'd1-3.php',
+			'4' => 'd1-4.php',
+		)
+	),
+	'G1' => array(
+		'floors' => array(
+			'-2' => 'g1--2.php',
+			'-1' => 'g1--1.php',
+		)
+	),
 );
-
 
 
 $buildings_summary_sheet_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTZE6GdWV6mlBzGNex7li5Bq7qdKAmnd1Y4p-7YXfSX6pl2tCabxj25CEKoHNDkpT30BeU4tYNujRuB/pub?gid=322609536&single=true&output=tsv&range=A1:Z99'.rand(1,1000);
@@ -28,7 +61,28 @@ $buildings_sheets = array(
 		'ID' => 'A1',
 		'sheet_url' => 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTZE6GdWV6mlBzGNex7li5Bq7qdKAmnd1Y4p-7YXfSX6pl2tCabxj25CEKoHNDkpT30BeU4tYNujRuB/pub?gid=0&single=true&output=tsv&range=A1:Z9999'.rand(1,1000),
 	),
+	'A2' => array(
+		'active' => true,
+		'ID' => 'A2',
+		'sheet_url' => 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTZE6GdWV6mlBzGNex7li5Bq7qdKAmnd1Y4p-7YXfSX6pl2tCabxj25CEKoHNDkpT30BeU4tYNujRuB/pub?gid=1913953655&single=true&output=tsv&range=A1:Z9999'.rand(1,1000),
+	),
+	'A4' => array(
+		'active' => true,
+		'ID' => 'A4',
+		'sheet_url' => 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTZE6GdWV6mlBzGNex7li5Bq7qdKAmnd1Y4p-7YXfSX6pl2tCabxj25CEKoHNDkpT30BeU4tYNujRuB/pub?gid=1807090813&single=true&output=tsv&range=A1:Z9999'.rand(1,1000),
+	),
+	'D1' => array(
+		'active' => true,
+		'ID' => 'D1',
+		'sheet_url' => 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTZE6GdWV6mlBzGNex7li5Bq7qdKAmnd1Y4p-7YXfSX6pl2tCabxj25CEKoHNDkpT30BeU4tYNujRuB/pub?gid=1269199150&single=true&output=tsv&range=A1:Z9999'.rand(1,1000),
+	),
+	'G1' => array(
+		'active' => true,
+		'ID' => 'G1',
+		'sheet_url' => 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTZE6GdWV6mlBzGNex7li5Bq7qdKAmnd1Y4p-7YXfSX6pl2tCabxj25CEKoHNDkpT30BeU4tYNujRuB/pub?gid=75008429&single=true&output=tsv&range=A1:Z9999'.rand(1,1000),
+	),
 );
+
 
 //Categories Groups (sidepanel groups)
 $groups_categories_array = array(
@@ -377,7 +431,83 @@ $translations = array(
 		'it' => 'EN',
 		'en' => 'EN',
 		'de' => 'EN',
-	)
+	),
+	array(
+		'it' => 'Accetto',
+		'en' => 'I agree',
+		'de' => 'Ich akzeptiere',
+	),
+	array(
+		'it' => 'Rifiuto',
+		'en' => 'I refuse',
+		'de' => 'Ich lehne ab',
+	),
+	array(
+		'it' => "Questo sito utilizza cookie, anche di terze parti. Continuando la navigazione acconsenti all'utilizzo dei cookies.",
+		'en' => 'This website uses cookies, also from third parties. To continue browsing, you have to agree to the use of cookies.',
+		'de' => 'Diese Internetseite verwendet Cookies, auch von Drittanbietern. Um mit der Navigation fortzufahren, stimmen Sie der Verwendung von Cookies zu.',
+	),
+	array(
+		'it' => "Leggi l'informativa.",
+		'en' => 'Read the information letter.',
+		'de' => 'Lesen Sie das informationsschreiben.',
+	),
+);
+
+$localizedLinks = array(
+	'credits' => array(
+		'it' => '/credits',
+		'en' => '/en/credits',
+		'de' => '/de/credits',
+	),
+	'privacy' => array(
+		'it' => '/cookies-privacy-policy',
+		'en' => '/en/cookies-privacy-policy',
+		'de' => '/de/cookies-privacy-policy',
+	),
+);
+
+$cookie_config = array(
+	'cookieAcceptedName' => 'cm_cookie_accept_noi_maps',
+	'cookieDeclinedName' => 'cm_cookie_decline_noi_maps',
+    'cookiePrivacyUrl' => '/credits',
+    'cookiePosition'    => 'bottom', //available only top or bottom
+    'cookieActivation'    => 'a, .menu-trigger', //if clicked the user accepted the cookies - if not setted please set it as false - write like jquery selectors
+    'cookieMainContainerClasses' => '', //classes separated by a space
+    'cookieBodyClasses' => '', //classes separated by a space
+
+    //strings
+    'cookieMessage' => '<span class="translatable">Questo sito utilizza cookie, anche di terze parti. Continuando la navigazione acconsenti all\'utilizzo dei cookies.</span><a href="/cookies-privacy-policy" class="cm-privacy-link translatable link-translatable" data-link-traslation="privacy" target="_blank">Leggi l\'informativa.</a>',
+
+    //'cookieMessage' => sprintf( __("In questo sito vengono utilizzati cookie utili per le finalità illustrate nella cookie policy, compreso l’invio di messaggi pubblicitari in linea con le preferenze manifestate dall’utente. Per saperne di più, o per negare il consenso a tutti o ad alcuni cookie, anche di terze parti, consulta la %scookie policy%s. Chiudendo questo banner, scorrendo questa pagina, o comunque proseguendo la navigazione, acconsenti all’uso dei cookie.",'cookie_madeincima'), "<a href='%%PRIVACY_LINK%%' class='cm-privacy-link'>", '</a>' ),
+
+    //'cookieMessage' => __("Al fine di ottimizzare il servizio offerto, questo Sito utilizza cookie. Continuando a navigare su questo sito Lei accetta questa Privacy Policy acconsentendo all'uso dei cookie in conformità a quanto descritto in questa informativa. Per ulteriori informazioni clicchi <a href='%%PRIVACY_LINK%%' class='cm-privacy-link'>qui</a>.",'cookie_madeincima'),
+    
+    'cookieErrorMessage' => "Questo contenuto è disabilitato perché non hai autorizzato l'utilizzo dei cookie.",
+    'cookieErrorMessageEn' => "This content is disabled because you haven't authorised the use of the cookie.",
+    
+	'cookieAcceptButtonText' => "<span class='translatable'>Accetto</span>",
+	'cookieDeclineButtonText' => "<span class='translatable'>Rifiuto</span>",
+	'cookieTable' => array(
+		'tech'			=> false,
+		'extra'			=> false,
+		'wpml'			=> false,
+		'w3tc'			=> false,
+		'wordpress'		=> false,
+		'google_analitycs' => false,
+		'facebook'		=> false,
+		'twitter'		=> false,
+		'pinterest'		=> false,
+		'google'		=> false,
+		'youtube'		=> false,
+		'vimeo'			=> false,
+		'slideshare'	=> false,
+		'doubleclick'	=> false,
+		'linkedin'		=> false,
+	),
+	'cookieTableDomain' => '', // CHANGE THE DOMAIN FOR EACH SITE
+	'cookieTableName' 	=> '',   // CHANGE THE NAME   FOR EACH SITE
+    'cookieCurrentLanguage' => 'it'
 );
 
 function new_log($message) {
@@ -388,4 +518,12 @@ function new_log($message) {
 		$output = $message.PHP_EOL;
 	endif;
 	error_log($output, 3, $pluginlog);
-} ?>
+}
+
+function is_totem() {
+	if(isset($_GET) && isset($_GET['totem']) && $_GET['totem'] == 1) :
+		return true;
+	endif;
+	return false;
+}
+?>

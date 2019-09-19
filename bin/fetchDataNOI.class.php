@@ -8,6 +8,8 @@
 		private $maps_svgs;
 
 		public $translations;
+		public $localizedLinks;
+		public $cookie_config;
 
 		public $categories_array;
 
@@ -19,6 +21,8 @@
 			$this->categories_array = $categories_array;
 			$this->maps_svgs = $maps_svgs;
 			$this->translations = $translations;
+			$this->localizedLinks = $localizedLinks;
+			$this->cookie_config = $cookie_config;
 		}
 
 		function fetchData() {

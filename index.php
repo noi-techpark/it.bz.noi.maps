@@ -8,6 +8,8 @@ if(class_exists('fetchDataNOI')):
 		$buildings_summary = $fetchDataNOI->getBuildingsSummary();
 		$categories_array = $fetchDataNOI->categories_array;
 		$translations = $fetchDataNOI->translations;
+		$localizedLinks = $fetchDataNOI->localizedLinks;
+		$cookie_config = $fetchDataNOI->cookie_config;
 		$maps_svgs = $fetchDataNOI->renderMapsSvgs($data);
 	endif;
 endif; ?>
@@ -21,7 +23,11 @@ endif; ?>
 	<meta name="theme-color" content="#293238">
 	<link rel="shortcut icon" href="src/images/favicon.ico" type="image/vnd.microsoft.icon" />
 </head>
-<body class="external" data-building='external' data-floor=''>
+<?php $body_classes = array('external');
+if(is_totem()) :
+	$body_classes[] = 'totem';
+endif; ?>
+<body class="<?php echo implode(' ',$body_classes); ?>" data-building='external' data-floor=''>
 	<?php $full_header = true;
 	include(__DIR__.'/parts/header.php'); ?>
 	<div id="mapContainer">
@@ -42,12 +48,22 @@ endif; ?>
 						<p class="short-description hide"></p>
 					</div>
 				</div>
-				<div class="long-description hide"></div>
+				<div class="long-description"></div>
 				<div class="lower hide">
-					<p class="expand-info hide translatable">Info</p>
+					<?php if (!is_totem()): ?>
+						<p class="expand-info hide translatable">Info</p>
+					<?php endif; ?>
 					<p class="view-floorplan hide translatable">Vedi planimetria</p>
-					<p class="share-element hide translatable">Share</p>
+					<?php if (!is_totem()): ?>
+						<p class="share-element hide translatable">Share</p>
+					<?php endif;
+					if(is_totem()): ?>
+						<p class="room-url"></p>
+					<?php endif; ?>
 				</div>
+				<?php if (is_totem()): ?>
+					<div id="room-qrcode"></div>
+				<?php endif ?>
 			</div>
 		</div>
 		<div class="floors-zoom-selector">
@@ -62,19 +78,9 @@ endif; ?>
 			</div>
 		</div>
 	</div>
-	<div class="panel-footer-container">
-		<span class="panel-footer-overlay"></span>
-		<div class="panel-footer">
-			<span class="logo hide-on-desktop">NOI Techpark Suedtirol/Alto Adige</span>
-			<nav class="panel-menu">
-				<ul>
-					<li><a href="#">NOI Techpark Website</a></li>
-					<li><a href="cookies-privacy-policy/">Cookies & Privacy Policy</a></li>
-					<li><a href="#">Credits</a></li>
-				</ul>
-			</nav>
-		</div>
-	</div>
+	<?php if(!is_totem()) :
+		include(__DIR__.'/parts/panel-footer.php');
+	endif; ?>
 	<span class="js-media-query-tester"></span>
 	<div class="sharer-container hide">
 		<div class="sharer">
@@ -110,8 +116,21 @@ endif; ?>
 	//Translations
 	if($translations && !empty($translations)) : ?>
 		var translations = <?php echo json_encode($translations); ?>;
+	<?php endif;
+	if($localizedLinks && !empty($localizedLinks)) : ?>
+		var localizedLinks = <?php echo json_encode($localizedLinks); ?>;
+	<?php endif;
+	//Cookie Config
+	if($cookie_config && !empty($cookie_config)) : ?>
+		var cookie_config = <?php echo json_encode($cookie_config); ?>;
 	<?php endif; ?>
 </script>
+<?php if (is_totem()): ?>
+	<script src='src/js/qrcode.min.js'></script>
+<?php else: ?>
+	<?php include_once(__DIR__.'/parts/google-tag-manager.php'); ?>
+	<script src='src/js/jquery.cookie-madeincima.js'></script>
+<?php endif; ?>
 <script src='src/js/ua-parser.min.js'></script>
 <script src='src/js/utility.js'></script>
 </html>
