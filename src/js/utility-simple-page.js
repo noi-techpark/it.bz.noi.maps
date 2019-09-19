@@ -6,7 +6,6 @@ var jsMediaQueryTester = '.js-media-query-tester';
 function dropdownToggle(){
 	$(".dropdown-trigger").unbind('click');
 	$(".dropdown-trigger").click(function() {
-		console.log('clicked');
 		var thisEl = $(this);
 		thisEl.parents('.dropdown').toggleClass('open');
 		thisEl.parent().find('.dropdown-list').slideToggle(300);
@@ -29,6 +28,68 @@ function mapContainerHeight(){
 	$(".main-content").css('margin-top',headerH);
 }
 
+function totemChangeLinks() {
+	if($('body').hasClass('totem')) {
+		var querystring = 'totem=1';
+		$('a').filter( function(i,el) {
+		var startofurl = location.protocol+'//'+location.hostname;
+			return el.href.indexOf(startofurl)===0;
+		}).each(function() {
+			var href = $(this).attr('href');
+			if (href) {
+				href += (href.match(/\?/) ? '&' : '?') + querystring;
+				$(this).attr('href', href);
+			}
+		});
+	}
+}
+
+function languageSelector() {
+	if(typeof($('html').attr('lang'))!=='undefined' && $('html').attr('lang')!=null) {
+		language = $('html').attr('lang');
+	}
+
+	$('.translatable').each(function() {
+		$(this).text(getTranslation($(this).text()));
+		if(typeof($(this).attr('placeholder'))!=='undefined' && $(this).attr('placeholder').length>0) {
+			$(this).attr('placeholder', getTranslation($(this).attr('placeholder')));
+		}
+	});
+}
+
+function getTranslation(string) {
+	if(typeof(string)!='undefined' && string.length>0) {
+		var index2 = translations.findIndex(function(item, index) {
+			return (item.it === string) || (item.en === string) || (item.de === string) ? true : false;
+		});
+		if(typeof(index2)!='undefined' && index2!==-1) {
+			return translations[index2][language];
+		} else {
+			console.error('Nessuna traduzione per '+string);
+		}
+	}
+	return string;
+}
+
+function translateLinks() {
+	if(typeof($('html').attr('lang'))!=='undefined' && $('html').attr('lang')!=null) {
+		language = $('html').attr('lang');
+	}
+	if(typeof(language)!=='undefined' && typeof(localizedLinks)!=='undefined' && localizedLinks!==null) {
+		$("a.link-translatable").each(function() {
+			var thisLink = $(this);
+			var thisLinkTraslationID = thisLink.data('link-traslation');
+			if(
+				typeof thisLinkTraslationID !== 'undefined' && thisLinkTraslationID !== null &&
+				typeof localizedLinks[thisLinkTraslationID] !== 'undefined' && localizedLinks[thisLinkTraslationID] !== null &&
+				typeof localizedLinks[thisLinkTraslationID][language] !== 'undefined' && localizedLinks[thisLinkTraslationID][language] !== null
+			) {
+				thisLink.attr('href',localizedLinks[thisLinkTraslationID][language]);
+			}
+		});
+	}
+}
+
 function resizeEndActions(){
 	mapContainerHeight();
 }
@@ -44,6 +105,9 @@ $(document).ready(function() {
 	mapContainerHeight();
 	dropdownToggle();
 	dropdownSelection();
+	languageSelector();
+	translateLinks();
+	totemChangeLinks();
 
 	$('.menu-trigger').on('click',function(){
 		$('body').toggleClass('menu-open');

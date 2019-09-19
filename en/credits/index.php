@@ -1,51 +1,74 @@
+<?php include_once(dirname(dirname(__DIR__)).'/bin/fetchDataNOI.class.php');
+if(class_exists('fetchDataNOI')):
+	$fetchDataNOI = new fetchDataNOI();
+	$translations = $fetchDataNOI->translations;
+	$localizedLinks = $fetchDataNOI->localizedLinks;
+	$cookie_config = $fetchDataNOI->cookie_config;
+endif;
+$link_it = isset($localizedLinks) && isset($localizedLinks['credits']) && isset($localizedLinks['credits']['it']) ? $localizedLinks['credits']['it'] : '#';
+$link_en = isset($localizedLinks) && isset($localizedLinks['credits']) && isset($localizedLinks['credits']['en']) ? $localizedLinks['credits']['en'] : '#';
+$link_de = isset($localizedLinks) && isset($localizedLinks['credits']) && isset($localizedLinks['credits']['de']) ? $localizedLinks['credits']['de'] : '#'; ?>
 <!DOCTYPE html>
-<html>
+<html class="body-scrollable" lang="en">
 <head>
 	<title>NOI Techpark Maps</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no,width=device-width, initial-scale=1" />
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="../../src/css/style.css">
 </head>
-<body class="default">
-	<?php $full_header = false;
-	include(dirname(dirname(__DIR__)).'/parts/header.php'); ?>
-	<div class="main-content">
-		<div class="content">
-			<h1>Quis consequat sapien pulvinar</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur <strong>adipiscing elit</strong>. In et ante eu purus tincidunt auctor. Maecenas aliquet <a href="#">viverra dolor</a>, in lobortis purus condimentum eget. In et laoreet neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			<p>Pellentesque tempus tincidunt tortor, quis eleifend nibh laoreet nec. Proin tempus suscipit sem id finibus. Duis vitae felis at ipsum luctus ornare quis et orci.</p>
-			<h2>Mauris sagittis tortor in ante porttitor dictum.</h2>
-			<p>In feugiat eu ligula quis venenatis. Vivamus commodo mi ut leo interdum malesuada eu vel turpis. <strong>Fusce at ultrices nulla</strong>. Vestibulum congue in dui a mattis. Quisque nec pulvinar nunc. Nulla in blandit purus. Maecenas pretium massa urna, quis consequat sapien pulvinar sit amet. Phasellus at eleifend ligula. Nullam vel neque et tellus viverra porttitor. Ut at euismod quam, imperdiet eleifend mi.</p>
-			<ul>
-				<li>Nulla facilisi. Proin ut dictum leo, eget dignissim metus. <strong>Suspendisse vel</strong> nibh mattis, ornare nibh sit amet</li>
-				<li>Fusce at ultrices nulla.</li>
-				<li>Lorem ipsum dolor sit amet, consectetur <a href="#">viverra dolor</a> adipiscing elit. In et ante eu purus tincidunt auctor. Maecenas aliquet viverra dolor, in lobortis purus condimentum eget.</li>
-			</ul>
-			<h3>Fusce at ultrices nulla vestibulum.</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et ante eu purus tincidunt auctor. Maecenas aliquet viverra dolor, in lobortis purus condimentum eget. In et laoreet neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			<ol>
-				<li>Nulla facilisi. Proin ut dictum leo, eget dignissim metus. Suspendisse vel nibh mattis, ornare nibh sit amet</li>
-				<li>Fusce at ultrices nulla.</li>
-				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et ante eu purus tincidunt auctor. Maecenas aliquet viverra dolor, in lobortis purus condimentum eget.</li>
-			</ol>
-			<p>Pellentesque tempus tincidunt tortor, <a href="#">quis eleifend nibh</a> laoreet nec. Proin tempus suscipit sem id finibus. <strong>Duis vitae felis</strong> at ipsum luctus ornare quis et orci.</p>
-			<h4>Fusce at ultrices nulla vestibulum.</h4>
-			<p>In feugiat eu ligula quis venenatis. Vivamus commodo mi ut leo interdum malesuada eu vel turpis. Fusce at ultrices nulla. Vestibulum congue in dui a mattis. Quisque nec pulvinar nunc. Nulla in blandit purus. Maecenas pretium massa urna, quis consequat sapien pulvinar sit amet. Phasellus at eleifend ligula. Nullam vel neque et tellus viverra porttitor. Ut at euismod quam, imperdiet eleifend mi.</p> 
-			<p>Pellentesque tempus tincidunt tortor, quis eleifend nibh laoreet nec.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur <strong>adipiscing elit</strong>. In et ante eu purus tincidunt auctor. Maecenas aliquet <a href="#">viverra dolor</a>, in lobortis purus condimentum eget. In et laoreet neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			<p>Pellentesque tempus tincidunt tortor, quis eleifend nibh laoreet nec. Proin tempus suscipit sem id finibus. Duis vitae felis at ipsum luctus ornare quis et orci.</p>
+<?php $body_classes = array('default');
+if(isset($_GET) && isset($_GET['totem']) && $_GET['totem'] == 1) :
+	$body_classes[] = 'totem';
+endif; ?>
+<body class="<?php echo implode(' ',$body_classes); ?>">
+	<div class="header">
+		<div class="aux">
+			<a class="logo" href="/">NOI Techpark Suedtirol/Alto Adige</a>
+			<a href="/" class="main-site-title site-title">NOI Techpark Maps</a>
+			<div class="language-selector-container">
+				<div class="title-container">
+					<span class="lang-close icon-close"><span class="icon translatable">Chiudi</span></span>
+					<h2 class="translatable">Opzioni</h2>
+				</div>
+				<div class="language-container hide-on-mobile">
+					<nav class="language-selector language-selector-desktop">
+						<ul class="language-list">
+							<li class="active"><a href="<?php echo $link_en; ?>" data-language="en" class="translatable language-tag">EN</a></li>
+							<li><a href="<?php echo $link_it; ?>" data-language="it" class="translatable language-tag">IT</a></li>
+							<li><a href="<?php echo $link_de; ?>" data-language="de" class="translatable language-tag">DE</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="language-container hide-on-desktop">
+					<p class="accent-color translatable">Scegli la lingua</p>
+					<nav class="filters-dropdown dropdown language-selector">
+						<span class="dropdown-trigger translatable language-tag" data-language="en">Inglese</span>
+						<ul class="dropdown-list language-list">
+							<li><a href="<?php echo $link_it; ?>" data-language="it" class="translatable language-tag">Italiano</a></li>
+							<li><a href="<?php echo $link_de; ?>" data-language="de" class="translatable language-tag">Tedesco</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<span class="menu-trigger icon-hamburger"><span class="icon translatable">Menu</span></span>
+			<span class="lang-trigger icon-lang"><span class="icon translatable">Lingua</span></span>			
 		</div>
 	</div>
-	
+	<div class="main-content">
+		<div class="content">
+			<h1>Credits</h1>
+			<p>Website and maps by <a href="https://www.madeincima.it/" target="_blank">MADE IN CIMA</a></p>
+		</div>
+	</div>
 	<div class="panel-footer-container">
 		<span class="panel-footer-overlay"></span>
 		<div class="panel-footer">
 			<span class="logo hide-on-desktop">NOI Techpark Suedtirol/Alto Adige</span>
 			<nav class="panel-menu">
 				<ul>
-					<li><a href="#">NOI Techpark Website</a></li>
-					<li><a href="#" class="active">Cookies & Privacy Policy</a></li>
-					<li><a href="#">Credits</a></li>
+					<li><a href="https://noi.bz.it/" target="_blank">NOI Techpark Website</a></li>
+					<li><a class="link-translatable" data-link-traslation="privacy" href="<?php if(isset($localizedLinks) && isset($localizedLinks['privacy']) && isset($localizedLinks['privacy']['en'])): echo $localizedLinks['privacy']['en']; else: echo '#'; endif; ?>">Cookies & Privacy Policy</a></li>
+					<li><a class="link-translatable" data-link-traslation="credits" href="<?php echo $link_en; ?>">Credits</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -53,5 +76,19 @@
 	<span class="js-media-query-tester"></span>
 </body>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript">
+	<?php //Translations
+	if($translations && !empty($translations)) : ?>
+		var translations = <?php echo json_encode($translations); ?>;
+	<?php endif;
+	if($localizedLinks && !empty($localizedLinks)) : ?>
+		var localizedLinks = <?php echo json_encode($localizedLinks); ?>;
+	<?php endif;
+	if($cookie_config && !empty($cookie_config)) : ?>
+		var cookie_config = <?php echo json_encode($cookie_config); ?>;
+	<?php endif; ?>
+</script>
+<?php include_once(dirname(dirname(__DIR__)).'/parts/google-tag-manager.php'); ?>
+<script src='../../src/js/jquery.cookie-madeincima.js'></script>
 <script src='../../src/js/utility-simple-page.js'></script>
 </html>
