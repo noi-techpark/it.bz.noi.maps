@@ -1,30 +1,31 @@
 <svg id="floor-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8192 3297.1">
   <defs>
-    <pattern id="LOCALE_TECNICO_2" data-name="LOCALE TECNICO 2" width="57" height="57" patternTransform="translate(-155.28 -374.7) scale(0.6)" patternUnits="userSpaceOnUse" viewBox="0 0 57 57">
+    <pattern id="LOCALE_TECNICO_2" data-name="LOCALE TECNICO 2" width="57" height="57" patternTransform="matrix(0.6, 0, 0, -0.6, -170.88, 843.7)" patternUnits="userSpaceOnUse" viewBox="0 0 57 57">
       <rect width="57" height="57" fill="none"/>
       <rect width="57" height="57" fill="none"/>
       <rect width="57" height="57" fill="none"/>
+      <rect width="57" height="57" fill="none"/>
       <g>
-        <rect x="53" y="52" width="60" height="58" fill="#f2f2f2"/>
-        <line x1="57" y1="57" x2="113.99" y2="114" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+        <rect x="53" y="-53" width="60" height="58" fill="#f2f2f2"/>
+        <line x1="57" x2="113.99" y2="-57" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
       </g>
       <g>
-        <rect x="-4" y="52" width="60" height="58" fill="#f2f2f2"/>
-        <line y1="57" x2="57" y2="114" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+        <rect x="-4" y="-53" width="60" height="58" fill="#f2f2f2"/>
+        <line x2="57" y2="-57" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
       </g>
-      <line x1="-57" y1="57" y2="114" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+      <line x1="-57" y2="-57" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
       <g>
-        <rect x="53" y="-5" width="60" height="58" fill="#f2f2f2"/>
-        <line x1="57" x2="113.99" y2="57" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+        <rect x="53" y="4" width="60" height="58" fill="#f2f2f2"/>
+        <line x1="57" y1="57" x2="113.99" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
       </g>
       <g>
-        <rect x="-4" y="-5" width="60" height="58" fill="#f2f2f2"/>
-        <line x2="57" y2="57" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+        <rect x="-4" y="4" width="60" height="58" fill="#f2f2f2"/>
+        <line y1="57" x2="57" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
       </g>
-      <line x1="-57" y2="57" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
-      <line x1="57" y1="-57" x2="113.99" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
-      <line y1="-57" x2="57" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
-      <line x1="-57" y1="-57" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+      <line x1="-57" y1="57" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+      <line x1="57" y1="114" x2="113.99" y2="57" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+      <line y1="114" x2="57" y2="57" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+      <line x1="-57" y1="114" y2="57" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
     </pattern>
   </defs>
   <g>
@@ -37,113 +38,120 @@
     <polygon id="locale_tecnico-11" data-name="locale tecnico-11" points="1620.77 2286.46 1620.77 2252.56 5489.67 2252.63 5489.67 2450.77 6871.95 2450.77 6871.95 2279.82 7388.51 2279.82 7631.95 2279.82 7631.95 3256.62 398.03 3256.62 398.03 2286.46 1620.77 2286.46" fill="url(#LOCALE_TECNICO_2)"/>
     <rect id="ascensore" x="7249.57" y="1684.19" width="169.14" height="176.39" fill="#f2f2f2"/>
     <rect id="ascensore-2" x="1515.59" y="1354.36" width="194.52" height="340.1" fill="#f2f2f2"/>
-    <g class="clickable" id="A2--1-30">
+    <g class="clickable" id="A2--1-30" data-name="customclass A2--1-30">
       <polygon points="4072.68 1797.15 4072.68 2232.7 4069.66 2232.7 4049.73 2232.7 3905.35 2232.7 3885.42 2232.7 3872.73 2232.7 3872.73 1797.15 4072.68 1797.15" fill="#ddd"/>
     </g>
-    <g class="clickable" id="A2--1-22">
+    <g class="clickable" id="A2--1-22" data-name="customclass A2--1-22">
       <polygon points="6852.08 2279.82 6852.08 2430.84 6156.78 2430.84 6156.78 2122.15 6156.78 2102.22 6156.78 1783.86 6156.78 1763.93 6156.78 1354.36 6173.09 1354.36 6533.12 1354.36 6533.12 1860.58 6533.12 1880.52 6553.06 1880.52 6638.23 1880.52 6638.23 2093.76 6638.23 2113.69 6658.17 2113.69 6852.08 2113.69 6852.08 2137.25 6852.08 2157.19 6852.08 2259.88 6852.08 2279.82" fill="#ddd"/>
     </g>
-    <g class="clickable" id="A2--1-21">
+    <g class="clickable" id="A2--1-21" data-name="customclass A2--1-21">
       <polyline points="6658.17 2093.76 6658.17 1880.52 6852.08 1880.52 6852.08 2040.6 6852.08 2060.53 6852.08 2093.76" fill="#f2f2f2"/>
     </g>
-    <g class="clickable" id="A2--1-15">
+    <g class="clickable" id="A2--1-15" data-name="customclass A2--1-15">
       <polygon points="6870.2 1247.44 6870.2 1334.42 6553.06 1334.42 6533.12 1334.42 6173.09 1334.42 6156.78 1334.42 6136.84 1334.42 5811.24 1334.42 5791.31 1334.42 5416.17 1334.42 5396.24 1334.42 4687.64 1334.42 4667.71 1334.42 4092.62 1334.42 4072.68 1334.42 3872.73 1334.42 3852.8 1334.42 2029.07 1334.42 2009.13 1334.42 1805.55 1334.42 1785.62 1334.42 1730.04 1334.42 1710.11 1334.42 1515.59 1334.42 1495.66 1334.42 876.47 1334.42 876.47 966.54 3379.2 966.54 3803.87 966.54 5076.68 966.54 5117.15 966.54 5363.61 966.54 5383.55 966.54 5590.15 966.54 5630.62 966.54 6870.2 966.54 6870.2 1227.5 6870.2 1247.44" fill="#f2f2f2"/>
     </g>
-    <g class="clickable" id="A2--1-14">
+    <g class="clickable" id="A2--1-14" data-name="customclass A2--1-14">
       <polygon points="7631.95 1374.9 7631.95 1664.26 7438.65 1664.26 7418.71 1664.26 7249.57 1664.26 7229.64 1664.26 7229.64 1684.19 7229.64 1860.58 7099.15 1860.58 7099.15 1374.9 7139.63 1374.9 7631.95 1374.9" fill="#f2f2f2"/>
     </g>
-    <g class="clickable" id="A2--1-13">
+    <g class="clickable" id="A2--1-13" data-name="customclass A2--1-13">
       <rect x="7446.5" y="2051.47" width="185.45" height="208.41" fill="#f2f2f2"/>
     </g>
-    <g class="clickable" id="A2--1-12">
+    <g class="clickable" id="A2--1-12" data-name="customclass A2--1-12">
       <polygon points="7220.57 2060.53 7220.57 2259.88 7001.29 2259.88 7001.29 2157.19 7001.29 2137.25 7001.29 2060.53 7220.57 2060.53" fill="#f2f2f2"/>
     </g>
-    <g class="clickable" id="A2--1-12-2">
+    <g class="clickable" id="A2--1-12-2" data-name="customclass A2--1-12-2">
       <polygon points="6981.35 2060.53 6981.35 2137.25 6872.02 2137.25 6872.02 2113.69 6872.02 2093.76 6872.02 2060.53 6981.35 2060.53" fill="#f2f2f2"/>
     </g>
-    <g class="clickable" id="A2--1-12-3">
+    <g class="clickable" id="A2--1-12-3" data-name="customclass A2--1-12-3">
       <rect x="6872.02" y="2157.19" width="109.34" height="102.69" fill="#f2f2f2"/>
     </g>
-    <g class="clickable" id="A2--1-11">
+    <g class="clickable" id="A2--1-11" data-name="customclass A2--1-11">
       <polygon points="7631.95 1684.19 7631.95 2031.54 7446.5 2031.54 7426.57 2031.54 7426.57 2051.47 7426.57 2259.88 7388.51 2259.88 7368.57 2259.88 7240.51 2259.88 7240.51 2060.53 7240.51 2040.6 7220.57 2040.6 6872.02 2040.6 6872.02 1880.52 6911.89 1880.52 6948.13 1880.52 7079.22 1880.52 7099.15 1880.52 7099.15 1890.18 7099.15 1879.91 7229.64 1879.91 7249.57 1879.91 7418.71 1879.91 7438.65 1879.91 7438.65 1830.38 7438.65 1684.19 7631.95 1684.19" fill="#f2f2f2"/>
     </g>
-    <g class="clickable" id="A2--1-10-5">
+    <g class="clickable" id="A2--1-10-5" data-name="customclass A2--1-10-5">
       <polygon points="6948.13 1354.36 6948.13 1860.58 6911.89 1860.58 6872.02 1860.58 6852.08 1860.58 6658.17 1860.58 6638.23 1860.58 6553.06 1860.58 6553.06 1354.36 6870.2 1354.36 6890.14 1354.36 6948.13 1354.36" fill="#ddd"/>
     </g>
-    <g class="clickable" id="A2--1-10-4-I">
+    <g class="clickable" id="A2--1-10-4-I" data-name="customclass A2--1-10-4-I">
       <polygon points="6136.84 1354.36 6136.84 1763.93 5811.24 1763.93 5811.24 1582.7 5811.24 1562.77 5811.24 1354.36 6136.84 1354.36" fill="#ddd"/>
     </g>
-    <g class="clickable" id="A2--1-10-4-H">
+    <g class="clickable" id="A2--1-10-4-H" data-name="customclass A2--1-10-4-H">
       <polyline points="5509.8 2430.84 5509.8 2252.63 5683.78 2252.63 5703.72 2252.63 5791.31 2252.63 5811.24 2252.63 5877.69 2252.63 5877.69 2430.84" fill="#ddd"/>
     </g>
-    <g class="clickable" id="A2--1-10-4-G">
+    <g class="clickable" id="A2--1-10-4-G" data-name="customclass A2--1-10-4-G">
       <polygon points="5683.78 1884.75 5683.78 2232.7 5509.8 2232.7 5489.87 2232.7 5416.17 2232.7 5416.17 1884.75 5599.21 1884.75 5619.14 1884.75 5683.78 1884.75" fill="#ddd"/>
     </g>
-    <g class="clickable" id="A2--1-10-4-F">
+    <g class="clickable" id="A2--1-10-4-F" data-name="customclass A2--1-10-4-F">
       <polygon points="6136.84 2122.15 6136.84 2430.84 5897.63 2430.84 5897.63 2252.63 5897.63 2232.7 5877.69 2232.7 5811.24 2232.7 5811.24 2122.15 6136.84 2122.15" fill="#ddd"/>
     </g>
-    <g class="clickable" id="A2--1-10-4-E">
+    <g class="clickable" id="A2--1-10-4-E" data-name="customclass A2--1-10-4-E">
       <polygon points="6136.84 1783.86 6136.84 2102.22 5811.24 2102.22 5811.24 1884.75 5811.24 1864.81 5811.24 1783.86 6136.84 1783.86" fill="#ddd"/>
     </g>
-    <g class="clickable" id="A2--1-10-4-D">
+    <g class="clickable" id="A2--1-10-4-D" data-name="customclass A2--1-10-4-D">
       <polygon points="5703.72 1884.75 5710.96 1884.75 5788.89 1884.75 5791.31 1884.75 5791.31 1891.69 5791.31 2232.7 5703.72 2232.7 5703.72 1884.75" fill="#f2f2f2"/>
     </g>
-    <g class="clickable" id="A2--1-10-4-C">
+    <g class="clickable" id="A2--1-10-4-C" data-name="customclass A2--1-10-4-C">
       <polygon points="5791.31 1783.86 5791.31 1864.81 5703.72 1864.81 5683.78 1864.81 5619.14 1864.81 5619.14 1582.7 5791.31 1582.7 5791.31 1763.93 5791.31 1783.86" fill="#ddd"/>
     </g>
-    <g class="clickable" id="A2--1-10-4-B">
+    <g class="clickable" id="A2--1-10-4-B" data-name="customclass A2--1-10-4-B">
       <rect x="5416.17" y="1582.7" width="183.04" height="282.11" fill="#ddd"/>
     </g>
-    <g class="clickable" id="A2--1-10-4-A">
+    <g class="clickable" id="A2--1-10-4-A" data-name="customclass A2--1-10-4-A">
       <polygon points="5791.31 1449.2 5791.31 1562.77 5619.14 1562.77 5599.21 1562.77 5540.01 1562.77 5459.06 1562.77 5416.17 1562.77 5416.17 1461.28 5416.17 1354.36 5791.31 1354.36 5791.31 1375.2 5791.31 1449.2" fill="#f2f2f2"/>
     </g>
-    <g class="clickable" id="A2--1-10-3-D">
+    <g class="clickable" id="A2--1-10-3-D" data-name="customclass A2--1-10-3-D">
       <rect x="5063.99" y="1884.75" width="332.25" height="347.95" fill="#ddd"/>
     </g>
-    <g class="clickable" id="A2--1-10-3-C">
+    <g class="clickable" id="A2--1-10-3-C" data-name="customclass A2--1-10-3-C">
       <polygon points="5044.05 2087.72 5044.05 2232.7 4785.51 2232.7 4765.57 2232.7 4687.64 2232.7 4687.64 2087.72 5044.05 2087.72" fill="#ddd"/>
     </g>
-    <g class="clickable" id="A2--1-10-3-A">
+    <g class="clickable" id="A2--1-10-3-A" data-name="customclass A2--1-10-3-A">
       <polygon points="5396.24 1582.7 5396.24 1864.81 5063.99 1864.81 5044.05 1864.81 5044.05 1884.75 5044.05 2067.78 4687.64 2067.78 4687.64 1582.7 5396.24 1582.7" fill="#ddd"/>
     </g>
-    <g class="clickable" id="A2--1-10-2">
+    <g class="clickable" id="A2--1-10-2" data-name="customclass A2--1-10-2">
       <polygon points="4667.71 2087.72 4667.71 2232.7 4092.62 2232.7 4092.62 1889.58 4092.62 1869.64 4092.62 1797.15 4092.62 1777.22 4092.62 1694.46 4092.62 1674.52 4092.62 1354.36 4667.71 1354.36 4667.71 1562.77 4667.71 1582.7 4667.71 2067.78 4667.71 2087.72" fill="#ddd"/>
     </g>
-    <g class="clickable" id="A2--1-10-1">
+    <g class="clickable" id="A2--1-10-1" data-name="customclass A2--1-10-1">
       <rect x="4687.64" y="1354.36" width="708.59" height="208.41" fill="#f2f2f2"/>
     </g>
-    <g class="clickable" id="A2--1-09">
+    <g class="clickable" id="A2--1-09" data-name="customclass A2--1-09">
       <rect x="3872.73" y="1354.36" width="199.95" height="320.17" fill="#ddd"/>
     </g>
-    <g class="clickable" id="A2--1-09-2">
+    <g class="clickable" id="A2--1-09-2" data-name="customclass A2--1-09-2">
       <rect x="3872.73" y="1694.46" width="199.95" height="82.76" fill="#ddd"/>
     </g>
-    <g class="clickable" id="A2--1-08">
+    <g class="clickable" id="A2--1-08" data-name="customclass A2--1-08">
       <polygon points="3852.8 1889.58 3852.8 2232.7 3297.64 2232.7 3277.71 2232.7 3167.16 2232.7 3147.23 2232.7 2560.66 2232.7 2540.72 2232.7 2416.89 2232.7 2396.95 2232.7 2029.07 2232.7 2029.07 1354.36 3852.8 1354.36 3852.8 1674.52 3852.8 1694.46 3852.8 1777.22 3852.8 1797.15 3852.8 1869.64 3852.8 1889.58" fill="#ddd"/>
     </g>
-    <g class="clickable" id="A2--1-08-2">
+    <g class="clickable" id="A2--1-08-2" data-name="customclass A2--1-08-2">
       <polygon points="2009.13 1354.36 2009.13 2232.7 1805.55 2232.7 1805.55 1851.52 1805.55 1831.59 1805.55 1714.39 1805.55 1694.46 1805.55 1354.36 2009.13 1354.36" fill="#ddd"/>
     </g>
-    <g class="clickable" id="A2--1-06">
+    <g class="clickable" id="A2--1-06" data-name="customclass A2--1-06">
       <polygon points="1334.37 2032.75 1334.37 2266.53 1196.63 2266.53 1196.63 2154.77 1196.63 2134.84 1196.63 2032.75 1334.37 2032.75" fill="#f2f2f2"/>
     </g>
-    <g class="clickable" id="A2--1-05">
+    <g class="clickable" id="A2--1-05" data-name="customclass A2--1-05">
       <polygon points="1049.24 2154.77 1049.24 2266.53 914.53 2266.53 894.59 2266.53 876.47 2266.53 876.47 2245.99 876.47 2032.75 1049.24 2032.75 1049.24 2134.84 1049.24 2154.77" fill="#f2f2f2"/>
     </g>
-    <g class="clickable" id="A2--1-05-2">
+    <g class="clickable" id="A2--1-05-2" data-name="customclass A2--1-05-2">
       <rect x="1069.17" y="2032.75" width="107.53" height="102.09" fill="#f2f2f2"/>
     </g>
-    <g class="clickable" id="A2--1-05-3">
+    <g class="clickable" id="A2--1-05-3" data-name="customclass A2--1-05-3">
       <rect x="1069.17" y="2154.77" width="107.53" height="111.76" fill="#f2f2f2"/>
     </g>
-    <g class="clickable" id="A2--1-04">
+    <g class="clickable" id="A2--1-04" data-name="customclass A2--1-04">
       <rect x="876.47" y="1683.59" width="441.59" height="149.21" fill="#ddd"/>
     </g>
-    <g class="clickable" id="A2--1-03">
+    <g class="clickable" id="A2--1-03" data-name="customclass A2--1-03">
       <polygon points="1785.62 1851.52 1785.62 2232.7 1736.69 2232.7 1716.75 2232.7 1620.7 2232.7 1600.77 2232.7 1600.77 2252.63 1600.77 2266.53 1354.3 2266.53 1354.3 2032.75 1354.3 2012.81 1334.37 2012.81 1196.63 2012.81 1176.7 2012.81 1069.17 2012.81 1049.24 2012.81 876.47 2012.81 876.47 1852.73 1318.06 1852.73 1337.99 1852.73 1495.66 1852.73 1515.59 1852.73 1515.59 1832.8 1515.59 1714.39 1710.11 1714.39 1710.11 1831.59 1710.11 1851.52 1730.04 1851.52 1785.62 1851.52" fill="#f2f2f2"/>
     </g>
-    <g class="clickable" id="A2--1-02">
+    <g class="clickable" id="A2--1-02" data-name="customclass A2--1-02">
       <polygon points="1495.66 1714.39 1495.66 1832.8 1337.99 1832.8 1337.99 1683.59 1337.99 1663.65 1318.06 1663.65 876.47 1663.65 876.47 1354.36 1495.66 1354.36 1495.66 1694.46 1495.66 1714.39" fill="#f2f2f2"/>
+    </g>
+    <g class="teleport" data-teleport="G1_-1" id="A2--1-G1--1" data-name="teleport G1_-1 idPathA2--1-G1--1">
+      <rect id="room-box-29" x="6889.19" y="657.02" width="249.5" height="269.07" fill="none" stroke="#f2f2f2" stroke-miterlimit="10"/>
+      <g>
+        <path d="M7013.9,716.65a75,75,0,0,0-75.19,74.81v.13c0,41.4,33.72,74.87,75.27,74.87a75,75,0,0,0,75.2-74.8v-.07c0-41.39-33.72-74.94-75.28-74.94" fill="#fff" stroke="#303030"/>
+        <path d="M7002.47,800.49h8.82c13.23,0,18.7-5.39,18.7-15.35,0-8.49-5-14.53-18.29-14.53h-9.23Zm-8.81,37.72v-75h18.88c15.11,0,26.46,7.27,26.46,21.64s-10.21,23.1-27.68,23.1h-8.82v30.29Zm67.1-69.8-46.78-17-46.86,17-2.12-5.72L7013.9,745l48.91,17.71Z"/>
+      </g>
     </g>
     <g>
       <path d="M1710.11,1831.58v19.94h75.51v29h19.93V1354.36h6.65v-19.94H1434.64v19.94h61v478.43h-35v19.94h55V1354.36h194.52ZM1730,1714.39v-360h55.58v477.22H1730Z" fill="#b7b7b7"/>
