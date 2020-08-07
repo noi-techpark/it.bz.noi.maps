@@ -93,25 +93,25 @@
       <polygon id="locale_tecnico-19" data-name="locale tecnico-19" points="4172.34 3170.63 4172.34 2960.04 3763.34 2960.04 3763.34 3182.5 3538 3182.5 3538 3218.63 3316.58 3218.63 3316.58 3458.18 3967.95 3458.18 3967.95 3170.63 4172.34 3170.63" fill="url(#LOCALE_TECNICO-5)"/>
       <rect id="locale_tecnico-20" data-name="locale tecnico-20" x="34.95" y="1853.44" width="279.23" height="301.94" fill="url(#LOCALE_TECNICO)"/>
       <polygon id="locale_tecnico-21" data-name="locale tecnico-21" points="5028.62 782.44 5028.62 898.06 4375.19 898.06 2192.94 898.06 2192.94 782.44 4375.19 782.44 5028.62 782.44" fill="url(#LOCALE_TECNICO)"/>
-      <g class="clickable" id="G1--1-32" data-name="customclass G1--1-32">
+      <g class="clickable" id="P1--1-32" data-name="customclass G1--1-32">
         <g>
           <polygon points="3315.8 2814.75 3967.18 2814.75 3967.18 2942.24 3745.23 2942.24 3745.23 3164.18 3519.68 3164.18 3519.68 3200.31 3315.8 3200.31 3315.8 2814.75" fill="#f2f2f2"/>
           <path d="M3520.05,2996.67H3315.48V2610.38h652.1V2738.6h-222v221.94H3520.05Zm-203.88-.73h203.14v-36.08h225.56v-222h221.94V2611.11H3316.17Z" transform="translate(0 204)" fill="#f2f2f2"/>
         </g>
       </g>
-      <g class="clickable" id="G1--1-30" data-name="customclass G1--1-30">
+      <g class="clickable" id="P1--1-30" data-name="customclass G1--1-30">
         <g>
           <rect x="3985.24" y="2763.65" width="186.84" height="178.07" fill="#f2f2f2"/>
           <path d="M4172.48,2738.09H3984.87V2559.28h187.61Zm-186.84-.74h186.11V2560H3985.61Z" transform="translate(0 204)" fill="#f2f2f2"/>
         </g>
       </g>
-      <g class="clickable" id="G1--1-15" data-name="customclass G1--1-15">
+      <g class="clickable" id="P1--1-15" data-name="customclass G1--1-15">
         <rect id="_tracciato_" data-name=" tracciato " x="5805.93" y="969.8" width="117.16" height="85.16" fill="#f2f2f2"/>
       </g>
-      <g class="clickable" id="G1--1-01" data-name="customclass G1--1-01">
+      <g class="clickable" id="P1--1-01" data-name="customclass G1--1-01">
         <polygon id="_tracciato_2" data-name=" tracciato 2" points="5923.1 1072 5923.1 2021.18 5697.84 2021.18 5661.19 2021.18 5661.19 2141.44 5661.19 2368.03 5542.18 2368.03 5517.92 2368.03 5517.92 2402.61 5517.92 2608.55 5195.85 2608.55 5161.27 2608.55 5045.21 2608.55 5045.21 2474.87 5045.21 2440.29 5045.21 2381.45 5010.63 2381.45 5010.63 2440.29 4375.19 2440.29 4206.92 2440.29 4206.92 2381.45 4172.34 2381.45 4172.34 2440.29 4172.34 2474.87 4172.34 2745.83 4042.97 2745.83 4042.97 2745.83 4042.97 2607.52 2042.22 2607.52 1336.14 2607.52 1336.14 2438.74 1336.14 2425.84 1301.56 2425.84 348.25 2425.84 348.25 863.54 1244.94 782.44 2192.94 782.44 2192.94 898.06 2192.94 915.09 2209.97 915.09 4375.19 915.09 5028.62 915.09 5045.65 915.09 5788.9 915.09 5788.9 952.77 5788.9 969.8 5788.9 1054.96 5788.9 1072 5805.93 1072 5923.1 1072" fill="#f2f2f2"/>
       </g>
-      <g class="clickable" data-building-code="A4" id="G1--1-A4--1" data-floor-code="-1">
+      <g class="clickable" data-building-code="A4" id="P1--1-A4--1" data-floor-code="-1">
         <rect x="5526.21" y="-193.59" width="201.46" height="203.42" transform="translate(32.54 723.31) rotate(-5.3)" fill="none" stroke="#f2f2f2" stroke-miterlimit="10"/>
         <path d="M5628.74-163a69.16,69.16,0,0,0-69.33,69v.12a69.2,69.2,0,0,0,69.4,69,69.16,69.16,0,0,0,69.35-69v-.06A69.28,69.28,0,0,0,5628.74-163" transform="translate(0 204)" fill="#fff" stroke="#303030"/>
         <g>
@@ -119,7 +119,7 @@
           <path d="M5665.3-75v8.11h-7.51V-75H5636v-7.21l19-38.67h8.34l-18.95,38.67h13.42V-94.85h7.51v12.59h5.76V-75Z" transform="translate(0 204)"/>
         </g>
       </g>
-      <g class="clickable" data-building-code="A1" id="G1--1-A1--1" data-floor-code="-1">
+      <g class="clickable" data-building-code="A1" id="P1--1-A1--1" data-floor-code="-1">
         <rect x="5553.77" y="2403.79" width="172.23" height="173.91" fill="none" stroke="#f2f2f2" stroke-miterlimit="10"/>
         <path d="M5636.45,2218.16a69.15,69.15,0,0,0-69.33,69v.12a69.38,69.38,0,0,0,138.75.06v-.06a69.26,69.26,0,0,0-69.42-69.1" transform="translate(0 204)" fill="#fff" stroke="#303030"/>
         <g>
@@ -127,7 +127,7 @@
           <path d="M5661.62,2314.22v-45.57l-10.55,9.25v-8.57l10.55-9.1h7.73v54Z" transform="translate(0 204)"/>
         </g>
       </g>
-      <g class="clickable" data-building-code="A2" id="G1--1-A2--1" data-floor-code="-1">
+      <g class="clickable" data-building-code="A2" id="P1--1-A2--1" data-floor-code="-1">
         <rect x="1121.06" y="2461.39" width="178.86" height="180.61" fill="none" stroke="#f2f2f2" stroke-miterlimit="10"/>
         <path d="M1210,2278.26a69.16,69.16,0,0,0-69.33,69v.12a69.37,69.37,0,0,0,138.74.06v-.06a69.27,69.27,0,0,0-69.41-69.11" transform="translate(0 204)" fill="#fff" stroke="#303030"/>
         <g>

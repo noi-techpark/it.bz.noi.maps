@@ -142,22 +142,22 @@
       <polygon id="locale_tecnico-17" data-name="locale tecnico-17" points="4171.2 2625.49 4171.2 2745.76 3985.38 2745.76 3967.31 2745.76 3967.31 2745.76 3967.31 2745.76 3315.9 2745.76 3315.9 2745.76 3315.9 2745.76 3315.9 2745.75 3281.32 2745.75 2072.44 2745.75 2072.44 2642.01 2072.44 2625.49 4171.2 2625.49" fill="url(#LOCALE_TECNICO-3)"/>
       <path id="locale_tecnico-18" data-name="locale tecnico-18" d="M4372.9,578.07h-2543c246,58.14,350.92,382.49,350.92,382.49h14.46V710.73h-2.59v-17H5023.4V578.07Z" transform="translate(0 204.16)" fill="url(#LOCALE_TECNICO-7)"/>
       <rect id="ascensore" x="5796.11" y="3739.91" width="169.3" height="118.2" fill="#f2f2f2"/>
-      <g class="clickable" id="G1--2-29" data-name="customclass G1--2-29">
+      <g class="clickable" id="P1--2-29" data-name="customclass G1--2-29">
         <polygon id="_tracciato_" data-name=" tracciato " points="5965.42 3113.28 5965.42 3722.88 5796.11 3722.88 5796.11 3113.28 5813.66 3113.28 5965.42 3113.28" fill="#f2f2f2"/>
       </g>
-      <g class="clickable" id="G1--2-28" data-name="customclass G1--2-28">
+      <g class="clickable" id="P1--2-28" data-name="customclass G1--2-28">
         <polygon id="_tracciato_2" data-name=" tracciato 2" points="5779.08 3113.28 5779.08 3722.88 5683.59 3722.88 5683.59 2966.68 5683.59 2932.1 5649 2932.1 5552.48 2932.1 5552.48 2643.04 5552.48 2608.46 5552.48 2385.99 5660.87 2385.99 5660.87 2597.1 5660.87 2631.69 5695.46 2631.69 5779.08 2631.69 5779.08 3078.69 5779.08 3113.28" fill="#f2f2f2"/>
       </g>
-      <g class="clickable" id="G1--2-20" data-name="customclass G1--2-20">
+      <g class="clickable" id="P1--2-20" data-name="customclass G1--2-20">
         <polygon id="_tracciato_3" data-name=" tracciato 3" points="618.38 2461.35 618.38 2534.13 348.42 2534.13 348.42 2326.11 618.38 2326.11 618.38 2426.77 618.38 2443.8 618.38 2461.35" fill="#f2f2f2"/>
       </g>
-      <g class="clickable" id="G1--2-14" data-name="customclass G1--2-14">
+      <g class="clickable" id="P1--2-14" data-name="customclass G1--2-14">
         <rect id="_tracciato_4" data-name=" tracciato 4" x="5337.75" y="782.24" width="585.34" height="114.59" fill="#f2f2f2"/>
       </g>
-      <g class="clickable" id="G1--2-12" data-name="customclass G1--2-12">
+      <g class="clickable" id="P1--2-12" data-name="customclass G1--2-12">
         <rect id="_tracciato_5" data-name=" tracciato 5" x="5039.92" y="782.24" width="280.8" height="114.59" fill="#f2f2f2"/>
       </g>
-      <g class="clickable" id="G1--2-01" data-name="customclass G1--2-01">
+      <g class="clickable" id="P1--2-01" data-name="customclass G1--2-01">
         <polygon id="_tracciato_6" data-name=" tracciato 6" points="5923.09 913.86 5923.09 2021.05 5660.87 2021.05 5660.87 2145.45 5660.87 2368.96 5552.48 2368.96 5535.44 2368.96 5535.44 2385.99 5535.44 2608.46 5517.89 2608.46 5045.08 2608.46 5045.08 2415.93 5045.08 2381.34 5010.5 2381.34 4206.81 2381.34 4172.23 2381.34 4172.23 2415.93 4172.23 2608.98 2072.95 2608.98 2072.95 2608.98 2072.95 2608.98 2038.37 2608.98 1207.85 2608.98 1207.85 2461.35 1207.85 2426.77 1173.26 2426.77 652.96 2426.77 635.41 2426.77 635.41 2326.11 635.41 2309.08 618.38 2309.08 348.42 2309.08 348.42 2189.84 348.42 2155.26 348.42 2155.26 348.42 2155.26 348.42 1853.3 348.42 1853.3 348.42 1853.3 348.42 1818.71 348.42 1158.83 609.75 1159.09 992.07 1167.09 2195 1167.09 2195 913.86 5022.88 913.86 5022.88 896.83 5022.88 913.86 5039.92 913.86 5320.72 913.86 5337.75 913.86 5923.09 913.86" fill="#f2f2f2"/>
       </g>
     </g>
