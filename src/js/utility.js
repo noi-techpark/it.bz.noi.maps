@@ -42,9 +42,6 @@ function setupMapBehaviours() {
 	var hammertime = new Hammer(mapContainer, {});
 	hammertime.off('tap');
 	hammertime.on('tap', function(ev) {
-		console.log('tapped ' + ev.target.className);
-		console.log(ev.target.className);
-		console.log(ev.target);
 
 		if( $(ev.target).parents('.tooltip.active').length==0 ) {
 			$("#map .clickable").each(function(i) {
