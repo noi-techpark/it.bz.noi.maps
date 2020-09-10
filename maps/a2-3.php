@@ -1,272 +1,278 @@
-<svg id="floor3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8192 3297.1">
+<svg id="floor3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 7831.36 1890.22">
   <defs>
-    <pattern id="LOCALE_TECNICO_3" data-name="LOCALE TECNICO 3" width="57" height="57" patternTransform="translate(-14.48 138.52) scale(0.6)" patternUnits="userSpaceOnUse" viewBox="0 0 57 57">
-      <rect width="57" height="57" fill="none"/>
-      <rect width="57" height="57" fill="none"/>
-      <rect width="57" height="57" fill="none"/>
+    <pattern id="LOCALE_TECNICO_3" data-name="LOCALE TECNICO 3" width="57" height="57" patternTransform="matrix(-0.6, 0, 0, 0.6, 32.28, -422.18)" patternUnits="userSpaceOnUse" viewBox="0 0 57 57">
+      <rect width="57" height="57" style="fill: none"/>
+      <rect width="57" height="57" style="fill: none"/>
+      <rect width="57" height="57" style="fill: none"/>
+      <rect width="57" height="57" style="fill: none"/>
       <g>
-        <rect x="53" y="52" width="60" height="58" fill="#f2f2f2"/>
-        <line x1="57" y1="57" x2="113.99" y2="114" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+        <rect x="53" y="-53" width="60" height="58" style="fill: #f2f2f2"/>
+        <line x1="57" x2="113.99" y2="-57" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
       </g>
       <g>
-        <rect x="-4" y="52" width="60" height="58" fill="#f2f2f2"/>
-        <line y1="57" x2="57" y2="114" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+        <rect x="-4" y="-53" width="60" height="58" style="fill: #f2f2f2"/>
+        <line x2="57" y2="-57" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
       </g>
-      <line x1="-57" y1="57" y2="114" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+      <line x1="-57" y2="-57" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
       <g>
-        <rect x="53" y="-5" width="60" height="58" fill="#f2f2f2"/>
-        <line x1="57" x2="113.99" y2="57" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+        <rect x="53" y="4" width="60" height="58" style="fill: #f2f2f2"/>
+        <line x1="57" y1="57" x2="113.99" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
       </g>
       <g>
-        <rect x="-4" y="-5" width="60" height="58" fill="#f2f2f2"/>
-        <line x2="57" y2="57" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+        <rect x="-4" y="4" width="60" height="58" style="fill: #f2f2f2"/>
+        <line y1="57" x2="57" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
       </g>
-      <line x1="-57" y2="57" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
-      <line x1="57" y1="-57" x2="113.99" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
-      <line y1="-57" x2="57" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
-      <line x1="-57" y1="-57" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+      <line x1="-57" y1="57" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
+      <line x1="57" y1="114" x2="113.99" y2="57" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
+      <line y1="114" x2="57" y2="57" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
+      <line x1="-57" y1="114" y2="57" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
     </pattern>
-    <pattern id="LOCALE_TECNICO_3-7" data-name="LOCALE TECNICO 3-7" width="57" height="57" patternTransform="translate(-53.43 131.59) scale(0.69 0.72)" patternUnits="userSpaceOnUse" viewBox="0 0 57 57">
-      <rect width="57" height="57" fill="none"/>
-      <rect width="57" height="57" fill="none"/>
-      <rect width="57" height="57" fill="none"/>
+    <pattern id="LOCALE_TECNICO_3-7" data-name="LOCALE TECNICO 3-7" width="57" height="57" patternTransform="matrix(-0.69, 0, 0, 0.72, 107.14, -449.63)" patternUnits="userSpaceOnUse" viewBox="0 0 57 57">
+      <rect width="57" height="57" style="fill: none"/>
+      <rect width="57" height="57" style="fill: none"/>
+      <rect width="57" height="57" style="fill: none"/>
+      <rect width="57" height="57" style="fill: none"/>
       <g>
-        <rect x="53" y="52" width="60" height="58" fill="#f2f2f2"/>
-        <line x1="57" y1="57" x2="113.99" y2="114" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+        <rect x="53" y="-53" width="60" height="58" style="fill: #f2f2f2"/>
+        <line x1="57" x2="113.99" y2="-57" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
       </g>
       <g>
-        <rect x="-4" y="52" width="60" height="58" fill="#f2f2f2"/>
-        <line y1="57" x2="57" y2="114" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+        <rect x="-4" y="-53" width="60" height="58" style="fill: #f2f2f2"/>
+        <line x2="57" y2="-57" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
       </g>
-      <line x1="-57" y1="57" y2="114" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+      <line x1="-57" y2="-57" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
       <g>
-        <rect x="53" y="-5" width="60" height="58" fill="#f2f2f2"/>
-        <line x1="57" x2="113.99" y2="57" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+        <rect x="53" y="4" width="60" height="58" style="fill: #f2f2f2"/>
+        <line x1="57" y1="57" x2="113.99" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
       </g>
       <g>
-        <rect x="-4" y="-5" width="60" height="58" fill="#f2f2f2"/>
-        <line x2="57" y2="57" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+        <rect x="-4" y="4" width="60" height="58" style="fill: #f2f2f2"/>
+        <line y1="57" x2="57" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
       </g>
-      <line x1="-57" y2="57" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
-      <line x1="57" y1="-57" x2="113.99" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
-      <line y1="-57" x2="57" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
-      <line x1="-57" y1="-57" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+      <line x1="-57" y1="57" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
+      <line x1="57" y1="114" x2="113.99" y2="57" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
+      <line y1="114" x2="57" y2="57" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
+      <line x1="-57" y1="114" y2="57" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
     </pattern>
   </defs>
-  <rect width="8192" height="3297.1" fill="none"/>
   <g>
-    <polygon id="background" points="8192 2434.16 6228.72 2434.16 6228.72 3204.07 2442.92 3204.07 2442.92 2419.36 360.64 2419.36 360.64 1838.23 819.14 1838.23 819.14 1313.88 7720.81 1313.88 7720.81 1777.82 8191.4 1777.82 8192 2434.16" fill="#f2f2f2"/>
-    <polygon id="locale_tecnico" data-name="locale tecnico" points="7680.94 2253.24 7680.94 2393.99 6875.09 2393.99 6875.09 2253.24 6913.76 2253.24 6933.69 2253.24 7638.66 2253.24 7658.59 2253.24 7680.94 2253.24" fill="url(#LOCALE_TECNICO_3)"/>
-    <rect id="locale_tecnico-2" data-name="locale tecnico-2" x="6971.14" y="1354.36" width="50.74" height="503.81" fill="url(#LOCALE_TECNICO_3)"/>
-    <polygon id="locale_tecnico-3" data-name="locale tecnico-3" points="6203.43 1878.1 6179.79 1878.1 6178.26 1878.1 6105.49 1878.1 6089.78 1878.1 6085.56 1878.1 5567.85 1878.1 5547.92 1878.1 5379.98 1878.1 5379.98 2233.3 6089.78 2233.3 6179.79 2233.3 6618.36 2233.3 6618.36 1878.1 6203.43 1878.1" fill="url(#LOCALE_TECNICO_3)"/>
-    <polygon id="locale_tecnico-4" data-name="locale tecnico-4" points="4745.09 2413.92 4725.15 2413.92 4725.15 2233.3 5241.65 2233.3 5241.65 1878.1 4749.69 1878.1 4726.09 1878.1 4725.15 1878.1 4653.87 1878.1 4649.04 1878.1 4629.1 1878.1 4095.7 1878.1 4075.76 1878.1 4045.56 1878.1 3994.21 1878.1 3941.57 1878.1 3919.71 1878.1 3332.19 1878.1 3310.33 1878.1 3272.93 1878.1 3235.48 1878.1 3193.89 1878.1 3171.2 1878.1 2799.33 1878.1 2799.33 2152.96 2799.33 2301.57 2799.33 2413.92 2799.33 2435.07 2799.33 2514.81 2942.5 2514.81 2962.43 2514.81 5678.4 2514.81 5698.34 2514.81 5992.53 2514.81 5992.53 2413.92 4745.09 2413.92" fill="url(#LOCALE_TECNICO_3-7)"/>
-    <polygon id="locale_tecnico-5" data-name="locale tecnico-5" points="1788.7 1354.36 1788.7 1858.17 1733.12 1858.17 1733.12 1714.39 1733.12 1694.46 1733.12 1354.36 1788.7 1354.36" fill="url(#LOCALE_TECNICO_3)"/>
-    <polygon id="locale_tecnico-6" data-name="locale tecnico-6" points="2544.12 2253.24 2544.12 2386.14 859.01 2386.14 859.01 2253.24 2544.12 2253.24" fill="url(#LOCALE_TECNICO_3)"/>
-    <rect id="asccensore" x="7252.04" y="1684.19" width="169.75" height="173.98" fill="#f2f2f2"/>
-    <rect id="asccensore-2" x="1518.67" y="1354.36" width="194.52" height="340.1" fill="#f2f2f2"/>
-    <g class="clickable" id="A2-3-021">
-      <polygon points="5678.4 2534.74 5678.4 2652.54 4687.1 2652.54 4667.16 2652.54 4312.56 2652.54 4292.63 2652.54 2962.43 2652.54 2962.43 2534.74 5678.4 2534.74" fill="#f2f2f2"/>
+    <polygon id="background" points="0 769.94 1963.28 769.94 1963.28 0.03 5749.08 0.03 5749.08 784.74 7831.36 784.74 7831.36 1365.87 7372.86 1365.87 7372.86 1890.22 471.19 1890.22 471.19 1426.28 0.6 1426.28 0 769.94" style="fill: #f2f2f2"/>
+    <polygon id="locale_tecnico" data-name="locale tecnico" points="511.06 950.86 511.06 810.11 1316.91 810.11 1316.91 950.86 1278.24 950.86 1258.31 950.86 553.34 950.86 533.41 950.86 511.06 950.86" style="fill: url(#LOCALE_TECNICO_3)"/>
+    <rect id="locale_tecnico-2" data-name="locale tecnico-2" x="1170.12" y="1345.93" width="50.74" height="503.81" style="fill: url(#LOCALE_TECNICO_3)"/>
+    <polygon id="locale_tecnico-3" data-name="locale tecnico-3" points="1988.57 1326 2012.21 1326 2013.74 1326 2086.51 1326 2102.22 1326 2106.44 1326 2624.15 1326 2644.08 1326 2812.02 1326 2812.02 970.8 2102.22 970.8 2012.21 970.8 1573.64 970.8 1573.64 1326 1988.57 1326" style="fill: url(#LOCALE_TECNICO_3)"/>
+    <polygon id="locale_tecnico-4" data-name="locale tecnico-4" points="3446.91 790.18 3466.85 790.18 3466.85 970.8 2950.35 970.8 2950.35 1326 3442.31 1326 3465.91 1326 3466.85 1326 3538.13 1326 3542.96 1326 3562.9 1326 4096.3 1326 4116.24 1326 4146.44 1326 4197.79 1326 4250.43 1326 4272.29 1326 4859.81 1326 4881.67 1326 4919.07 1326 4956.52 1326 4998.11 1326 5020.8 1326 5392.67 1326 5392.67 1051.14 5392.67 902.53 5392.67 790.18 5392.67 769.03 5392.67 689.29 5249.5 689.29 5229.57 689.29 2513.6 689.29 2493.66 689.29 2199.47 689.29 2199.47 790.18 3446.91 790.18" style="fill: url(#LOCALE_TECNICO_3-7)"/>
+    <polygon id="locale_tecnico-5" data-name="locale tecnico-5" points="6403.3 1849.74 6403.3 1345.93 6458.88 1345.93 6458.88 1489.71 6458.88 1509.64 6458.88 1849.74 6403.3 1849.74" style="fill: url(#LOCALE_TECNICO_3)"/>
+    <polygon id="locale_tecnico-6" data-name="locale tecnico-6" points="5647.88 950.86 5647.88 817.96 7332.99 817.96 7332.99 950.86 5647.88 950.86" style="fill: url(#LOCALE_TECNICO_3)"/>
+    <rect class="clickable" id="A2-3-04-B" data-name="customclass A2-3-04-B" x="770.21" y="1345.93" width="225.58" height="173.98" style="fill: #f2f2f2"/>
+    <rect class="clickable" id="A2-3-19-D" data-name="customclass A2-3-19-D" x="6478.81" y="1326" width="194.52" height="523.74" style="fill: #f2f2f2"/>
+    <g class="clickable" id="A2-3-021" data-name="customclass A2-3-021">
+      <polygon points="2513.6 669.36 2513.6 551.56 3504.9 551.56 3524.84 551.56 3879.44 551.56 3899.37 551.56 5229.57 551.56 5229.57 669.36 2513.6 669.36" style="fill: #f2f2f2"/>
     </g>
-    <g class="clickable" id="A2-3-19">
-      <polygon points="2942.5 2534.74 2942.5 2652.54 2695.43 2652.54 2675.49 2652.54 2482.79 2652.54 2482.79 2406.07 2543.8 2406.07 2563.74 2406.07 2563.74 2386.14 2563.74 2253.24 2779.4 2253.24 2779.4 2393.99 2779.4 2413.92 2779.4 2514.81 2779.4 2534.74 2799.33 2534.74 2942.5 2534.74" fill="#f2f2f2"/>
+    <g class="clickable" id="A2-3-19" data-name="customclass A2-3-19">
+      <polygon points="5249.5 669.36 5249.5 551.56 5496.57 551.56 5516.51 551.56 5709.21 551.56 5709.21 798.03 5648.2 798.03 5628.26 798.03 5628.26 817.96 5628.26 950.86 5412.6 950.86 5412.6 810.11 5412.6 790.18 5412.6 689.29 5412.6 669.36 5392.67 669.36 5249.5 669.36" style="fill: #f2f2f2"/>
     </g>
-    <g class="clickable" id="A2-3-19-2">
-      <polygon points="2779.4 1878.1 2779.4 2233.3 2563.74 2233.3 2543.8 2233.3 2516.01 2233.3 2516.01 1878.1 2572.2 1878.1 2592.13 1878.1 2779.4 1878.1" fill="#f2f2f2"/>
+    <g class="clickable" id="A2-3-19-2" data-name="customclass A2-3-19-2">
+      <polygon points="5412.6 1326 5412.6 970.8 5628.26 970.8 5648.2 970.8 5675.99 970.8 5675.99 1326 5619.8 1326 5599.87 1326 5412.6 1326" style="fill: #f2f2f2"/>
     </g>
-    <g class="clickable" id="A2-3-18-D">
-      <polygon points="4676.83 1354.36 4676.83 1570.02 4649.04 1570.02 4629.1 1570.02 4629.1 1589.95 4629.1 1858.17 4095.7 1858.17 4095.7 1589.95 4095.7 1570.02 4075.76 1570.02 3931.99 1570.02 3931.99 1354.36 4676.83 1354.36" fill="#ddd"/>
+    <g class="clickable" id="A2-3-18-D" data-name="customclass A2-3-18-D">
+      <polygon points="3515.17 1849.74 3515.17 1634.08 3542.96 1634.08 3562.9 1634.08 3562.9 1614.15 3562.9 1345.93 4096.3 1345.93 4096.3 1614.15 4096.3 1634.08 4116.24 1634.08 4260.01 1634.08 4260.01 1849.74 3515.17 1849.74" style="fill: #ddd"/>
     </g>
-    <g class="clickable" id="A2-3-18-C">
-      <polygon points="3912.06 1354.36 3912.06 1570.02 3879.43 1570.02 3859.5 1570.02 3859.5 1589.95 3859.5 1858.17 3323.68 1858.17 3323.68 1589.95 3323.68 1570.02 3303.74 1570.02 3195.61 1570.02 3195.61 1354.36 3912.06 1354.36" fill="#ddd"/>
+    <g class="clickable" id="A2-3-18-C" data-name="customclass A2-3-18-C">
+      <polygon points="4279.94 1849.74 4279.94 1634.08 4312.57 1634.08 4332.5 1634.08 4332.5 1614.15 4332.5 1345.93 4868.32 1345.93 4868.32 1614.15 4868.32 1634.08 4888.26 1634.08 4996.39 1634.08 4996.39 1849.74 4279.94 1849.74" style="fill: #ddd"/>
     </g>
-    <g class="clickable" id="A2-3-18-B">
-      <polygon points="3175.68 1354.36 3175.68 1570.02 3146.08 1570.02 3126.14 1570.02 3126.14 1589.95 3126.14 1858.17 2799.33 1858.17 2779.4 1858.17 2592.13 1858.17 2592.13 1589.95 2592.13 1570.02 2572.2 1570.02 2442.92 1570.02 2442.92 1354.36 3175.68 1354.36" fill="#ddd"/>
+    <g class="clickable" id="A2-3-18-B" data-name="customclass A2-3-18-B">
+      <polygon points="5016.32 1849.74 5016.32 1634.08 5045.92 1634.08 5065.86 1634.08 5065.86 1614.15 5065.86 1345.93 5392.67 1345.93 5412.6 1345.93 5599.87 1345.93 5599.87 1614.15 5599.87 1634.08 5619.8 1634.08 5749.08 1634.08 5749.08 1849.74 5016.32 1849.74" style="fill: #ddd"/>
     </g>
-    <g class="clickable" id="A2-3-18-A">
-      <polygon points="2422.99 1354.36 2422.99 1570.02 2356.54 1570.02 2336.6 1570.02 2336.6 1589.95 2336.6 1858.17 1808.63 1858.17 1808.63 1354.36 2422.99 1354.36" fill="#ddd"/>
+    <g class="clickable" id="A2-3-boh" data-name="customclass A2-3-boh">
+      <polygon points="5769.01 1849.74 5769.01 1634.08 5835.46 1634.08 5855.4 1634.08 5855.4 1614.15 5855.4 1345.93 6383.37 1345.93 6383.37 1849.74 5769.01 1849.74" style="fill: #ddd"/>
     </g>
-    <g class="clickable" id="A2-3-18">
-      <polygon points="7638.66 1878.1 7638.66 1997.71 6933.69 1997.71 6913.76 1997.71 6913.76 2017.64 6913.76 2233.3 6875.09 2233.3 6855.16 2233.3 6855.16 2253.24 6855.16 2393.99 6208.79 2393.99 6188.85 2393.99 6188.85 2413.92 6188.85 2652.54 5971.69 2652.54 5951.75 2652.54 5698.34 2652.54 5698.34 2534.74 5992.53 2534.74 6012.46 2534.74 6012.46 2514.81 6012.46 2413.92 6012.46 2393.99 5992.53 2393.99 4745.09 2393.99 4745.09 2253.24 5241.65 2253.24 5261.58 2253.24 5261.58 2233.3 5261.58 1878.1 5360.05 1878.1 5360.05 2233.3 5360.05 2253.24 5379.98 2253.24 6179.79 2253.24 6199.73 2253.24 6618.36 2253.24 6638.29 2253.24 6638.29 2233.3 6638.29 1878.1 6812.87 1878.1 6832.81 1878.1 6951.21 1878.1 6971.14 1878.1 7021.89 1878.1 7041.82 1878.1 7232.11 1878.1 7252.04 1878.1 7421.79 1878.1 7441.73 1878.1 7638.66 1878.1" fill="#f2f2f2"/>
+    <g class="clickable" id="A2-3-18" data-name="customclass A2-3-18">
+      <polygon points="553.34 1326 553.34 1206.39 1258.31 1206.39 1278.24 1206.39 1278.24 1186.46 1278.24 970.8 1316.91 970.8 1336.84 970.8 1336.84 950.86 1336.84 810.11 1983.21 810.11 2003.15 810.11 2003.15 790.18 2003.15 551.56 2220.31 551.56 2240.25 551.56 2493.66 551.56 2493.66 669.36 2199.47 669.36 2179.54 669.36 2179.54 689.29 2179.54 790.18 2179.54 810.11 2199.47 810.11 3446.91 810.11 3446.91 950.86 2950.35 950.86 2930.42 950.86 2930.42 970.8 2930.42 1326 2831.95 1326 2831.95 970.8 2831.95 950.86 2812.02 950.86 2012.21 950.86 1992.27 950.86 1573.64 950.86 1553.71 950.86 1553.71 970.8 1553.71 1326 1379.13 1326 1359.19 1326 1240.79 1326 1220.86 1326 1170.11 1326 1150.18 1326 959.89 1326 939.96 1326 770.21 1326 750.27 1326 553.34 1326" style="fill: #f2f2f2"/>
     </g>
-    <g class="clickable" id="A2-3-17">
-      <polygon points="2572.2 1589.95 2572.2 1858.17 2516.01 1858.17 2496.08 1858.17 2356.54 1858.17 2356.54 1589.95 2422.99 1589.95 2442.92 1589.95 2572.2 1589.95" fill="#f2f2f2"/>
+    <g class="clickable" id="A2-3-17" data-name="customclass A2-3-17">
+      <polygon points="5619.8 1614.15 5619.8 1345.93 5675.99 1345.93 5695.92 1345.93 5835.46 1345.93 5835.46 1614.15 5769.01 1614.15 5749.08 1614.15 5619.8 1614.15" style="fill: #f2f2f2"/>
     </g>
-    <g class="clickable" id="A2-3-16">
-      <polygon points="3303.74 1589.95 3303.74 1858.17 3235.48 1858.17 3215.55 1858.17 3146.08 1858.17 3146.08 1589.95 3175.68 1589.95 3195.61 1589.95 3303.74 1589.95" fill="#f2f2f2"/>
+    <g class="clickable" id="A2-3-16" data-name="customclass A2-3-16">
+      <polygon points="4888.26 1614.15 4888.26 1345.93 4956.52 1345.93 4976.45 1345.93 5045.92 1345.93 5045.92 1614.15 5016.32 1614.15 4996.39 1614.15 4888.26 1614.15" style="fill: #f2f2f2"/>
     </g>
-    <g class="clickable" id="A2-3-15">
-      <polygon points="4075.76 1589.95 4075.76 1858.17 3994.21 1858.17 3974.28 1858.17 3879.43 1858.17 3879.43 1589.95 3912.06 1589.95 3931.99 1589.95 4075.76 1589.95" fill="#f2f2f2"/>
+    <g class="clickable" id="A2-3-15" data-name="customclass A2-3-15">
+      <polygon points="4116.24 1614.15 4116.24 1345.93 4197.79 1345.93 4217.72 1345.93 4312.57 1345.93 4312.57 1614.15 4279.94 1614.15 4260.01 1614.15 4116.24 1614.15" style="fill: #f2f2f2"/>
     </g>
-    <g class="clickable" id="A2-3-14">
-      <polygon points="4806.1 1589.95 4806.1 1858.17 4745.09 1858.17 4725.15 1858.17 4649.04 1858.17 4649.04 1589.95 4676.83 1589.95 4696.76 1589.95 4806.1 1589.95" fill="#f2f2f2"/>
+    <g class="clickable" id="A2-3-14" data-name="customclass A2-3-14">
+      <polygon points="3385.9 1614.15 3385.9 1345.93 3446.91 1345.93 3466.85 1345.93 3542.96 1345.93 3542.96 1614.15 3515.17 1614.15 3495.24 1614.15 3385.9 1614.15" style="fill: #f2f2f2"/>
     </g>
-    <g class="clickable" id="A2-3-13">
-      <rect x="6832.81" y="1354.36" width="118.4" height="503.81" fill="#f2f2f2"/>
+    <g class="clickable" id="A2-3-13" data-name="customclass A2-3-13">
+      <rect x="1240.79" y="1345.93" width="118.4" height="503.81" style="fill: #f2f2f2"/>
     </g>
-    <g class="clickable" id="A2-3-12">
-      <rect x="5379.98" y="1702.31" width="167.94" height="155.85" fill="#f2f2f2"/>
+    <g class="clickable" id="A2-3-12" data-name="customclass A2-3-12">
+      <rect x="2644.08" y="1345.94" width="167.94" height="155.85" style="fill: #f2f2f2"/>
     </g>
-    <g class="clickable" id="A2-3-12-2">
-      <polygon points="5547.92 1589.95 5547.92 1682.38 5379.98 1682.38 5379.98 1589.95 5484.49 1589.95 5504.43 1589.95 5547.92 1589.95" fill="#f2f2f2"/>
+    <g class="clickable" id="A2-3-12-2" data-name="customclass A2-3-12-2">
+      <polygon points="2644.08 1614.15 2644.08 1521.72 2812.02 1521.72 2812.02 1614.15 2707.51 1614.15 2687.57 1614.15 2644.08 1614.15" style="fill: #f2f2f2"/>
     </g>
-    <g class="clickable" id="A2-3-11">
-      <polygon points="6269.8 1589.95 6269.8 1858.17 6199.73 1858.17 6179.79 1858.17 6105.49 1858.17 6105.49 1589.95 6212.41 1589.95 6232.35 1589.95 6269.8 1589.95" fill="#f2f2f2"/>
+    <g class="clickable" id="A2-3-11" data-name="customclass A2-3-11">
+      <polygon points="1922.2 1614.15 1922.2 1345.93 1992.27 1345.93 2012.21 1345.93 2086.51 1345.93 2086.51 1614.15 1979.59 1614.15 1959.65 1614.15 1922.2 1614.15" style="fill: #f2f2f2"/>
     </g>
-    <g class="clickable" id="A2-3-10">
-      <polygon points="7680.94 1817.69 7680.94 1858.17 7658.59 1858.17 7638.66 1858.17 7441.73 1858.17 7441.73 1684.19 7680.94 1684.19 7680.94 1797.76 7680.94 1817.69" fill="#f2f2f2"/>
+    <g class="clickable" id="A2-3-10" data-name="customclass A2-3-10">
+      <polygon points="511.06 1386.41 511.06 1345.93 533.41 1345.93 553.34 1345.93 750.27 1345.93 750.27 1519.91 511.06 1519.91 511.06 1406.34 511.06 1386.41" style="fill: #f2f2f2"/>
     </g>
-    <g class="clickable" id="A2-3-06">
-      <rect x="1138.1" y="1683.59" width="186.66" height="174.58" fill="#f2f2f2"/>
+    <g class="clickable" id="A2-3-06" data-name="customclass A2-3-06">
+      <rect x="6867.24" y="1345.93" width="186.66" height="174.58" style="fill: #f2f2f2"/>
     </g>
-    <g class="clickable" id="A2-3-05-E">
-      <polygon points="5460.33 1354.36 5460.33 1570.02 5379.98 1570.02 5360.05 1570.02 5360.05 1589.95 5360.05 1682.38 5360.05 1702.31 5360.05 1858.17 5261.58 1858.17 5241.65 1858.17 4826.04 1858.17 4826.04 1589.95 4826.04 1570.02 4806.1 1570.02 4696.76 1570.02 4696.76 1354.36 5460.33 1354.36" fill="#ddd"/>
+    <g class="clickable" id="A2-3-05-E" data-name="customclass A2-3-05-E">
+      <polygon points="2731.67 1849.74 2731.67 1634.08 2812.02 1634.08 2831.95 1634.08 2831.95 1614.15 2831.95 1521.72 2831.95 1501.79 2831.95 1345.93 2930.42 1345.93 2950.35 1345.93 3365.96 1345.93 3365.96 1614.15 3365.96 1634.08 3385.9 1634.08 3495.24 1634.08 3495.24 1849.74 2731.67 1849.74" style="fill: #ddd"/>
     </g>
-    <g class="clickable" id="A2-3-05-D">
-      <polygon points="6187.04 1354.36 6187.04 1570.02 6105.49 1570.02 6085.56 1570.02 6085.56 1589.95 6085.56 1858.17 5567.85 1858.17 5567.85 1702.31 5567.85 1682.38 5567.85 1589.95 5567.85 1570.02 5547.92 1570.02 5504.43 1570.02 5484.49 1570.02 5480.26 1570.02 5480.26 1354.36 5484.49 1354.36 5504.43 1354.36 6187.04 1354.36" fill="#ddd"/>
+    <g class="clickable" id="A2-3-05-D" data-name="customclass A2-3-05-D">
+      <polygon points="2004.96 1849.74 2004.96 1634.08 2086.51 1634.08 2106.44 1634.08 2106.44 1614.15 2106.44 1345.93 2624.15 1345.93 2624.15 1501.79 2624.15 1521.72 2624.15 1614.15 2624.15 1634.08 2644.08 1634.08 2687.57 1634.08 2707.51 1634.08 2711.74 1634.08 2711.74 1849.74 2707.51 1849.74 2687.57 1849.74 2004.96 1849.74" style="fill: #ddd"/>
     </g>
-    <g class="clickable" id="A2-3-05-C">
-      <polygon points="6812.87 1354.36 6812.87 1858.17 6638.29 1858.17 6618.36 1858.17 6289.74 1858.17 6289.74 1589.95 6289.74 1570.02 6269.8 1570.02 6232.35 1570.02 6212.41 1570.02 6206.98 1570.02 6206.98 1354.36 6212.41 1354.36 6232.35 1354.36 6812.87 1354.36" fill="#ddd"/>
+    <g class="clickable" id="A2-3-05-C" data-name="customclass A2-3-05-C">
+      <polygon points="1379.13 1849.74 1379.13 1345.93 1553.71 1345.93 1573.64 1345.93 1902.26 1345.93 1902.26 1614.15 1902.26 1634.08 1922.2 1634.08 1959.65 1634.08 1979.59 1634.08 1985.02 1634.08 1985.02 1849.74 1979.59 1849.74 1959.65 1849.74 1379.13 1849.74" style="fill: #ddd"/>
     </g>
-    <g class="clickable" id="A2-3-05-B">
-      <polygon points="8151.53 2387.04 8151.53 2393.99 7700.88 2393.99 7700.88 2253.24 7700.88 2233.3 7680.94 2233.3 7658.59 2233.3 7658.59 2017.64 7658.59 1997.71 7658.59 1878.1 7680.94 1878.1 7700.88 1878.1 7700.88 1858.17 7700.88 1817.69 8151.53 1817.69 8151.53 2387.04" fill="#ddd"/>
+    <g class="clickable" id="A2-3-05-B" data-name="customclass A2-3-05-B">
+      <polygon points="40.47 817.06 40.47 810.11 491.12 810.11 491.12 950.86 491.12 970.8 511.06 970.8 533.41 970.8 533.41 1186.46 533.41 1206.39 533.41 1326 511.06 1326 491.12 1326 491.12 1345.93 491.12 1386.41 40.47 1386.41 40.47 817.06" style="fill: #ddd"/>
     </g>
-    <g class="clickable" id="A2-3-05-A">
-      <rect x="6933.69" y="2017.64" width="704.97" height="215.66" fill="#ddd"/>
+    <g class="clickable" id="A2-3-05-A" data-name="customclass A2-3-05-A">
+      <rect x="553.34" y="970.8" width="704.97" height="215.66" style="fill: #ddd"/>
     </g>
-    <g class="clickable" id="A2-3-05">
-      <polygon points="1498.73 1714.39 1498.73 1858.17 1344.69 1858.17 1344.69 1683.59 1344.69 1663.65 1324.76 1663.65 1138.1 1663.65 1118.16 1663.65 859.01 1663.65 859.01 1354.36 1498.73 1354.36 1498.73 1694.46 1498.73 1714.39" fill="#f2f2f2"/>
+    <g class="clickable" id="A2-3-05" data-name="customclass A2-3-05">
+      <polygon points="6693.27 1489.71 6693.27 1345.93 6847.31 1345.93 6847.31 1520.51 6847.31 1540.45 6867.24 1540.45 7053.9 1540.45 7073.84 1540.45 7332.99 1540.45 7332.99 1849.74 6693.27 1849.74 6693.27 1509.64 6693.27 1489.71" style="fill: #f2f2f2"/>
     </g>
-    <polygon points="2356.54 1878.1 2336.6 1878.1 1808.63 1878.1 1788.7 1878.1 1733.12 1878.1 1713.19 1878.1 1713.19 1858.17 1713.19 1714.39 1518.67 1714.39 1518.67 1858.17 1518.67 1878.1 1498.73 1878.1 1344.69 1878.1 1324.76 1878.1 1138.1 1878.1 1118.16 1878.1 1118.16 1858.17 1118.16 1683.59 859.01 1683.59 859.01 1858.17 976.81 1858.17 976.81 1878.1 889.07 1878.1 859.01 1878.1 401.11 1878.1 401.11 2386.14 839.07 2386.14 841.33 2233.3 889.07 2233.3 1498.74 2233.3 1518.67 2233.3 2496.08 2233.3 2496.08 1878.1 2356.54 1878.1" fill="#f2f2f2"/>
-    <g class="clickable" id="A2-3-04">
-      <polygon points="7680.94 1354.36 7680.94 1664.26 7441.73 1664.26 7421.79 1664.26 7252.04 1664.26 7232.11 1664.26 7194.65 1664.26 7194.65 1684.19 7232.11 1684.19 7232.11 1858.17 7041.82 1858.17 7041.82 1354.36 7680.94 1354.36" fill="#f2f2f2"/>
+    <polygon points="5835.46 1326 5855.4 1326 6383.37 1326 6403.3 1326 6458.88 1326 6478.81 1326 6478.81 1345.93 6478.81 1489.71 6673.33 1489.71 6673.33 1345.93 6673.33 1326 6693.27 1326 6847.31 1326 6867.24 1326 7053.9 1326 7073.84 1326 7073.84 1345.93 7073.84 1520.51 7332.99 1520.51 7332.99 1345.93 7215.19 1345.93 7215.19 1326 7302.93 1326 7332.99 1326 7790.89 1326 7790.89 817.96 7352.93 817.96 7350.67 970.8 7302.93 970.8 6693.26 970.8 6673.33 970.8 5695.92 970.8 5695.92 1326 5835.46 1326" style="fill: #f2f2f2"/>
+    <g class="clickable" id="A2-3-04" data-name="customclass A2-3-04">
+      <polygon points="996.89 1345.93 1150.18 1345.93 1150.18 1849.74 511.06 1849.74 511.06 1539.84 750.27 1539.84 770.21 1539.84 939.96 1539.84 959.89 1539.84 997.35 1539.84 997.35 1519.91 996.89 1345.93" style="fill: #f2f2f2"/>
     </g>
-    <g class="clickable" id="A2-3-03-H">
-      <rect x="5971.68" y="2672.47" width="217.17" height="498.37" fill="#ddd"/>
+    <g class="clickable" id="A2-3-03-H" data-name="customclass A2-3-03-H">
+      <rect x="2003.15" y="33.26" width="217.17" height="498.37" style="fill: #ddd"/>
     </g>
-    <g class="clickable" id="A2-3-03-G">
-      <rect x="5698.34" y="2672.47" width="253.41" height="498.37" fill="#ddd"/>
+    <g class="clickable" id="A2-3-03-G" data-name="customclass A2-3-03-G">
+      <rect x="2240.25" y="33.26" width="253.41" height="498.37" style="fill: #ddd"/>
     </g>
-    <g class="clickable" id="A2-3-03-F">
-      <polygon points="5678.4 2672.47 5678.4 3170.84 4687.1 3170.84 4687.1 2994.45 4687.1 2974.51 4687.1 2672.47 5678.4 2672.47" fill="#ddd"/>
+    <g class="clickable" id="A2-3-03-F" data-name="customclass A2-3-03-F">
+      <polygon points="2513.6 531.63 2513.6 33.26 3504.9 33.26 3504.9 209.65 3504.9 229.59 3504.9 531.63 2513.6 531.63" style="fill: #ddd"/>
     </g>
-    <g class="clickable" id="A2-3-03-E">
-      <rect x="4312.56" y="2994.45" width="354.6" height="176.39" fill="#ddd"/>
+    <g class="clickable" id="A2-3-03-E" data-name="customclass A2-3-03-E">
+      <rect x="3524.84" y="33.26" width="354.6" height="176.39" style="fill: #ddd"/>
     </g>
-    <g class="clickable" id="A2-3-03-D">
-      <rect x="4312.56" y="2672.47" width="354.6" height="302.04" fill="#ddd"/>
+    <g class="clickable" id="A2-3-03-D" data-name="customclass A2-3-03-D">
+      <rect x="3524.84" y="229.59" width="354.6" height="302.04" style="fill: #ddd"/>
     </g>
-    <g class="clickable" id="A2-3-03-C">
-      <polygon points="4292.63 2994.45 4292.63 3170.84 2962.43 3170.84 2962.43 2672.47 4292.63 2672.47 4292.63 2974.51 4292.63 2994.45" fill="#ddd"/>
+    <g class="clickable" id="A2-3-03-C" data-name="customclass A2-3-03-C">
+      <polygon points="3899.37 209.65 3899.37 33.26 5229.57 33.26 5229.57 531.63 3899.37 531.63 3899.37 229.59 3899.37 209.65" style="fill: #ddd"/>
     </g>
-    <g class="clickable" id="A2-3-03-B">
-      <rect x="2695.43" y="2672.47" width="247.07" height="498.37" fill="#ddd"/>
+    <g class="clickable" id="A2-3-03-B" data-name="customclass A2-3-03-B">
+      <rect x="5249.5" y="33.26" width="247.07" height="498.37" style="fill: #ddd"/>
     </g>
-    <g class="clickable" id="A2-3-03-A">
-      <polygon points="2675.49 2672.47 2675.49 3170.84 2522.66 3170.84 2502.72 3170.84 2482.79 3170.84 2482.79 2672.47 2675.49 2672.47" fill="#ddd"/>
+    <g class="clickable" id="A2-3-03-A" data-name="customclass A2-3-03-A">
+      <polygon points="5516.51 531.63 5516.51 33.26 5669.34 33.26 5689.28 33.26 5709.21 33.26 5709.21 531.63 5516.51 531.63" style="fill: #ddd"/>
     </g>
     <g id="walls">
-      <rect x="4931.75" y="2652.54" width="212.03" height="19.93" fill="#b7b7b7"/>
-      <rect x="3116.48" y="2652.54" width="663.89" height="19.93" fill="#b7b7b7"/>
-      <path d="M8151.53,1777.83H7720.81V1313.89H819.14v524.34H360.64v581.13H2442.92V3204.1h3785.8V2434.16H8191.4V1777.83ZM6971.14,1354.36h50.75v503.81h-50.75Zm-5238,360v-360h55.58v503.81h-55.58ZM859,2386.1V2253.2l1684.8,0V2386.1Zm6821.93,7.9H6875.09V2253.24h805.85Zm470.59,0H7700.88V2233.31h-42.29V1973.55h-19.93v24.16h-724.9v132.9h19.93v-113h705v215.66h-705v-17.52h-19.93v17.52h-58.6V2394H6188.85v258.5H6059.58v19.94h129.27v498.37H5971.68V2672.48h2.72v-19.94H5949v19.94h2.72v498.37H5698.34V2672.48h165.52v-19.94H5698.34v-4.83H5678.4v4.83H5246.48v19.94H5678.4v498.37H4687.1V2672.48h94.23v-19.94H4466v19.94h201.16v302H4413.45v19.93h253.71v176.4h-354.6v-176.4h3v-19.93h-3v-302h3v-19.94H3888.5v19.94h404.13v498.37H2962.43V2672.48h6v-19.94h-6v-3H2942.5v3H2776.38v19.94H2942.5v498.37H2695.43V2672.48h3v-19.94h-26v19.94h3v498.37h-192.7V2672.48h111.76v-19.94h-111.7V2406.1h80.95V2253.24h36.85v-19.93H2516v-10.88h-19.94v10.88h-1657V2386.1h-438v-508H976.8v-19.93H859V1683.59h259.15v16.31h19.94v-16.31h186.66v174.58H1138.1v-85.78h-19.94V1878.1h229.55v-19.93h-3V1663.65H859V1354.36h639.73v503.81h-23v19.93h42.89V1354.36h194.52V1878.1H2214v-19.93H1808.63V1354.36H2423V1451h19.93v-96.66h732.76V1451h19.93v-96.66h716.45V1451H3932v-96.66h744.84V1451h19.93v-96.66h763.57V1451h19.93v-96.66H6187V1451h20v-96.66h605.89v91.22h19.94v-91.22h118.4v503.81h-118.4V1520.49h-19.94v337.68H6801.4v19.93h245.25v-19.93h-4.83V1354.36h639.12v309.9H7194.66v19.93h227.13v174H7175.93v19.91h360v-19.93H7441.7v-174h239.21v174H7606v19.93h32.62v10.27h19.93V1878.1h42.29v-60.4h450.65l0,569.36Z" fill="#b7b7b7"/>
+      <rect x="3048.22" y="531.63" width="212.03" height="19.93" style="fill: #b7b7b7"/>
+      <rect x="4411.63" y="531.63" width="663.89" height="19.93" style="fill: #b7b7b7"/>
+      <path d="M40.47,1519.27H471.19v463.94H7372.86V1458.87h458.5V877.74H5749.08V93H1963.28V862.94H.6v656.33Zm1180.39,423.47h-50.75V1438.93h50.75Zm5238-360v360h-55.58V1438.93h55.58ZM7333,911v132.9H5648.2V911ZM511.07,903.1h805.84v140.76H511.06Zm-470.59,0H491.12v160.69h42.29v259.76h19.93v-24.16h724.9v-132.9h-19.93v113h-705V1063.83h705v17.52h19.93v-17.52h58.6V903.1h666.31V644.6h129.27V624.66H2003.15V126.29h217.17V624.62h-2.72v19.94H2243V624.62h-2.72V126.25h253.38V624.62H2328.14v19.94h165.52v4.83h19.94v-4.83h431.92V624.62H2513.6V126.25h991.3V624.62h-94.23v19.94H3726V624.62H3524.84v-302h253.71V302.69H3524.84V126.29h354.6v176.4h-3v19.93h3v302h-3v19.94H4303.5V624.62H3899.37V126.25h1330.2V624.62h-6v19.94h6v3h19.93v-3h166.12V624.62H5249.5V126.25h247.07V624.62h-3v19.94h26V624.62h-3V126.25h192.7V624.62H5597.51v19.94h111.7V891h-80.95v152.86h-36.85v19.93H5676v10.88h19.94v-10.88h1657V911h438v508H7215.2v19.93H7333v174.58H7073.85V1597.2h-19.94v16.31H6867.25V1438.93H7053.9v85.78h19.94V1419H6844.29v19.93h3v194.52H7333v309.29H6693.27V1438.93h23V1419h-42.89v523.74H6478.86V1419H5978v19.93h405.37v503.81H5769V1846.1h-19.93v96.66H5016.31V1846.1h-19.93v96.66H4279.93V1846.1H4260v96.66H3515.16V1846.1h-19.93v96.66H2731.66V1846.1h-19.93v96.66H2005V1846.1h-20v96.66H1379.11v-91.22h-19.94v91.22h-118.4V1439h118.4v337.66h19.94V1438.93h11.49V1419H1145.35v19.93h4.83v503.81H511.06v-309.9H997.34v-19.93H770.21v-174h245.86V1419h-360v19.93H750.3v174H511.09v-174H586V1419H553.38v-10.27H533.45V1419H491.16v60.4H40.51V910Z" transform="translate(0 -93)" style="fill: #b7b7b7"/>
+      <path d="M1902.26,1438.93V1727.1H1985v16.31h20V1727.1h11.48v-20h-94.24V1438.89h164.27V1707.1h-5.44v20h25.38V1439h517.7V1727.1h87.59v16.31h19.93V1727.1H2832v-23.56H2812v3.56H2644.06v-92.42h84v-19.93h-84V1438.89H2812v155.9h-19.33v19.93H2812v24.77h19.93V1438.93h7.25V1419h-7.25V1043.86h-632.6V903.1H3446.91v140.76H2930.42V1419h-9.67v19.93H3366V1727.1h23.56v-20h-3.62V1438.89H3543V1707.1h-81.55v20h33.83v16.31h19.93V1727.1h47.72V1439H4096.3V1727.1h27.19v-20h-7.25V1438.89h196.32V1707.1H4195.37v20H4260v16.31h19.93V1727.1h52.57V1439h535.82V1727.1h23v-20h-3V1438.89h157.6V1707.1h-89.4v20h39.87v16.31h19.93V1727.1h49.54V1439h534V1727.1h23v-20h-3V1438.89h215.6V1707.1H5688.07v20h61v16.31H5769V1727.1h86.4V1439h25.37V1419H5695.92V1226.31H5676V1419H5412.6V1063.79h32v-19.93h-32V762.36H5249.5v-3.63h-19.93v3.63h-2716v-2.42h-19.94v2.42H2179.51v281.5h-625.8V1419h-62.83v19.93Zm297.21-656.65h3193.2V1419H2950.35V1063.79h516.5V883.17H2199.47Zm-625.83,281.51H2812V1419H1573.64Z" transform="translate(0 -93)" style="fill: #b7b7b7"/>
     </g>
-    <g>
+    <g class="clickable" id="A2-3-18-A" data-name="customclass A2-3-18-A">
+      <rect x="2192.83" y="902.08" width="1094" height="141.78" transform="translate(5479.66 1852.94) rotate(180)" style="fill: #ededed"/>
       <g>
         <g>
           <g>
-            <polyline points="4896.11 2394.2 5097.32 2394.2 5097.32 2246.59 4928.68 2246.59 4928.68 2394.2" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-            <line x1="5097.73" y1="2320.4" x2="4929.92" y2="2320.4" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-            <path d="M4962.49,2246.6" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-            <polyline points="4962.49 2246.59 4929.51 2320.39 4962.49 2394.2" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
+            <g>
+              <g>
+                <polyline points="3295.89 809.9 3094.68 809.9 3094.68 957.51 3263.32 957.51 3263.32 809.9" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+                <line x1="3094.27" y1="883.7" x2="3262.08" y2="883.7" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+                <path d="M3229.51,1050.5" transform="translate(0 -93)" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+                <polyline points="3229.51 957.51 3262.49 883.71 3229.51 809.9" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+              </g>
+              <line x1="3128.4" y1="809.9" x2="3128.4" y2="957.51" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+              <line x1="3162.36" y1="809.9" x2="3162.36" y2="957.51" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+              <line x1="3196.32" y1="809.9" x2="3196.32" y2="957.51" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+            </g>
+            <line x1="3262.08" y1="883.71" x2="3295.89" y2="808.67" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
           </g>
-          <line x1="5063.6" y1="2394.2" x2="5063.6" y2="2246.59" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-          <line x1="5029.64" y1="2394.2" x2="5029.64" y2="2246.59" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-          <line x1="4995.68" y1="2394.2" x2="4995.68" y2="2246.59" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
+          <line x1="3229.51" y1="809.9" x2="3229.51" y2="957.51" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
         </g>
-        <line x1="4929.92" y1="2320.39" x2="4896.11" y2="2395.43" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-      </g>
-      <line x1="4962.49" y1="2394.2" x2="4962.49" y2="2246.59" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-    </g>
-    <g>
-      <g>
         <g>
-          <polyline points="5484.69 2394.2 6000.35 2394.2 6000.35 2246.59 5484.69 2246.59 5484.69 2395.02" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-          <line x1="6001.59" y1="2320.4" x2="5485.93" y2="2320.4" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-          <path d="M5518.5,2246.6" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-          <polyline points="5518.5 2246.59 5485.52 2320.39 5518.5 2394.2" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
+          <g>
+            <g>
+              <polyline points="2707.31 809.9 2191.65 809.9 2191.65 957.51 2707.31 957.51 2707.31 809.08" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+              <line x1="2190.41" y1="883.7" x2="2706.07" y2="883.7" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+              <path d="M2673.5,1050.5" transform="translate(0 -93)" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+              <polyline points="2673.5 957.51 2706.48 883.71 2673.5 809.9" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+            </g>
+            <line x1="2324.86" y1="809.9" x2="2324.86" y2="957.51" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+            <line x1="2290.9" y1="809.9" x2="2290.9" y2="957.51" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+            <line x1="2222.98" y1="809.9" x2="2222.98" y2="957.51" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+            <line x1="2256.94" y1="809.9" x2="2256.94" y2="957.51" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+            <line x1="2460.69" y1="809.9" x2="2460.69" y2="957.51" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+            <line x1="2494.64" y1="809.9" x2="2494.64" y2="957.51" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+            <line x1="2528.6" y1="809.9" x2="2528.6" y2="957.51" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+            <line x1="2562.56" y1="809.9" x2="2562.56" y2="957.51" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+            <line x1="2596.52" y1="809.9" x2="2596.52" y2="957.51" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+            <line x1="2630.47" y1="809.9" x2="2630.47" y2="957.51" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+          </g>
+          <line x1="2662.62" y1="809.9" x2="2662.62" y2="957.51" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
         </g>
-        <line x1="5867.14" y1="2394.2" x2="5867.14" y2="2246.59" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="5901.1" y1="2394.2" x2="5901.1" y2="2246.59" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="5969.02" y1="2394.2" x2="5969.02" y2="2246.59" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="5935.06" y1="2394.2" x2="5935.06" y2="2246.59" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="5731.31" y1="2394.2" x2="5731.31" y2="2246.59" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="5697.36" y1="2394.2" x2="5697.36" y2="2246.59" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="5663.4" y1="2394.2" x2="5663.4" y2="2246.59" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="5629.44" y1="2394.2" x2="5629.44" y2="2246.59" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="5595.48" y1="2394.2" x2="5595.48" y2="2246.59" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="5561.53" y1="2394.2" x2="5561.53" y2="2246.59" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-      </g>
-      <line x1="5529.38" y1="2394.2" x2="5529.38" y2="2246.59" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-    </g>
-    <g>
-      <line x1="855.13" y1="1663.65" x2="855.13" y2="1350.65" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-      <g>
-        <polyline points="855.13 1350.64 1337.8 1350.64 1337.8 1491.87 1015.4 1491.87 1015.4 1525.82 1252.53 1525.82 1252.53 1663.65 855.13 1663.65" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <polyline points="1337.14 1418.75 949.2 1418.75 949.2 1592.59 1253.17 1592.59" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="1078.38" y1="1349.53" x2="1078.38" y2="1492.99" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="1048.46" y1="1349.53" x2="1048.46" y2="1492.99" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="1019.97" y1="1349.53" x2="1019.97" y2="1492.99" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="1107.58" y1="1492.99" x2="1107.58" y2="1349.53" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="1019.97" y1="1525.82" x2="1019.97" y2="1663.65" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="1048.46" y1="1525.82" x2="1048.46" y2="1663.65" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="1078.38" y1="1525.82" x2="1078.38" y2="1663.65" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="1107.58" y1="1525.82" x2="1107.58" y2="1663.65" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="1136.79" y1="1525.82" x2="1136.79" y2="1663.65" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="1165.28" y1="1525.82" x2="1165.28" y2="1663.65" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="1195.2" y1="1525.82" x2="1195.2" y2="1663.65" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="1224.4" y1="1525.82" x2="1224.4" y2="1663.65" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <polyline points="1225.39 1663.65 1251.76 1592.78 1224.78 1526.53" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <polyline points="1107.53 1489.14 1078.59 1418.09 1105.37 1352.02" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <polyline points="1252.87 1525.82 1342.53 1525.82 1342.53 1491.63 1251.42 1491.63" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="1078.59" y1="1418.09" x2="1048.99" y2="1490.58" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="1222.71" y1="1349.53" x2="1222.71" y2="1492.99" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="1164.95" y1="1349.53" x2="1164.95" y2="1492.99" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="1193.83" y1="1349.53" x2="1193.83" y2="1492.99" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="1136.07" y1="1349.53" x2="1136.07" y2="1492.99" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="1251.59" y1="1349.53" x2="1251.59" y2="1492.99" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="1280.47" y1="1349.53" x2="1280.47" y2="1492.99" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="1309.35" y1="1349.53" x2="1309.35" y2="1492.99" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
       </g>
     </g>
     <g>
-      <line x1="7683.62" y1="1663.65" x2="7683.62" y2="1350.65" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
+      <line x1="7336.87" y1="1540.45" x2="7336.87" y2="1853.45" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
       <g>
-        <polyline points="7683.62 1350.64 7200.95 1350.64 7200.95 1491.87 7523.35 1491.87 7523.35 1525.82 7286.22 1525.82 7286.22 1663.65 7683.62 1663.65" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <polyline points="7201.6 1418.75 7589.55 1418.75 7589.55 1592.59 7285.57 1592.59" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="7460.37" y1="1349.53" x2="7460.37" y2="1492.99" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="7490.29" y1="1349.53" x2="7490.29" y2="1492.99" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="7518.78" y1="1349.53" x2="7518.78" y2="1492.99" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="7431.17" y1="1492.99" x2="7431.17" y2="1349.53" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="7518.78" y1="1525.82" x2="7518.78" y2="1663.65" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="7490.29" y1="1525.82" x2="7490.29" y2="1663.65" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="7460.37" y1="1525.82" x2="7460.37" y2="1663.65" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="7431.17" y1="1525.82" x2="7431.17" y2="1663.65" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="7401.96" y1="1525.82" x2="7401.96" y2="1663.65" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="7373.47" y1="1525.82" x2="7373.47" y2="1663.65" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="7343.55" y1="1525.82" x2="7343.55" y2="1663.65" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="7314.35" y1="1525.82" x2="7314.35" y2="1663.65" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <polyline points="7313.36 1663.65 7286.99 1592.78 7313.97 1526.53" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <polyline points="7431.22 1489.14 7460.15 1418.09 7433.38 1352.02" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <polyline points="7285.88 1525.82 7196.21 1525.82 7196.21 1491.63 7287.33 1491.63" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="7460.15" y1="1418.09" x2="7489.75" y2="1490.58" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="7316.03" y1="1349.53" x2="7316.03" y2="1492.99" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="7373.79" y1="1349.53" x2="7373.79" y2="1492.99" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="7344.91" y1="1349.53" x2="7344.91" y2="1492.99" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="7402.67" y1="1349.53" x2="7402.67" y2="1492.99" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="7287.15" y1="1349.53" x2="7287.15" y2="1492.99" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="7258.27" y1="1349.53" x2="7258.27" y2="1492.99" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="7229.39" y1="1349.53" x2="7229.39" y2="1492.99" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
+        <polyline points="7336.87 1853.46 6854.2 1853.46 6854.2 1712.23 7176.6 1712.23 7176.6 1678.28 6939.47 1678.28 6939.47 1540.45 7336.87 1540.45" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <polyline points="6854.86 1785.35 7242.8 1785.35 7242.8 1611.51 6938.83 1611.51" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="7113.62" y1="1854.57" x2="7113.62" y2="1711.11" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="7143.54" y1="1854.57" x2="7143.54" y2="1711.11" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="7172.03" y1="1854.57" x2="7172.03" y2="1711.11" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="7084.42" y1="1711.11" x2="7084.42" y2="1854.57" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="7172.03" y1="1678.28" x2="7172.03" y2="1540.45" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="7143.54" y1="1678.28" x2="7143.54" y2="1540.45" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="7113.62" y1="1678.28" x2="7113.62" y2="1540.45" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="7084.42" y1="1678.28" x2="7084.42" y2="1540.45" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="7055.21" y1="1678.28" x2="7055.21" y2="1540.45" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="7026.72" y1="1678.28" x2="7026.72" y2="1540.45" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="6996.8" y1="1678.28" x2="6996.8" y2="1540.45" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="6967.6" y1="1678.28" x2="6967.6" y2="1540.45" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <polyline points="6966.61 1540.45 6940.24 1611.32 6967.22 1677.57" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <polyline points="7084.47 1714.96 7113.41 1786.01 7086.63 1852.08" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <polyline points="6939.13 1678.28 6849.47 1678.28 6849.47 1712.47 6940.58 1712.47" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="7113.41" y1="1786.01" x2="7143.01" y2="1713.52" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="6969.29" y1="1854.57" x2="6969.29" y2="1711.11" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="7027.05" y1="1854.57" x2="7027.05" y2="1711.11" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="6998.17" y1="1854.57" x2="6998.17" y2="1711.11" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="7055.93" y1="1854.57" x2="7055.93" y2="1711.11" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="6940.41" y1="1854.57" x2="6940.41" y2="1711.11" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="6911.53" y1="1854.57" x2="6911.53" y2="1711.11" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="6882.65" y1="1854.57" x2="6882.65" y2="1711.11" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+      </g>
+    </g>
+    <g>
+      <line x1="508.38" y1="1540.45" x2="508.38" y2="1853.45" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+      <g>
+        <polyline points="508.38 1853.46 991.05 1853.46 991.05 1712.23 668.65 1712.23 668.65 1678.28 905.78 1678.28 905.78 1540.45 508.38 1540.45" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <polyline points="990.4 1785.35 602.45 1785.35 602.45 1611.51 906.43 1611.51" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="731.63" y1="1854.57" x2="731.63" y2="1711.11" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="701.71" y1="1854.57" x2="701.71" y2="1711.11" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="673.22" y1="1854.57" x2="673.22" y2="1711.11" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="760.83" y1="1711.11" x2="760.83" y2="1854.57" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="673.22" y1="1678.28" x2="673.22" y2="1540.45" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="701.71" y1="1678.28" x2="701.71" y2="1540.45" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="731.63" y1="1678.28" x2="731.63" y2="1540.45" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="760.83" y1="1678.28" x2="760.83" y2="1540.45" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="790.04" y1="1678.28" x2="790.04" y2="1540.45" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="818.53" y1="1678.28" x2="818.53" y2="1540.45" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="848.45" y1="1678.28" x2="848.45" y2="1540.45" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="877.65" y1="1678.28" x2="877.65" y2="1540.45" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <polyline points="878.64 1540.45 905.01 1611.32 878.03 1677.57" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <polyline points="760.78 1714.96 731.85 1786.01 758.62 1852.08" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <polyline points="906.12 1678.28 995.79 1678.28 995.79 1712.47 904.67 1712.47" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="731.85" y1="1786.01" x2="702.25" y2="1713.52" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="875.97" y1="1854.57" x2="875.97" y2="1711.11" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="818.21" y1="1854.57" x2="818.21" y2="1711.11" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="847.09" y1="1854.57" x2="847.09" y2="1711.11" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="789.33" y1="1854.57" x2="789.33" y2="1711.11" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="904.85" y1="1854.57" x2="904.85" y2="1711.11" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="933.73" y1="1854.57" x2="933.73" y2="1711.11" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        <line x1="962.61" y1="1854.57" x2="962.61" y2="1711.11" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
       </g>
     </g>
   </g>
-  <path d="M6289.74,1858.17V1570H6207v-16.31h-20V1570h-11.48v20h94.24v268.21H6105.49V1590h5.44v-20h-25.38v288.15h-517.7V1570h-87.59v-16.31h-19.93V1570H5360.05v23.56H5380V1590h167.94v92.42h-84v19.93h84v155.86H5380v-155.9h19.33v-19.93H5380v-24.77h-19.93v200.56h-7.25v19.93h7.25v375.14h632.6V2394H4745.09V2253.24h516.49V1878.1h9.67v-19.93H4826V1570h-23.56v20h3.62v268.21H4649V1590h81.55v-20h-33.83v-16.31h-19.93V1570h-47.72v288.15H4095.7V1570h-27.19v20h7.25v268.21H3879.44V1590h117.19v-20H3932v-16.31h-19.93V1570H3859.5v288.15H3323.68V1570h-23v20h3v268.21h-157.6V1590h89.4v-20h-39.87v-16.31h-19.93V1570h-49.54v288.15h-534V1570h-23v20h3v268.21h-215.6V1590h147.39v-20h-61v-16.31H2423V1570h-86.4v288.15h-25.37v19.93h184.85v192.71H2516V1878.1h263.4v355.21h-32v19.93h32v281.5h163.1v3.63h19.93v-3.63h2716v2.42h19.94v-2.42h314.12v-281.5h625.8V1878.1h62.83v-19.93Zm-297.21,656.65H2799.33V1878.1H5241.65v355.21h-516.5v180.62H5992.53Zm625.83-281.51H5380V1878.1H6618.36Z" fill="#b7b7b7"/>
 </svg>

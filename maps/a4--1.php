@@ -1,160 +1,145 @@
-<svg id="Livello_1" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 8192 4816.59">
+<svg id="Livello_1" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 7672.17 4814.18">
   <defs>
-    <pattern id="LOCALE_TECNICO" data-name="LOCALE TECNICO" width="48.06" height="48.06" patternTransform="matrix(0.84, 0, 0, -0.84, -2142.39, 1478.39)" patternUnits="userSpaceOnUse" viewBox="0 0 48.06 48.06">
-      <rect width="48.06" height="48.06" fill="none"/>
-      <rect width="48.06" height="48.06" fill="none"/>
+    <pattern id="LOCALE_TECNICO" data-name="LOCALE TECNICO" width="48.06" height="48.06" patternTransform="matrix(-0.84, 0, 0, 0.53, 1866.82, -1615.63)" patternUnits="userSpaceOnUse" viewBox="0 0 48.06 48.06">
+      <rect width="48.06" height="48.06" style="fill: none"/>
+      <rect width="48.06" height="48.06" style="fill: none"/>
       <g>
-        <rect x="44.68" y="-44.69" width="50.59" height="48.9" fill="#f2f2f2"/>
-        <line x1="48.06" x2="96.12" y2="-48.06" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+        <rect x="44.68" y="-44.69" width="50.59" height="48.9" style="fill: #f2f2f2"/>
+        <line x1="48.06" x2="96.12" y2="-48.06" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
       </g>
       <g>
-        <rect x="-3.37" y="-44.69" width="50.59" height="48.9" fill="#f2f2f2"/>
-        <line x2="48.07" y2="-48.06" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+        <rect x="-3.37" y="-44.69" width="50.59" height="48.9" style="fill: #f2f2f2"/>
+        <line x2="48.07" y2="-48.06" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
       </g>
-      <line x1="-48.06" y2="-48.06" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+      <line x1="-48.06" y2="-48.06" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
       <g>
-        <rect x="44.68" y="3.37" width="50.59" height="48.9" fill="#f2f2f2"/>
-        <line x1="48.06" y1="48.06" x2="96.12" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+        <rect x="44.68" y="3.37" width="50.59" height="48.9" style="fill: #f2f2f2"/>
+        <line x1="48.06" y1="48.06" x2="96.12" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
       </g>
       <g>
-        <rect x="-3.37" y="3.37" width="50.59" height="48.9" fill="#f2f2f2"/>
-        <line y1="48.06" x2="48.07" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+        <rect x="-3.37" y="3.37" width="50.59" height="48.9" style="fill: #f2f2f2"/>
+        <line y1="48.06" x2="48.07" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
       </g>
-      <line x1="-48.06" y1="48.06" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
-      <line x1="48.06" y1="96.12" x2="96.12" y2="48.06" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
-      <line y1="96.12" x2="48.07" y2="48.06" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
-      <line x1="-48.06" y1="96.12" y2="48.06" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+      <line x1="-48.06" y1="48.06" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
+      <line x1="48.06" y1="96.12" x2="96.12" y2="48.06" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
+      <line y1="96.12" x2="48.07" y2="48.06" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
+      <line x1="-48.06" y1="96.12" y2="48.06" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
     </pattern>
-    <pattern id="LOCALE_TECNICO-3" data-name="LOCALE TECNICO-3" width="48.06" height="48.06" patternTransform="matrix(0.84, 0, 0, -0.84, -2142.39, 1898.8)" patternUnits="userSpaceOnUse" viewBox="0 0 48.06 48.06">
-      <rect width="48.06" height="48.06" fill="none"/>
-      <rect width="48.06" height="48.06" fill="none"/>
+    <pattern id="LOCALE_TECNICO-3" data-name="LOCALE TECNICO-3" width="48.06" height="48.06" patternTransform="matrix(-0.84, 0, 0, 0.84, 2154.23, -1875.22)" patternUnits="userSpaceOnUse" viewBox="0 0 48.06 48.06">
+      <rect width="48.06" height="48.06" style="fill: none"/>
+      <rect width="48.06" height="48.06" style="fill: none"/>
       <g>
-        <rect x="44.68" y="-44.69" width="50.59" height="48.9" fill="#f2f2f2"/>
-        <line x1="48.06" x2="96.12" y2="-48.06" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+        <rect x="44.68" y="-44.69" width="50.59" height="48.9" style="fill: #f2f2f2"/>
+        <line x1="48.06" x2="96.12" y2="-48.06" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
       </g>
       <g>
-        <rect x="-3.37" y="-44.69" width="50.59" height="48.9" fill="#f2f2f2"/>
-        <line x2="48.07" y2="-48.06" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+        <rect x="-3.37" y="-44.69" width="50.59" height="48.9" style="fill: #f2f2f2"/>
+        <line x2="48.07" y2="-48.06" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
       </g>
-      <line x1="-48.06" y2="-48.06" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+      <line x1="-48.06" y2="-48.06" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
       <g>
-        <rect x="44.68" y="3.37" width="50.59" height="48.9" fill="#f2f2f2"/>
-        <line x1="48.06" y1="48.06" x2="96.12" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+        <rect x="44.68" y="3.37" width="50.59" height="48.9" style="fill: #f2f2f2"/>
+        <line x1="48.06" y1="48.06" x2="96.12" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
       </g>
       <g>
-        <rect x="-3.37" y="3.37" width="50.59" height="48.9" fill="#f2f2f2"/>
-        <line y1="48.06" x2="48.07" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+        <rect x="-3.37" y="3.37" width="50.59" height="48.9" style="fill: #f2f2f2"/>
+        <line y1="48.06" x2="48.07" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
       </g>
-      <line x1="-48.06" y1="48.06" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
-      <line x1="48.06" y1="96.12" x2="96.12" y2="48.06" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
-      <line y1="96.12" x2="48.07" y2="48.06" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
-      <line x1="-48.06" y1="96.12" y2="48.06" fill="none" stroke="#ddd" stroke-linecap="square" stroke-linejoin="round" stroke-width="20"/>
+      <line x1="-48.06" y1="48.06" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
+      <line x1="48.06" y1="96.12" x2="96.12" y2="48.06" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
+      <line y1="96.12" x2="48.07" y2="48.06" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
+      <line x1="-48.06" y1="96.12" y2="48.06" style="fill: none;stroke: #ddd;stroke-linecap: square;stroke-linejoin: round;stroke-width: 20px"/>
     </pattern>
   </defs>
   <g id="A4-floor-1">
     <g id="background">
-      <path d="M7865.41,2163.88q-8-19.4-17.32-37.94a522.87,522.87,0,0,0-91.91-129,510,510,0,0,0-127.57-95.88q-17.07-9-34.89-16.8a495.05,495.05,0,0,0-157.95-39.69H6726.65V1568.83H4540.26V420.41H232.41V4941.59H4540.26V4044.44H7904.58V2337.75A533.74,533.74,0,0,0,7865.41,2163.88Z" transform="translate(0 -420.41)" fill="#f2f2f2"/>
+      <path d="M326.59,3493.53q8,19.39,17.32,37.94a522.87,522.87,0,0,0,91.91,129,509.83,509.83,0,0,0,127.57,95.88q17.07,9,34.89,16.81a495.3,495.3,0,0,0,158,39.68h709.12v275.73H3651.74V5237H7959.59V715.82H3651.74V1613H287.42V3319.66A533.48,533.48,0,0,0,326.59,3493.53Z" transform="translate(-287.42 -422.82)" style="fill: #f2f2f2"/>
     </g>
     <g id="rooms">
-      <rect id="senza_codice" data-name="senza codice" x="3469.41" y="2220.96" width="247.05" height="132.38" fill="#f2f2f2"/>
-      <rect id="senza_codice-2" data-name="senza codice-2" x="3469.41" y="2382.85" width="247.05" height="131.54" fill="#f2f2f2"/>
-      <rect id="senza_codice-3" data-name="senza codice-3" x="3469.41" y="2814.56" width="247.05" height="129.85" fill="#f2f2f2"/>
-      <rect id="senza_codice-4" data-name="senza codice-4" x="3469.41" y="2973.93" width="247.05" height="129.85" fill="#f2f2f2"/>
-      <rect id="senza_codice-5" data-name="senza codice-5" x="3295.71" y="4237.87" width="234.41" height="226.82" fill="#f2f2f2"/>
-      <polygon id="senza_codice-6" data-name="senza codice-6" points="3530.12 3518.63 3530.12 3831.45 3295.71 3831.45 3295.71 3713.4 3266.2 3713.4 3266.2 3831.45 3266.2 3860.96 3266.2 4208.35 3266.2 4237.87 3266.2 4464.68 3057.09 4464.68 3057.09 3860.96 3131.29 3860.96 3131.29 3831.45 3057.09 3831.45 3057.09 3518.63 3530.12 3518.63" fill="#f2f2f2"/>
-      <rect id="senza_codice-7" data-name="senza codice-7" x="1747.62" y="4237.87" width="231.03" height="226.82" fill="#f2f2f2"/>
-      <polygon id="senza_codice-8" data-name="senza codice-8" points="2210.53 3860.96 2210.53 4464.68 2008.16 4464.68 2008.16 4237.87 2008.16 4208.35 2008.16 3860.96 2008.16 3831.45 2008.16 3713.4 1978.65 3713.4 1978.65 3831.45 1747.62 3831.45 1747.62 3518.63 2210.53 3518.63 2210.53 3831.45 2136.33 3831.45 2136.33 3860.96 2210.53 3860.96" fill="#f2f2f2"/>
-      <rect id="locale_tecnico-5" data-name="locale tecnico-5" x="3559.63" y="4055.74" width="184.66" height="408.95" fill="url(#LOCALE_TECNICO)"/>
-      <path id="locale_tecnico-6" data-name="locale tecnico-6" d="M7421.71,1901.05H6670.15V1625.33H4483.77V476.9H288.9V2613.54H4511.59V3552h129v295.12h-129v140.81h3336.5V2368.18C7848.09,2119.58,7659.21,1915.64,7421.71,1901.05Z" transform="translate(0 -420.41)" fill="url(#LOCALE_TECNICO-3)"/>
-      <rect id="ascensore" x="4184.43" y="3864.33" width="299.33" height="311.14" fill="#f2f2f2"/>
-      <g class="clickable" id="A4--1-34" data-name="customclass A4--1-34">
-        <polygon id="_tracciato_" data-name=" tracciato " points="1718.11 3103.78 1718.11 3103.78 1718.11 3133.29 1718.11 3489.11 1718.11 3518.63 1718.11 3831.45 1718.11 3860.96 1718.11 4208.35 1718.11 4237.87 1718.11 4464.68 288.9 4464.68 288.9 2220.96 933.94 2220.96 961.77 2220.96 1718.11 2220.96 1718.11 3103.78" fill="#ddd"/>
+      <rect id="senza_codice" data-name="senza codice" x="4188.12" y="2460.84" width="247.05" height="132.38" style="fill: #f2f2f2"/>
+      <rect id="senza_codice-2" data-name="senza codice-2" x="4188.12" y="2299.79" width="247.05" height="131.54" style="fill: #f2f2f2"/>
+      <rect id="senza_codice-3" data-name="senza codice-3" x="4188.12" y="1869.76" width="247.05" height="129.85" style="fill: #f2f2f2"/>
+      <rect id="senza_codice-4" data-name="senza codice-4" x="4188.12" y="1710.4" width="247.05" height="129.85" style="fill: #f2f2f2"/>
+      <rect id="locale_tecnico-5" data-name="locale tecnico-5" x="4160.29" y="349.49" width="184.66" height="256.33" style="fill: url(#LOCALE_TECNICO)"/>
+      <path id="locale_tecnico-6" data-name="locale tecnico-6" d="M770.29,3756.36h751.56v275.72H3708.23V5180.51H7903.1V3043.87H3680.41V2105.4h-129V1810.28h129V1669.47H343.91V3289.23C343.91,3537.83,532.79,3741.77,770.29,3756.36Z" transform="translate(-287.42 -422.82)" style="fill: url(#LOCALE_TECNICO-3)"/>
+      <rect class="clickable" id="A4--1-23-C" data-name="customclass A4--1-23-C" x="3420.82" y="638.71" width="299.33" height="311.14" style="fill: #f2f2f2"/>
+      <g class="clickable" id="A4--1-22" data-name="customclass A4--1-22" style="opacity: 0.4">
+        <rect x="4448.27" y="1030.6" width="184.1" height="603.22" transform="translate(8793.22 2241.6) rotate(180)" style="fill: #f2f2f2"/>
+        <g>
+          <g>
+            <line x1="4252.98" y1="1160.64" x2="4252.98" y2="608.5" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+            <line x1="4157.48" y1="819.57" x2="4349.86" y2="819.57" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+            <line x1="4160.85" y1="951.08" x2="4353.23" y2="951.08" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+            <line x1="4157.48" y1="780.36" x2="4349.86" y2="780.36" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+            <line x1="4157.48" y1="738.62" x2="4349.86" y2="738.62" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+            <line x1="4152.7" y1="651.78" x2="4353.23" y2="651.78" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+            <line x1="4160.85" y1="607.78" x2="4353.23" y2="607.78" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+            <polyline points="4352.96 651.78 4253.47 607.93 4152.28 652.62" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+            <path d="M4640.65,1134.8" transform="translate(-287.42 -422.82)" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+            <path d="M4448.26,1134.8" transform="translate(-287.42 -422.82)" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+            <line x1="4157.48" y1="691.41" x2="4349.86" y2="691.41" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+          </g>
+          <line x1="4350.83" y1="1118.9" x2="4155.23" y2="1118.9" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+          <line x1="4350.83" y1="1161.06" x2="4155.23" y2="1161.06" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+          <line x1="4350.83" y1="1033.74" x2="4155.23" y2="1033.74" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+          <line x1="4350.83" y1="991.58" x2="4155.23" y2="991.58" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+          <line x1="4350.83" y1="1077.59" x2="4155.23" y2="1077.59" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        </g>
+        <line x1="4350.83" y1="1077.59" x2="4154.81" y2="1118.9" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
       </g>
-      <g class="clickable" id="A4--1-27" data-name="customclass A4--1-27">
-        <rect id="_tracciato_2" data-name=" tracciato 2" x="1747.62" y="3860.96" width="231.03" height="347.39" fill="#f2f2f2"/>
+      <g class="clickable" id="A4--1-23" data-name="customclass A4--1-23" style="opacity: 0.4">
+        <rect x="4037.08" y="1000.42" width="381.12" height="436.41" transform="translate(8167.86 2014.42) rotate(180)" style="fill: #f2f2f2"/>
+        <g>
+          <line x1="3941.73" y1="632.23" x2="3941.73" y2="977.25" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+          <line x1="4136.53" y1="632.41" x2="3745.29" y2="632.41" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+          <line x1="4136.53" y1="720.92" x2="3745.29" y2="720.92" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+          <line x1="4136.68" y1="675.39" x2="3745.44" y2="675.39" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+          <line x1="4136.53" y1="765.61" x2="3745.29" y2="765.61" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+          <line x1="4136.53" y1="892.09" x2="3745.29" y2="892.09" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+          <line x1="4136.53" y1="941.83" x2="3745.29" y2="941.83" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+          <polyline points="3746.42 944.21 3941.33 976.25 4134.03 944.21" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+          <line x1="4136.53" y1="806.08" x2="3745.29" y2="806.08" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+          <line x1="4136.53" y1="847.4" x2="3745.29" y2="847.4" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+          <line x1="4136.53" y1="977.25" x2="3745.29" y2="977.25" style="fill: none;stroke: #b7b7b7;stroke-miterlimit: 10;stroke-width: 5px"/>
+        </g>
       </g>
       <g class="clickable" id="A4--1-26" data-name="customclass A4--1-26">
-        <polygon id="_tracciato_3" data-name=" tracciato 3" points="2619.05 3518.63 2619.05 4464.68 2240.04 4464.68 2240.04 3860.96 2240.04 3831.45 2240.04 3518.63 2619.05 3518.63" fill="#f2f2f2"/>
-      </g>
-      <g class="clickable" id="A4--1-25" data-name="customclass A4--1-25">
-        <rect id="_tracciato_4" data-name=" tracciato 4" x="3295.71" y="3860.96" width="234.41" height="347.39" fill="#f2f2f2"/>
+        <polygon id="_tracciato_3" data-name=" tracciato 3" points="5285.53 1295.55 5285.53 349.49 6156.96 349.49 6156.96 953.22 6156.96 982.73 6156.96 1295.55 5285.53 1295.55" style="fill: #f2f2f2"/>
       </g>
       <g class="clickable" id="A4--1-24" data-name="customclass A4--1-24">
-        <polygon id="_tracciato_5" data-name=" tracciato 5" points="3027.58 3860.96 3027.58 4464.68 2648.57 4464.68 2648.57 3518.63 3027.58 3518.63 3027.58 3831.45 3027.58 3860.96" fill="#f2f2f2"/>
-      </g>
-      <g class="clickable" id="A4--1-23" data-name="customclass A4--1-23">
-        <polygon id="_tracciato_6" data-name=" tracciato 6" points="3559.63 3485.74 3559.63 4027.91 3744.29 4027.91 3744.29 3650.16 3773.8 3650.16 3773.8 4208.35 3773.8 4237.87 3773.8 4464.68 4483.77 4464.68 4483.77 4204.98 4184.43 4204.98 4154.92 4204.98 4154.92 4175.47 4154.92 3864.33 4154.92 3834.82 4184.43 3834.82 4483.77 3834.82 4483.77 3624.03 4483.77 3567.53 4483.77 3485.74 3559.63 3485.74" fill="#f2f2f2"/>
+        <polygon id="_tracciato_5" data-name=" tracciato 5" points="4374.46 953.22 4374.46 349.49 5256.02 349.49 5256.02 1295.55 4374.46 1295.55 4374.46 982.73 4374.46 953.22" style="fill: #f2f2f2"/>
       </g>
       <g class="clickable" id="A4--1-21" data-name="customclass A4--1-21">
-        <polygon id="_tracciato_7" data-name=" tracciato 7" points="4612.77 3161.11 4612.77 3398.89 4511.59 3398.89 4483.77 3398.89 4483.77 3426.72 4483.77 3489.11 4483.77 3489.11 4483.77 3489.11 4184.43 3489.11 4154.92 3489.11 4154.92 3489.11 4154.92 3489.11 4154.92 3489.11 4184.43 3489.11 4483.77 3489.11 4483.77 3489.11 3773.8 3489.11 3773.8 3489.11 3773.8 3489.11 3773.8 3489.11 3744.29 3489.11 3744.29 3489.11 3559.63 3489.11 3559.63 3489.11 3559.63 3489.11 3559.63 3416.6 3530.12 3416.6 3530.12 3489.11 3057.09 3489.11 3027.58 3489.11 2648.57 3489.11 2619.05 3489.11 2240.04 3489.11 2210.53 3489.11 1747.62 3489.11 1747.62 3133.29 3441.58 3133.29 3469.41 3133.29 3716.46 3133.29 3744.29 3133.29 4137.22 3133.29 4165.04 3133.29 4165.04 3103.78 4165.04 2814.56 4165.04 2785.05 4165.04 2543.9 4165.04 2514.39 4165.04 2220.96 4483.77 2220.96 4483.77 3131.6 4483.77 3160.27 4483.77 3161.11 4612.77 3161.11" fill="#f2f2f2"/>
+        <polygon id="_tracciato_7" data-name=" tracciato 7" points="3291.81 1653.06 3291.81 1415.28 3392.99 1415.28 3420.82 1415.28 3420.82 1387.46 3420.82 1325.06 3420.82 1325.06 3420.82 1325.06 3720.15 1325.06 3749.66 1325.06 3749.66 1325.06 3749.66 1325.06 3749.66 1325.06 3720.15 1325.06 3420.82 1325.06 3420.82 1325.06 4130.78 1325.06 4130.78 1325.06 4130.78 1325.06 4130.78 1325.06 4160.29 1325.06 4160.29 1325.06 4344.95 1325.06 4344.95 1325.06 4344.95 1325.06 4344.95 1397.58 4374.46 1397.58 4374.46 1325.06 4847.49 1325.06 4877 1325.06 5256.02 1325.06 5285.53 1325.06 5664.54 1325.06 5694.05 1325.06 6156.96 1325.06 6156.96 1680.89 4463 1680.89 4435.17 1680.89 4188.12 1680.89 4160.29 1680.89 3767.37 1680.89 3739.54 1680.89 3739.54 1710.4 3739.54 1999.61 3739.54 2029.13 3739.54 2270.28 3739.54 2299.79 3739.54 2593.22 3420.82 2593.22 3420.82 1682.57 3420.82 1653.91 3420.82 1653.06 3291.81 1653.06" style="fill: #f2f2f2"/>
       </g>
       <g class="clickable" id="A4--1-20" data-name="customclass A4--1-20">
-        <polygon id="_tracciato_8" data-name=" tracciato 8" points="4137.22 2814.56 4137.22 3103.78 3744.29 3103.78 3744.29 2973.93 3744.29 2944.41 3744.29 2814.56 4137.22 2814.56" fill="#f2f2f2"/>
+        <polygon id="_tracciato_8" data-name=" tracciato 8" points="3767.37 1999.61 3767.37 1710.4 4160.29 1710.4 4160.29 1840.25 4160.29 1869.76 4160.29 1999.61 3767.37 1999.61" style="fill: #f2f2f2"/>
       </g>
       <g class="clickable" id="A4--1-19" data-name="customclass A4--1-19">
-        <polygon id="_tracciato_9" data-name=" tracciato 9" points="4137.22 2543.9 4137.22 2785.05 3744.29 2785.05 3716.46 2785.05 3469.41 2785.05 3469.41 2543.9 3716.46 2543.9 3744.29 2543.9 4137.22 2543.9" fill="#f2f2f2"/>
+        <polygon id="_tracciato_9" data-name=" tracciato 9" points="3767.37 2270.28 3767.37 2029.13 4160.29 2029.13 4188.12 2029.13 4435.17 2029.13 4435.17 2270.28 4188.12 2270.28 4160.29 2270.28 3767.37 2270.28" style="fill: #f2f2f2"/>
       </g>
       <g class="clickable" id="A4--1-18" data-name="customclass A4--1-18">
-        <polygon id="_tracciato_10" data-name=" tracciato 10" points="4137.22 2220.96 4137.22 2514.39 3744.29 2514.39 3744.29 2382.85 3744.29 2353.34 3744.29 2220.96 4137.22 2220.96" fill="#f2f2f2"/>
+        <polygon id="_tracciato_10" data-name=" tracciato 10" points="3767.37 2593.22 3767.37 2299.79 4160.29 2299.79 4160.29 2431.33 4160.29 2460.84 4160.29 2593.22 3767.37 2593.22" style="fill: #f2f2f2"/>
       </g>
-      <g class="clickable" id="A4--1-13" data-name="customclass A4--1-13">
-        <polygon id="_tracciato_11" data-name=" tracciato 11" points="3441.58 2973.93 3441.58 3103.78 1718.11 3103.78 1718.11 3103.78 1718.11 2220.96 933.94 2220.96 961.77 2220.96 2326.89 2220.96 2354.71 2220.96 3143.09 2220.96 3170.92 2220.96 3441.58 2220.96 3441.58 2353.34 3441.58 2382.85 3441.58 2514.39 3441.58 2543.9 3441.58 2785.05 3441.58 2814.56 3441.58 2944.41 3441.58 2973.93" fill="#ddd"/>
+      <g class="clickable" id="A4--1-34" data-name="customclass A4--1-34">
+        <polygon id="tracciato_11" data-name="tracciato 11" points="4733.66 2593.22 4761.49 2593.22 5549.87 2593.22 5577.69 2593.22 6186.48 2593.22 6942.82 2593.22 6970.64 2593.22 7615.68 2593.22 7615.68 349.49 6186.48 349.49 6186.48 576.31 6186.48 605.82 6186.48 953.22 6186.48 982.73 6186.48 1295.55 6186.48 1325.06 6186.48 1680.89 6186.48 1710.4 4463 1710.4 4463 1840.25 4463 1869.76 4463 1999.61 4463 2029.13 4463 2270.28 4463 2299.79 4463 2431.33 4463 2460.84 4463 2593.22 4733.66 2593.22" style="fill: #ddd"/>
       </g>
       <g class="clickable" data-building-code="P1" id="A1--1-G1--1" data-floor-code="-1">
-        <rect id="room-box-29" x="4188.72" y="4521.12" width="271.28" height="292.56" fill="none" stroke="#f2f2f2" stroke-miterlimit="10"/>
+        <rect id="room-box-29" x="3444.58" y="0.5" width="271.28" height="292.56" style="fill: none;stroke: #f2f2f2;stroke-miterlimit: 10"/>
         <g>
-          <path d="M4324.32,5006.37a81.55,81.55,0,0,0-81.76,81.34v.14c0,45,36.67,81.4,81.84,81.4a81.55,81.55,0,0,0,81.77-81.33v-.07c0-45-36.67-81.48-81.85-81.48" transform="translate(0 -420.41)" fill="#fff" stroke="#303030"/>
-          <path d="M4311.89,5097.52h9.59c14.38,0,20.33-5.86,20.33-16.69,0-9.23-5.44-15.79-19.89-15.79h-10Zm-9.58,41V5057h20.53c16.43,0,28.77,7.91,28.77,23.53s-11.1,25.12-30.1,25.12h-9.59v32.93Zm73-75.9-50.87-18.48-50.95,18.48-2.3-6.22,53.17-19.21,53.18,19.26Z" transform="translate(0 -420.41)"/>
+          <path d="M3867.6,488.16a81.55,81.55,0,0,0-81.76,81.34v.14c0,45,36.67,81.41,81.84,81.41a81.56,81.56,0,0,0,81.77-81.33v-.08c0-45-36.67-81.48-81.85-81.48" transform="translate(-287.42 -422.82)" style="fill: #fff;stroke: #303030"/>
+          <path d="M3855.17,579.32h9.59c14.38,0,20.33-5.86,20.33-16.69,0-9.23-5.44-15.8-19.89-15.8h-10Zm-9.58,41V538.84h20.53c16.43,0,28.77,7.9,28.77,23.53s-11.1,25.11-30.1,25.11h-9.59v32.94Zm73-75.89L3867.68,526l-50.95,18.49-2.3-6.22L3867.6,519l53.18,19.26Z" transform="translate(-287.42 -422.82)"/>
         </g>
       </g>
     </g>
     <g id="walls">
       <g>
-        <path d="M7204.74,3987.94H4511.59V3847.13h129v-52.28h-27.83v24.45h-129v435.93h-26.14v29.51h26.14v311.14h-26.14v29.51h26.14V4885.1h-26.14v56.49h82.63V4044.44H7904.58V2337.75a533.74,533.74,0,0,0-39.17-173.87q-8-19.4-17.32-37.94a522.87,522.87,0,0,0-91.91-129,510,510,0,0,0-127.57-95.88q-17.07-9-34.89-16.8a495.05,495.05,0,0,0-157.95-39.69H6726.65V1568.83H4540.26V420.41H232.41V4941.59H4185.28V4885.1H3773.8v-21.93h-29.51v21.93H3559.63V3837h-29.51v72.52h-661.9V3939h159.36v355h29.51v-12.65h74.2v-29.51h-74.2V3939h473v312.82H3295.71v-118H3266.2V4294h29.51v-12.65h234.41v347.4H3295.71v-204.9H3266.2v309.45h29.51v-75h234.41V4885.1H3295.71v-21.93H3266.2v21.93H3057.09V4423.87h-29.51V4885.1h-379V3939h77.15v-29.51H2595.87V3939h23.18V4885.1H2240V4423.87h-29.51V4885.1H2008.16v-21.93h-29.51v21.93h-231V4658.28h231v75h29.51V4423.87h-29.51v204.9h-231v-347.4h231V4294h29.51V4133.81h-29.51v118h-231V3939h462.91v312.82h-74.2v29.51h74.2V4294H2240V3939h213.33v-29.51H1747.62v-68.3h-29.51V4885.1H288.9V2641.37H2098.38v-27.83H288.9V476.9H4483.77V1625.33H6670.15v275.72h751.56c237.5,14.59,426.38,218.53,426.38,467.13V3987.94Zm-2721-1374.4H4435.7v27.83h48.07v940.16h129v213.32h27.83V3581.53h0V3552h-129V2613.54m-767.3,2249.63h29.51V4070.58h-29.51Z" transform="translate(0 -420.41)" fill="#b7b7b7"/>
-        <polygon points="3170.92 2193.13 3441.58 2193.13 3441.58 2193.13 3469.41 2193.13 3469.41 2193.13 3716.46 2193.13 3744.29 2193.13 4137.22 2193.13 4137.22 2193.13 4165.04 2193.13 4165.04 2193.13 4435.7 2193.13 4435.7 2220.96 4165.04 2220.96 4165.04 2378.64 4137.22 2378.64 4137.22 2220.96 3744.29 2220.96 3744.29 2259.75 3716.46 2259.75 3716.46 2220.96 3469.41 2220.96 3469.41 2353.34 3716.46 2353.34 3716.46 2335.63 3744.29 2335.63 3744.29 2353.34 3744.29 2382.85 3744.29 2411.52 3716.46 2411.52 3716.46 2382.85 3469.41 2382.85 3469.41 2514.39 3716.46 2514.39 3716.46 2487.41 3744.29 2487.41 3744.29 2514.39 4137.22 2514.39 4137.22 2501.74 4165.04 2501.74 4165.04 2514.39 4165.04 2543.9 4165.04 2642.55 4137.22 2642.55 4137.22 2543.9 3744.29 2543.9 3716.46 2543.9 3469.41 2543.9 3469.41 2785.05 3716.46 2785.05 3744.29 2785.05 4137.22 2785.05 4137.22 2765.66 4165.04 2765.66 4165.04 2785.05 4165.04 2814.56 4165.04 2943.57 4137.22 2943.57 4137.22 2814.56 3744.29 2814.56 3744.29 2844.92 3716.46 2844.92 3716.46 2814.56 3469.41 2814.56 3469.41 2944.41 3716.46 2944.41 3716.46 2920.81 3744.29 2920.81 3744.29 2944.41 3744.29 2973.93 3744.29 2998.38 3716.46 2998.38 3716.46 2973.93 3469.41 2973.93 3469.41 3103.78 3716.46 3103.78 3716.46 3074.27 3744.29 3074.27 3744.29 3103.78 4137.22 3103.78 4137.22 3066.68 4165.04 3066.68 4165.04 3103.78 4165.04 3133.29 4137.22 3133.29 3744.29 3133.29 3716.46 3133.29 3469.41 3133.29 3441.58 3133.29 2315.08 3133.29 2315.08 3103.78 3441.58 3103.78 3441.58 2973.93 3441.58 2944.41 3441.58 2814.56 3441.58 2785.05 3441.58 2543.9 3441.58 2514.39 3441.58 2382.85 3441.58 2353.34 3441.58 2220.96 3170.92 2220.96 3143.09 2220.96 2354.71 2220.96 2326.89 2220.96 2098.39 2220.96 2098.39 2193.13 2326.89 2193.13 2354.71 2193.13 3143.09 2193.13 3170.92 2193.13" fill="#b7b7b7"/>
-        <polygon points="4200.45 4204.98 4200.45 4175.47 4184.43 4175.47 4184.43 3864.33 4200.45 3864.33 4200.45 3834.82 4184.43 3834.82 4154.92 3834.82 4154.92 3864.33 4154.92 4175.47 4154.92 4204.98 4184.43 4204.98 4200.45 4204.98" fill="#b7b7b7"/>
-        <polygon points="2098.39 3103.78 1747.62 3103.78 1718.11 3103.78 1718.11 3133.29 1718.11 3156.9 1747.62 3156.9 1747.62 3133.29 2098.39 3133.29 2098.39 3103.78" fill="#b7b7b7"/>
+        <path d="M6213.35,772.32h231v946H5738.63v29.52h705.75v68.29h29.51V772.32H7903.1V3016H6093.62v27.83H7903.1V5180.51H3708.23V4032.08H1521.85V3756.36H770.29c-237.5-14.59-426.38-218.53-426.38-467.13V1669.47h3336.5v140.81h-129v52.28h27.83v-24.45h129V1402.18h26.14v-29.51h-26.14V1061.53h26.14V1032h-26.14V772.32h26.14v-56.5h-82.63V1613H287.42V3319.66a533.48,533.48,0,0,0,39.17,173.87q8,19.39,17.32,37.94a522.87,522.87,0,0,0,91.91,129,509.83,509.83,0,0,0,127.57,95.88q17.07,9,34.89,16.81a495.3,495.3,0,0,0,158,39.68h709.12v275.73H3651.74V5237H7959.59V715.82H4006.72v56.5H4418.2v21.92h29.51V772.32h184.66V1820.4h29.51v-72.51h661.9v-29.52h-661.9v-946h881.55v946h-77.15v29.52h129.85v-29.52H5573v-946h640.4ZM3708.23,3043.87h48.07V3016h-48.07V2075.89h-129V1862.56H3551.4v213.33h0v29.51h129v938.47m767.3-2249.63H4418.2v792.6h29.51Z" transform="translate(-287.42 -422.82)" style="fill: #b7b7b7"/>
+        <polygon points="4733.66 2621.04 4463 2621.04 4463 2621.04 4435.17 2621.04 4435.17 2621.04 4188.12 2621.04 4160.29 2621.04 3767.37 2621.04 3767.37 2621.04 3739.54 2621.04 3739.54 2621.04 3468.88 2621.04 3468.88 2593.22 3739.54 2593.22 3739.54 2435.54 3767.37 2435.54 3767.37 2593.22 4160.29 2593.22 4160.29 2554.43 4188.12 2554.43 4188.12 2593.22 4435.17 2593.22 4435.17 2460.84 4188.12 2460.84 4188.12 2478.55 4160.29 2478.55 4160.29 2460.84 4160.29 2431.33 4160.29 2402.66 4188.12 2402.66 4188.12 2431.33 4435.17 2431.33 4435.17 2299.79 4188.12 2299.79 4188.12 2326.77 4160.29 2326.77 4160.29 2299.79 3767.37 2299.79 3767.37 2312.44 3739.54 2312.44 3739.54 2299.79 3739.54 2270.28 3739.54 2171.62 3767.37 2171.62 3767.37 2270.28 4160.29 2270.28 4188.12 2270.28 4435.17 2270.28 4435.17 2029.13 4188.12 2029.13 4160.29 2029.13 3767.37 2029.13 3767.37 2048.52 3739.54 2048.52 3739.54 2029.13 3739.54 1999.61 3739.54 1870.61 3767.37 1870.61 3767.37 1999.61 4160.29 1999.61 4160.29 1969.26 4188.12 1969.26 4188.12 1999.61 4435.17 1999.61 4435.17 1869.76 4188.12 1869.76 4188.12 1893.37 4160.29 1893.37 4160.29 1869.76 4160.29 1840.25 4160.29 1815.8 4188.12 1815.8 4188.12 1840.25 4435.17 1840.25 4435.17 1710.4 4188.12 1710.4 4188.12 1739.91 4160.29 1739.91 4160.29 1710.4 3767.37 1710.4 3767.37 1747.5 3739.54 1747.5 3739.54 1710.4 3739.54 1680.89 3767.37 1680.89 4160.29 1680.89 4188.12 1680.89 4435.17 1680.89 4463 1680.89 5589.5 1680.89 5589.5 1710.4 4463 1710.4 4463 1840.25 4463 1869.76 4463 1999.61 4463 2029.13 4463 2270.28 4463 2299.79 4463 2431.33 4463 2460.84 4463 2593.22 4733.66 2593.22 4761.49 2593.22 5549.87 2593.22 5577.69 2593.22 5806.2 2593.22 5806.2 2621.04 5577.69 2621.04 5549.87 2621.04 4761.49 2621.04 4733.66 2621.04" style="fill: #b7b7b7"/>
+        <polygon points="3704.13 609.2 3704.13 638.71 3720.15 638.71 3720.15 949.84 3704.13 949.84 3704.13 979.36 3720.15 979.36 3749.66 979.36 3749.66 949.84 3749.66 638.71 3749.66 609.2 3720.15 609.2 3704.13 609.2" style="fill: #b7b7b7"/>
+        <polygon points="5806.2 1710.4 6156.96 1710.4 6186.48 1710.4 6186.48 1680.89 6186.48 1657.28 6156.96 1657.28 6156.96 1680.89 5806.2 1680.89 5806.2 1710.4" style="fill: #b7b7b7"/>
       </g>
-      <polyline points="3773.8 4056.58 3773.8 4027.07 3530.12 4027.07 3530.12 4056.58" fill="#b7b7b7"/>
+      <polyline points="4130.78 577.6 4130.78 607.11 4374.46 607.11 4374.46 577.6" style="fill: #b7b7b7"/>
     </g>
-    <g id="scale">
-      <g>
-        <g>
-          <line x1="3651.61" y1="3653.54" x2="3651.61" y2="4205.67" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-          <line x1="3747.11" y1="3994.61" x2="3554.72" y2="3994.61" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-          <line x1="3743.73" y1="3863.09" x2="3551.35" y2="3863.09" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-          <line x1="3747.11" y1="4033.81" x2="3554.72" y2="4033.81" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-          <line x1="3747.11" y1="4075.55" x2="3554.72" y2="4075.55" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-          <line x1="3751.88" y1="4162.4" x2="3551.35" y2="4162.4" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-          <line x1="3743.73" y1="4206.4" x2="3551.35" y2="4206.4" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-          <polyline points="3551.62 4162.4 3651.12 4206.25 3752.3 4161.56" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-          <path d="M3551.35,4522.61" transform="translate(0 -420.41)" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-          <path d="M3743.74,4522.61" transform="translate(0 -420.41)" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-          <line x1="3747.11" y1="4122.77" x2="3554.72" y2="4122.77" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        </g>
-        <line x1="3553.75" y1="3695.27" x2="3749.35" y2="3695.27" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="3553.75" y1="3653.12" x2="3749.35" y2="3653.12" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="3553.75" y1="3780.44" x2="3749.35" y2="3780.44" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="3553.75" y1="3822.6" x2="3749.35" y2="3822.6" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="3553.75" y1="3736.59" x2="3749.35" y2="3736.59" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-      </g>
-      <g>
-        <line x1="3962.85" y1="4181.95" x2="3962.85" y2="3836.93" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="3768.05" y1="4181.77" x2="4159.29" y2="4181.77" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="3768.05" y1="4093.26" x2="4159.29" y2="4093.26" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="3767.9" y1="4138.79" x2="4159.14" y2="4138.79" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="3768.05" y1="4048.57" x2="4159.29" y2="4048.57" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="3768.05" y1="3922.09" x2="4159.29" y2="3922.09" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="3768.05" y1="3872.34" x2="4159.29" y2="3872.34" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <polyline points="4158.16 3869.97 3963.25 3837.93 3770.55 3869.97" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="3768.05" y1="4008.1" x2="4159.29" y2="4008.1" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="3768.05" y1="3966.78" x2="4159.29" y2="3966.78" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-        <line x1="3768.05" y1="3836.93" x2="4159.29" y2="3836.93" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-      </g>
-      <line x1="3553.75" y1="3736.59" x2="3749.77" y2="3695.27" fill="none" stroke="#b7b7b7" stroke-miterlimit="10" stroke-width="5"/>
-    </g>
-  </g>
-  <g id="Livello_40" data-name="Livello 40">
-    <rect width="8192" height="4816.59" fill="none"/>
   </g>
 </svg>
