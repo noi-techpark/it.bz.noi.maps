@@ -419,6 +419,7 @@ html:not(.body-scrollable){
 // TEST
 .clickable{
 	cursor: pointer;
+	pointer-events: all;
 
 	.no-touch &:hover,
 	&.active{

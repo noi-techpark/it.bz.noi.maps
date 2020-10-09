@@ -42,7 +42,6 @@ function setupMapBehaviours() {
 	var hammertime = new Hammer(mapContainer, {});
 	hammertime.off('tap');
 	hammertime.on('tap', function(ev) {
-		//console.log('tapped ' + ev.target.className);
 
 		if( $(ev.target).parents('.tooltip.active').length==0 ) {
 			$("#map .clickable").each(function(i) {
@@ -71,13 +70,11 @@ function setupMapBehaviours() {
 			}
 		}
 		if(
-			$(ev.target).hasClass('view-floorplan') &&
+			($(ev.target).hasClass('view-floorplan')) &&
 			typeof($(ev.target).data('building-code'))!=='undefined' && $(ev.target).data('building-code')!==null && $(ev.target).data('building-code')!=='' &&
 			typeof($(ev.target).data('building-floor'))!=='undefined' && $(ev.target).data('building-floor')!==null && $(ev.target).data('building-floor')!==''
 		) {
-			//console.log('cccc');
 			goToBuildingFloor($(ev.target).data('building-code'),$(ev.target).data('building-floor'));
-
 		}
 	});
 
@@ -221,10 +218,17 @@ function clickableBehaviour() {
 
 				//This is a building
 				if($('body').attr('data-building')=='external') {
-					//console.log('external');
+					var thisBuilding = typeof($(thisEl).data('building-code'))!=='undefined' && $(thisEl).data('building-code')!==null && $(thisEl).data('building-code')!=='' ? $(thisEl).data('building-code') : false;
+					var thisFloor = typeof($(thisEl).data('building-floor'))!=='undefined' && $(thisEl).data('building-floor')!==null && $(thisEl).data('building-floor')!=='' ? $(thisEl).data('building-floor') : false;
+					if(thisBuilding && thisFloor) {
+						//We're in external mode, clicked an item with buildingcode and floor -> go directly
+						goToBuildingFloor(thisBuilding, thisFloor);
+					} else {
+						//We're in external mode, open popup
+						clickedElement(buildingCode, 'building');
+					}
 
-					//We're in external mode, open popup
-					clickedElement(buildingCode, 'building');			
+								
 				} else {
 					//console.log('not external');
 					//We're inside some floor, goto building
@@ -377,7 +381,11 @@ function clickedElement(elementCode, type="room") {
 				$(".tooltip .lower").removeClass('hide');
 				$(".tooltip .lower .view-floorplan").removeClass('hide');
 				$(".tooltip .lower .view-floorplan").attr('data-building-code',elementCode);
-				$(".tooltip .lower .view-floorplan").attr('data-building-floor','0');
+				var thisFloor = 0;
+				if($("#building_"+elementCode).data('building-floor')!== 'undefined' && !isNaN($("#building_"+elementCode).data('building-floor'))) {
+					thisFloor = $("#building_"+elementCode).data('building-floor');
+				}
+				$(".tooltip .lower .view-floorplan").attr('data-building-floor',thisFloor);
 			}
 			if(type=="room") {
 				$(".tooltip .lower").removeClass('hide');
