@@ -47,6 +47,7 @@ if(isset( $_POST['action'] )) :
 				$fetchDataNOI = new fetchDataNOI();
 				$postRooms = $fetchDataNOI->fetchData();
 				$groups_categories_array = $fetchDataNOI->groups_categories_array;
+
 			endif;
 
 			if(isset($postRooms) && is_array($postRooms) && count($postRooms)>0) :				
@@ -91,7 +92,7 @@ if(isset( $_POST['action'] )) :
 								$result .= '</div>';
 								if($rooms):
 									$result .= '<ul class="group-rooms-list dropdown-list">';
-									$maxRooms = 5;
+									$maxRooms = 500;
 
 
 									//Google Sheet column names

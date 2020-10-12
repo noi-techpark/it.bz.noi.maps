@@ -30,7 +30,6 @@ $maps_svgs = array(
 		'floors' => array(
 			'-1' => 'a4--1.php',
 			'0' => 'a4-0.php',
-			'1' => 'a4-1.php',
 		)
 	),
 	'D1' => array(
@@ -44,10 +43,10 @@ $maps_svgs = array(
 			'4' => 'd1-4.php',
 		)
 	),
-	'G1' => array(
+	'P1' => array(
 		'floors' => array(
-			'-2' => 'g1--2.php',
-			'-1' => 'g1--1.php',
+			'-2' => 'p1--2.php',
+			'-1' => 'p1--1.php',
 		)
 	),
 );
@@ -76,9 +75,9 @@ $buildings_sheets = array(
 		'ID' => 'D1',
 		'sheet_url' => 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTZE6GdWV6mlBzGNex7li5Bq7qdKAmnd1Y4p-7YXfSX6pl2tCabxj25CEKoHNDkpT30BeU4tYNujRuB/pub?gid=1269199150&single=true&output=tsv&range=A1:Z9999'.rand(1,1000),
 	),
-	'G1' => array(
+	'P1' => array(
 		'active' => true,
-		'ID' => 'G1',
+		'ID' => 'P1',
 		'sheet_url' => 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTZE6GdWV6mlBzGNex7li5Bq7qdKAmnd1Y4p-7YXfSX6pl2tCabxj25CEKoHNDkpT30BeU4tYNujRuB/pub?gid=75008429&single=true&output=tsv&range=A1:Z9999'.rand(1,1000),
 	),
 );
@@ -126,6 +125,16 @@ $groups_categories_array = array(
 		'logo' => '<svg xmlns="http://www.w3.org/2000/svg" width="97.3" height="97.8" viewBox="0 0 97.3 97.8"><path d="M97,350.1c23.1-11.9,57-31.2,97.3-59.3v-9.5c-35.4,23.2-71.4,41.8-97.3,54.1Z" transform="translate(-97 -252.3)" fill="#010101"/><path d="M97,321.9c25.8-10.5,61.8-26.7,97.3-47.8v-4.7c-33.4,16.6-68,26.9-97.3,33.4Z" transform="translate(-97 -252.3)" fill="#010101"/><path d="M194.3,350.1V302.6c-22.1,18.7-44.1,34.8-62.5,47.5Z" transform="translate(-97 -252.3)" fill="#010101"/><path d="M119.3,350.1a678.2,678.2,0,0,0,59.9-39.8l15.1-11.4V293c-31.3,23.5-63.3,43-88.2,57.1Z" transform="translate(-97 -252.3)" fill="#010101"/><path d="M97,295.8c28.5-5,63.3-14,97.3-30.2v-5.3c-34.3,15.4-68.6,22-97.3,24.3Z" transform="translate(-97 -252.3)" fill="#010101"/><path d="M97,252.4v27.2l6.5-.5c23.7-1.8,55.9-6,90.8-21.1v-5.7H97Z" transform="translate(-97 -252.3)" fill="#010101"/></svg>',
 		'rooms' => array()
 	),
+	'Laimburg' => array(
+		'name_it' => 'Laimburg',
+		'name_en' => 'Laimburg',
+		'name_de' => 'Laimburg',
+		'description_it' => '',
+		'description_en' => '',
+		'description_de' => '',
+		'logo' => '<svg data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" width="508" height="486.1" viewBox="0 0 508 486.1"><rect y="287.1" width="192.5" height="192.49" fill="#010101"/><circle cx="392.7" cy="370.8" r="115.3" fill="#010101"/><polygon points="220.4 0 103.2 202.9 337.5 202.9 220.4 0" fill="#010101"/></svg>',
+		'rooms' => array()
+	),
 	'Sale riunioni' => array(
 		'name_it' => 'Sale riunioni',
 		'name_en' => 'Meetingroom',
@@ -154,6 +163,36 @@ $groups_categories_array = array(
 		'description_en' => '',
 		'description_de' => '',
 		'logo' => '<svg data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M196,315.9c-10.8-10.8-41.3-1.1-55.7,13.2C92.4,377,70.8,411,61.1,431.1a15,15,0,0,0,20,20c19.6-9.5,53.2-31.1,101.7-79.5,15.7-15.8,23.5-45.4,13.2-55.7Z" transform="translate(0 0)" fill="#010101"/><path d="M46.8,199.7,4.4,242.1a15,15,0,0,0,14.5,25.1c22.9-6.1,43.1-8.7,56.7-5.2a804.3,804.3,0,0,1,62.1-94.8C124.9,159.1,82.9,163.6,46.8,199.7Z" transform="translate(0 0)" fill="#010101"/><path d="M253.9,510.4a14.9,14.9,0,0,0,17.3-2.8l42.5-42.4c32.8-32.9,38.6-75.3,31.1-88.7A861.8,861.8,0,0,1,250,438.1c2.1,11.8.7,23.3-4.2,56.7A15,15,0,0,0,253.9,510.4Z" transform="translate(0 0)" fill="#010101"/><path d="M297.8,150.5a45,45,0,1,0,63.6,0A45.1,45.1,0,0,0,297.8,150.5Z" transform="translate(0 0)" fill="#010101"/><path d="M511.1,14.6A14.9,14.9,0,0,0,497.3.8C460.4-2,423.7,2.6,387.8,13.6c2.7,24.7,15.5,51.4,37.3,73.2s49.5,34.9,74.7,37.3A309,309,0,0,0,511.1,14.6Z" transform="translate(0 0)" fill="#010101"/><path d="M490,153.2c-29.9-4.5-60.8-19.8-86.1-45.2s-40.2-54.9-45.1-84C269,60.8,183.1,141.1,115,253.8h0l-.6,1.2h-.1C100.5,280,77,323.6,74.7,328.1a15.1,15.1,0,0,0,2.8,17.3l3.7,3.7c10.6-12.6,23-26.2,37.9-41.2,1.1-1,28-18.1,29.1-19.1,23.1-9.4,51.2-11.9,69,5.9s15.3,45.9,5.9,69c-1,1.1-18.1,28-19.1,29.1-15,15-28.6,27.4-41.1,38l5,4.9a14.9,14.9,0,0,0,17.4,2.8c7.6-4,46.8-25.4,72.8-39.9h0l1.2-.7.4-.3h0C346.5,345.1,447.1,262.7,490,153.2ZM276.6,235.3a75,75,0,1,1,106.1,0A74.9,74.9,0,0,1,276.6,235.3Z" transform="translate(0 0)" fill="#010101"/></svg>',
+		'rooms' => array()
+	),
+	'Tech companies' => array(
+		'name_it' => 'Tech companies',
+		'name_en' => 'Tech companies',
+		'name_de' => 'Tech companies',
+		'description_it' => '',
+		'description_en' => '',
+		'description_de' => '',
+		'logo' => '<svg data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" width="508" height="486.1" viewBox="0 0 508 486.1"><rect y="287.1" width="192.5" height="192.49" fill="#010101"/><circle cx="392.7" cy="370.8" r="115.3" fill="#010101"/><polygon points="220.4 0 103.2 202.9 337.5 202.9 220.4 0" fill="#010101"/></svg>',
+		'rooms' => array()
+	),
+	'Sale riunioni' => array(
+		'name_it' => 'Sale riunioni',
+		'name_en' => 'Meetingroom',
+		'name_de' => 'Konferenzraum',
+		'description_it' => '',
+		'description_en' => '',
+		'description_de' => '',
+		'logo' => '<svg data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" width="508" height="486.1" viewBox="0 0 508 486.1"><rect y="287.1" width="192.5" height="192.49" fill="#010101"/><circle cx="392.7" cy="370.8" r="115.3" fill="#010101"/><polygon points="220.4 0 103.2 202.9 337.5 202.9 220.4 0" fill="#010101"/></svg>',
+		'rooms' => array()
+	),
+	'Lab' => array(
+		'name_it' => 'Laboratori',
+		'name_en' => 'Laboratories',
+		'name_de' => 'Labors',
+		'description_it' => '',
+		'description_en' => '',
+		'description_de' => '',
+		'logo' => '<svg data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" width="508" height="486.1" viewBox="0 0 508 486.1"><rect y="287.1" width="192.5" height="192.49" fill="#010101"/><circle cx="392.7" cy="370.8" r="115.3" fill="#010101"/><polygon points="220.4 0 103.2 202.9 337.5 202.9 220.4 0" fill="#010101"/></svg>',
 		'rooms' => array()
 	),
 	'Other' => array(
