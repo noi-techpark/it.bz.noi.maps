@@ -2,6 +2,8 @@
 
 This project includes a first prototype of a webapp for indoor navigation, which uses beacons to locate the users position in the building.
 
+* 24/11/2020 : new webcomponent version
+
 ## Table of contents
 
 - [Gettings started](#getting-started)
