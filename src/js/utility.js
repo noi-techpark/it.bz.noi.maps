@@ -947,7 +947,7 @@ function mapContainerHeight(){
 	currentMediaQuery = $(jsMediaQueryTester).outerWidth();
 	
 		
-
+	console.log(currentMediaQuery);
 	if ($('body').hasClass('cm-banner-active')) {
 		if(currentMediaQuery < 50){
 			$("#mapContainer").css('height',windowH-headerH-cookieH);
