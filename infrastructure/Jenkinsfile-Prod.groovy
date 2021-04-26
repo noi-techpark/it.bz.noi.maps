@@ -7,6 +7,7 @@ pipeline {
         DOCKER_TAG = "prod-$BUILD_NUMBER"
 
         SERVER_PORT = "1005"
+        WEBCOMPONENT = "https://cdn.webcomponents.opendatahub.bz.it/dist/9232cce6-2f39-11eb-adc1-0242ac120002/noi_maps_widget.min.js"
     }
 
     stages {
@@ -21,6 +22,7 @@ pipeline {
 
                     echo 'SERVER_PORT=${SERVER_PORT}' >> .env
                 """
+                sh "grep -rl 'cdn.webcomponents'|grep -v 'Jenkins'|xargs sed -i -e 's%https://cdn.webcomponents.*noi_maps_widget.min.js%${WEBCOMPONENT}%g'"
             }
         }
         stage('Build') {
