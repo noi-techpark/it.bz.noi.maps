@@ -7,7 +7,7 @@ pipeline {
         DOCKER_TAG = "test-$BUILD_NUMBER"
 
         SERVER_PORT = "1005"
-        WEBCOMPONENT = "https://cdn.webcomponents.opendatahub.testingmachine.eu/dist/9232cce6-2f39-11eb-adc1-0242ac120002/noi_maps_widget.min.js"
+        WEBCOMPONENT = "https://cdn.webcomponents.opendatahub.testingmachine.eu/dist/9232cce6-2f39-11eb-adc1-0242ac120002/development-11-20210426T1032/noi_maps_widget.min.js"
     }
 
     stages {
