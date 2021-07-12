@@ -7,7 +7,9 @@ pipeline {
         DOCKER_TAG = "test-$BUILD_NUMBER"
 
         SERVER_PORT = "1005"
-        WEBCOMPONENT = "https://cdn.webcomponents.opendatahub.testingmachine.eu/dist/9232cce6-2f39-11eb-adc1-0242ac120002/noi_maps_widget.min.js"
+
+        // FIXME: This is a workaround to solve a bug in the CDN which does not give the real latest version, if it does not follow semver schemes
+        WEBCOMPONENT = "https://cdn.webcomponents.opendatahub.testingmachine.eu/dist/9232cce6-2f39-11eb-adc1-0242ac120002/development-16-20210712T1509/noi_maps_widget.min.js"
     }
 
     stages {
