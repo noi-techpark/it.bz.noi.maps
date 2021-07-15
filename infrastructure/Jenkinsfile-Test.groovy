@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Upload') {
             steps {
-                s3Upload(bucket: 'it.bz.noi.maps.test', acl: 'PublicRead', file: './',excludePathPattern:'.*')
+                s3Upload(bucket: 'it.bz.noi.maps.test', acl: 'PublicRead', file: './',excludePathPattern:'^\\.')
             }
         }
     }
