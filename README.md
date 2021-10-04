@@ -4,13 +4,26 @@ This project includes a first prototype of a webapp for indoor navigation, which
 
 * 24/11/2020 : new webcomponent version
 
-## Table of contents
+**Table of contents**
 
-- [Gettings started](#getting-started)
-- [Deployment](#deployment)
-- [Docker environment](#docker-environment)
-- [Information](#information)
-- [Edit SVGs](#edit-svgs)
+- [maps.noi.bz.it](#mapsnoibzit)
+  - [Getting started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Source code](#source-code)
+    - [Run](#run)
+  - [Deployment](#deployment)
+  - [Docker environment](#docker-environment)
+    - [Installation](#installation)
+    - [Start and stop the containers](#start-and-stop-the-containers)
+    - [Running commands inside the container](#running-commands-inside-the-container)
+  - [Information](#information)
+    - [Support](#support)
+    - [Contributing](#contributing)
+    - [Documentation](#documentation)
+    - [License](#license)
+  - [Edit-SVGs](#edit-svgs)
+    - [Floorplans](#floorplans)
+    - [Icons](#icons)
 
 ## Getting started
 
