@@ -1,0 +1,12 @@
+# General
+.DS_Store
+
+# Editors
+.idea
+.vscode
+
+# Project
+/.env
+
+# We download the web component from our CDN
+src/js/webcomponent/noi_maps_widget.min.js

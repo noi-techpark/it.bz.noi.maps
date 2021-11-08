@@ -1,0 +1,14 @@
+version: "3.4"
+
+services:
+  app:
+    image: ${DOCKER_IMAGE}:${DOCKER_TAG}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:80/"]
+      interval: 20s
+      timeout: 10s
+      retries: 5
+      start_period: 5s
+    ports:
+      - ${SERVER_PORT}:80
