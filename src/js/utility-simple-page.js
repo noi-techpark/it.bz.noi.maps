@@ -23,7 +23,7 @@ function dropdownSelection(){
 	});
 }
 function mapContainerMargin(){
-	if($("map-view").attr('fullview') == 1) {
+	if($("body").hasClass('fullview')) {
 		return;
 	}
 	var headerH = $(".header").outerHeight();
@@ -92,6 +92,13 @@ $(document).ready(function() {
 	} else{ //behaviour and events for pointing device like mouse
 		$('html').addClass('no-touch');
 	}
+
+	var getParams = new URLSearchParams(window.location.search);
+	var fullView = getParams.get('fullview');
+	if(fullView == 1) {
+		$("body").addClass("fullview");
+	}
+
 
 	mapContainerMargin();
 	dropdownToggle();
