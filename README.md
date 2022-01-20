@@ -1,5 +1,7 @@
 # maps.noi.bz.it
 
+[![ci it.bz.noi.maps](https://github.com/noi-techpark/it.bz.noi.maps/actions/workflows/ci.yml/badge.svg)](https://github.com/noi-techpark/it.bz.noi.maps/actions/workflows/ci.yml)
+
 This project includes a first prototype of a webapp for indoor navigation, which uses beacons to locate the users position in the building.
 
 * 24/11/2020 : new webcomponent version
