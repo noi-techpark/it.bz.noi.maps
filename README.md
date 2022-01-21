@@ -3,7 +3,7 @@ This project includes a first prototype of a webapp for indoor navigation, which
 
 * 24/11/2020 : new webcomponent version
 
-[![ci it.bz.noi.maps](https://github.com/noi-techpark/it.bz.noi.maps/actions/workflows/ci.yml/badge.svg)](https://github.com/noi-techpark/it.bz.noi.maps/actions/workflows/ci.yml)
+[![CI](https://github.com/noi-techpark/it.bz.noi.maps/actions/workflows/ci.yml/badge.svg)](https://github.com/noi-techpark/it.bz.noi.maps/actions/workflows/ci.yml)
 
 **Table of contents**
 
