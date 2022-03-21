@@ -104,13 +104,7 @@ For support, please contact [info@opendatahub.bz.it](mailto:info@opendatahub.bz.
 
 If you'd like to contribute, please follow the following instructions:
 
-- Fork the repository.
-
-- Checkout a topic branch from the `development` branch.
-
-- Make sure the tests are passing.
-
-- Create a pull request against the `development` branch.
+https://docs.opendatahub.bz.it/en/latest/guidelines/contributors.html
 
 ### Documentation
 
