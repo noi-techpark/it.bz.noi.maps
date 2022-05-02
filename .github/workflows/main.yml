@@ -6,23 +6,23 @@ on:
 
 env:
   AWS_REGION: "eu-west-1"
-  WEBCOMPONENT: "https://cdn.webcomponents.opendatahub.bz.it/dist/9232cce6-2f39-11eb-adc1-0242ac120002/noi_maps_widget.min.js"
+  WEBCOMPONENT_PROD: "https://cdn.webcomponents.opendatahub.bz.it/dist/9232cce6-2f39-11eb-adc1-0242ac120002/noi_maps_widget.min.js"
 
 jobs:
   test:
     runs-on: ubuntu-20.04
     env:
       DOCKER_IMAGE: app
-      DOCKER_TAG: latest
+      DOCKER_TAG: ${{github.sha}}
 
     steps:
       - uses: actions/checkout@v2
-      
-      - name: Configure
-        run: |
-          echo '' > .env
-          echo 'DOCKER_IMAGE=${DOCKER_IMAGE}' >> .env
-          echo 'DOCKER_TAG=${DOCKER_TAG}' >> .env
+
+      - name: Create .env file
+        uses: noi-techpark/github-actions/env-file@v2
+        env:
+          X_DOCKER_IMAGE: ${{ env.DOCKER_IMAGE }}
+          X_DOCKER_TAG: ${{ env.DOCKER_TAG }}
 
       - name: Build
         run: docker-compose -f infrastructure/docker-compose.build.yml build
@@ -60,6 +60,9 @@ jobs:
     steps:
       - name: Checkout source code
         uses: actions/checkout@v2
+
+      - name: Change to production webcomponent
+        run: grep -rl 'cdn.webcomponents'|xargs sed -i -e 's%https://cdn.webcomponents.*noi_maps_widget.min.js%${WEBCOMPONENT_PROD}%g'
 
       - name: Sync to S3 bucket
         uses: noi-techpark/github-actions/aws-s3-bucket-sync@v2
