@@ -48,7 +48,7 @@ jobs:
           secret-access-key: ${{ secrets.AWS_S3_SECRET_ACCESS_KEY }}
           region: ${{ env.AWS_REGION }}
           s3-bucket-name: ${{ env.AWS_S3_BUCKET_NAME }}
-          exclude-path-pattern: .*
+          exclude-path-pattern: ^.
           folder: ./
 
   deploy-prod:
@@ -72,5 +72,5 @@ jobs:
           secret-access-key: ${{ secrets.AWS_S3_SECRET_ACCESS_KEY }}
           region: ${{ env.AWS_REGION }}
           s3-bucket-name: ${{ env.AWS_S3_BUCKET_NAME }}
-          exclude-path-pattern: .*
+          exclude-path-pattern: ^.
           folder: ./
