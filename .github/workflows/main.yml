@@ -57,12 +57,19 @@ jobs:
     concurrency: deploy-prod
     env:
       AWS_S3_BUCKET_NAME : "it.bz.noi.maps"
+      SCRIPTS_HOST: 'https://scripts.opendatahub.com'
     steps:
       - name: Checkout source code
         uses: actions/checkout@v2
 
       - name: Change to production webcomponent
         run: grep -rl 'cdn.webcomponents'|xargs sed -i -e 's%https://cdn.webcomponents.*noi_maps_widget.min.js%${{env.WEBCOMPONENT_PROD}}%g'
+
+      - name: Change scripts host to prod
+        run: | 
+          sed -i -e "s%https://scripts.opendatahub.testingmachine.eu%${{env.SCRIPTS_HOST}}%g" en/index.html
+          sed -i -e "s%https://scripts.opendatahub.testingmachine.eu%${{env.SCRIPTS_HOST}}%g" it/index.html
+          sed -i -e "s%https://scripts.opendatahub.testingmachine.eu%${{env.SCRIPTS_HOST}}%g" de/index.html
 
       - name: Sync to S3 bucket
         uses: noi-techpark/github-actions/aws-s3-bucket-sync@v2
