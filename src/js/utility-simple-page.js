@@ -97,6 +97,7 @@ $(document).ready(function() {
 	var fullView = getParams.get('fullview');
 	if(fullView == 1) {
 		$("body").addClass("fullview");
+		$("#cc--main").toggle();
 	}
 
 
