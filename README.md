@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 # maps.noi.bz.it
 This project includes a first prototype of a webapp for indoor navigation, which uses beacons to locate the users position in the building.
 
