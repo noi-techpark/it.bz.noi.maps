@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: parking-app
+Upstream-Name: it.bz.noi.maps
 Upstream-Contact: NOI Techpark <digital@noi.bz.it>
-Source: https://github.com/noi-techpark/parking-app
+Source: https://github.com/noi-techpark/it.bz.noi.maps
 
 Files: .github/* .dockerignore infrastructure/* .gitignore LICENSE.md src/images/* src/fonts/*
 Copyright: (c) NOI Techpark <digital@noi.bz.it>
