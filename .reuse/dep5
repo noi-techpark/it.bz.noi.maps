@@ -3,7 +3,7 @@ Upstream-Name: it.bz.noi.maps
 Upstream-Contact: NOI Techpark <digital@noi.bz.it>
 Source: https://github.com/noi-techpark/it.bz.noi.maps
 
-Files: .github/* .dockerignore infrastructure/* .gitignore LICENSE.md src/images/* src/fonts/*
+Files: .github/* .dockerignore .pre-commit-config.yaml infrastructure/* .gitignore LICENSE.md src/images/* src/fonts/*
 Copyright: (c) NOI Techpark <digital@noi.bz.it>
 License: CC0-1.0
 
