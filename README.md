@@ -111,7 +111,7 @@ For support, please contact [info@opendatahub.com](mailto:info@opendatahub.com).
 
 If you'd like to contribute, please follow the following instructions:
 
-https://docs.opendatahub.bz.it/en/latest/guidelines/contributors.html
+https://docs.opendatahub.com/en/latest/guidelines/contributors.html
 
 ### Documentation
 
