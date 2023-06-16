@@ -6,7 +6,7 @@ on:
 
 env:
   AWS_REGION: "eu-west-1"
-  WEBCOMPONENT_PROD: "https://cdn.webcomponents.opendatahub.bz.it/dist/9232cce6-2f39-11eb-adc1-0242ac120002/noi_maps_widget.min.js"
+  WEBCOMPONENT_PROD: "https://cdn.webcomponents.opendatahub.com/dist/9232cce6-2f39-11eb-adc1-0242ac120002/noi_maps_widget.min.js"
 
 jobs:
   test:
