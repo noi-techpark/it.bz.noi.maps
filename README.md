@@ -9,7 +9,7 @@ This project includes a first prototype of a webapp for indoor navigation, which
 
 * 24/11/2020 : new webcomponent version
 
-![REUSE Compliance](https://github.com/noi-techpark/it.bz.noi.maps/actions/workflows/reuse.yml/badge.svg)
+[![REUSE Compliance](https://github.com/noi-techpark/it.bz.noi.maps/actions/workflows/reuse.yml/badge.svg)](https://github.com/noi-techpark/odh-docs/wiki/REUSE#badges)
 [![CI/CD](https://github.com/noi-techpark/it.bz.noi.maps/actions/workflows/main.yml/badge.svg)](https://github.com/noi-techpark/it.bz.noi.maps/actions/workflows/main.yml)
 
 **Table of contents**
