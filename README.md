@@ -1,8 +1,15 @@
+<!--
+SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 # maps.noi.bz.it
 This project includes a first prototype of a webapp for indoor navigation, which uses beacons to locate the users position in the building.
 
 * 24/11/2020 : new webcomponent version
 
+[![REUSE Compliance](https://github.com/noi-techpark/it.bz.noi.maps/actions/workflows/reuse.yml/badge.svg)](https://github.com/noi-techpark/odh-docs/wiki/REUSE#badges)
 [![CI/CD](https://github.com/noi-techpark/it.bz.noi.maps/actions/workflows/main.yml/badge.svg)](https://github.com/noi-techpark/it.bz.noi.maps/actions/workflows/main.yml)
 
 **Table of contents**
@@ -104,7 +111,7 @@ For support, please contact [info@opendatahub.com](mailto:info@opendatahub.com).
 
 If you'd like to contribute, please follow the following instructions:
 
-https://docs.opendatahub.bz.it/en/latest/guidelines/contributors.html
+https://docs.opendatahub.com/en/latest/guidelines/contributors.html
 
 ### Documentation
 
@@ -114,6 +121,20 @@ More documentation can be found at [https://opendatahub.readthedocs.io/en/latest
 
 The code in this project is licensed under the GNU AFFERO GENERAL PUBLIC LICENSE Version 3 license. See the [LICENSE.md](LICENSE.md) file for more information.
 
+### REUSE
+
+This project is [REUSE](https://reuse.software) compliant, more information about the usage of REUSE in NOI Techpark repositories can be found [here](https://github.com/noi-techpark/odh-docs/wiki/Guidelines-for-developers-and-licenses#guidelines-for-contributors-and-new-developers).
+
+Since the CI for this project checks for REUSE compliance you might find it useful to use a pre-commit hook checking for REUSE compliance locally. The [pre-commit-config](.pre-commit-config.yaml) file in the repository root is already configured to check for REUSE compliance with help of the [pre-commit](https://pre-commit.com) tool.
+
+Install the tool by running:
+```bash
+pip install pre-commit
+```
+Then install the pre-commit hook via the config file by running:
+```bash
+pre-commit install
+```
 
 ## Edit-SVGs
 
